@@ -12,3 +12,4 @@ wp-content/cache/
 
 # Abaikan file database lokal
 *.sql
+.DS_Store
