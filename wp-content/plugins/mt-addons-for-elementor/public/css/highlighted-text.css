@@ -1,0 +1,9 @@
+.mt-addons-text-highlighted {
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transition: background-size .5s;
+}
+.mt-addons-highlighted-text {
+    font-size: 30px;
+}

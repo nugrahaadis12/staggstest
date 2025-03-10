@@ -1,0 +1,27 @@
+.mt-addons-posts-a-z-shortcode .mt-addons-posts-a-z-first-letter {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    line-height: 60px;
+    margin: 16px 0 8px 0;
+}
+.mt-addons-posts-a-z-shortcode .mt-addons-posts-a-z-listings-list {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+.mt-addons-posts-a-z-shortcode  .mt-addons-posts-a-z-listings-list li {
+    font-size: 20px;
+    background: #528f2d;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 400;
+}
+.mt-addons-posts-a-z-shortcode  .mt-addons-posts-a-z-listings-list a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}

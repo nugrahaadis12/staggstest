@@ -1,0 +1,82 @@
+.modeltheme-form {
+    font-size: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 20%);
+    border-radius: 25px;
+    display: flex;
+}
+.modeltheme-select-categories .form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 35px;
+    border: none !important;
+    font-style: normal;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+}
+.modeltheme-search-bar div#datafetch .search-result {
+    left: 25%;
+}
+.modeltheme-search-submit.submit button:hover {
+    opacity: .8;
+}
+.modeltheme-search-post {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.modeltheme-search-submit.submit button[type="submit"]{
+    padding: 0px;
+    border-radius: 0;
+}
+.modeltheme-search-submit.submit button {
+    background: #222;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: none !important;
+    font-style: normal;
+}
+.modeltheme-search-submit i.fa.fa-search {
+    color: #FFF;
+}
+.modeltheme-form .form-control:focus{
+    box-shadow: none !important;
+}
+.modeltheme-search-post input.search-field {
+    padding-right: 0px;
+    width: 100%;
+    font-style: normal;
+    border-left-color: #DDDDDD !important;
+    border-left-style: solid !important;
+    border-left-width: 1px !important;
+}
+.modeltheme-search-post .form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: none !important;
+    font-style: normal;
+}
+.modeltheme-search-post input.search-field {
+    border: 0;
+    outline: 0;
+    border-left: 0.5px solid #DDDDDD;
+    background: transparent;
+    line-height: 40px;
+    padding: 0;
+    padding-left: 24px;
+    height: 42px;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 100%;
+}
+.nice-select.modeltheme-select .list {
+    height: 250px;
+    overflow-y: scroll;
+}

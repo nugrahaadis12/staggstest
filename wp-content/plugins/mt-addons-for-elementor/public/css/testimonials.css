@@ -1,0 +1,94 @@
+.mt-addons-quote-image.background-content {
+    background-size: 100%;
+    opacity: .1;
+    top: 15%;
+    left: 10%;
+    position: absolute;
+}
+.mt-addons-testimonial-image {
+  width: 65px;
+  float: right;
+}
+.mt-addons-testimonial-name {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.mt-addons-holder_top .mt-addons-testimonial-position {
+  padding-top: 0px;
+}
+.mt-addons-holder_top .mt-addons-testimonial-name{
+  margin-bottom: 0px;
+}
+.mt-addons-testimonial-position {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.mt-addons-testimonial-description,
+.mt-addons-testimonial-short-description {
+  font-style: normal;
+}
+.mt-addons-testimonial-holder{
+  padding: 30px;
+}
+.mt-addons-testimonial-title-position {
+  padding: 0px 30px;
+}
+.mt-addons-testimonial-image-holder{
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.mt-addons-quote-image .fas {
+    background-size: 100%;
+    opacity: .1;
+    top: 11%;
+    left: 10%;
+    position: absolute;
+}
+.mt-addons-testimonial-image.text-and-img-right {
+    margin-left: auto;
+}
+.mt-addons-testimonial-image.text-and-img-left {
+  margin-right: 0px;
+  margin: 0 0px 0px 30px;
+}
+.mt-addons-testimonial-image-holder.text-and-img-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mt-addons-testimonial-item.mt-addons-holder_top .mt-addons-testimonial-image-holder {
+    position: absolute;
+    top: 0;
+}
+.mt-addons-testimonial-item.mt-addons-holder_top .mt-addons-testimonial-holder {
+    position: absolute;
+    top: 50px;
+    font-size:16px;
+}
+.mt-addons-testimonial-date {
+    font-style: italic;
+    margin-top: 20px;
+}
+.elementor-editor-active .mt-addons-testimonial-item {
+    height: unset !important;
+}
+.mt-addons-testimonial-image img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .mt-addons-testimonial-item.mt-addons-holder_top .mt-addons-testimonial-holder{
+        top:70px;
+    }
+    .mt-addons-testimonial-image.text-and-img-center{
+        margin:0px;
+    }
+}

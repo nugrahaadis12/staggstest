@@ -1,0 +1,63 @@
+.mt-addons-title-pricing {
+  padding: 30px 40px;
+  border-radius: 20px 20px 0 0;
+  background-color: #AC2AD0;
+}
+.mt-addons-price-title {
+  margin: 0 !important;
+}
+.mt-addon-sprice-subtitle {
+  margin: 0 !important;
+}
+.mt-addons-price-list-container {
+  padding: 50px 30px;
+  border-radius: 0 0 20px 20px;
+}
+.mt-addons-price-container {
+  padding: 0 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 0 25px rgba(0,0,0,.15) !important;
+}
+.mt-addons-price2-container {
+  padding: 0 !important;
+}
+.mt-addons-price-list {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.mt-addons-price-list-item {
+  padding: 15px 0px 15px 0px; 
+  display: flex;
+  justify-content: space-between;
+  margin: 0 !important;
+  border-top: 1px solid rgba(221, 221, 221, 0.8);
+  list-style-type: none;
+}
+.mt-addons-price-list-item:first-child {
+  border-top: none !important;
+  padding-top: 0 !important;
+}
+.mt-addons-price-list-item:last-child {
+  padding-bottom: 0 !important;
+}
+.mt-addons-pricing-btn {
+  margin-top: 30px;
+  border: none;
+  transition: all 250ms ease-in;
+}
+.mt-addons-btn-zone {
+  display: flex;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .mt-addons-title-pricing {
+    padding: 25px;
+  }
+  .mt-addons-price-title {
+    font-size: 24px !important;
+  }
+  .mt-addons-service-name, .mt-addons-service-price {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+}

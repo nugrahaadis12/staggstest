@@ -1,0 +1,118 @@
+-.mt-addons-contact-card-list ul {
+    list-style: none !important;
+    padding: 0 !important;
+}
+.mt-addons-contact-card-content {
+    display: flex !important;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+.mt-addons-contact-card-list-item i {
+    margin-right: 10px !important;
+}
+.mt-addons-contact-card-list-item a {
+    display: flex;
+    align-items: center;
+}
+.mt-addons-contact-card-img-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: 350ms all;
+}
+.mt-addons-thumb-img {
+    padding: 0 !important;
+}
+.mt-addons-contact-card-img-wrapper img {
+    width: 100%;
+    transition: 350ms all;
+}
+.mt-addons-contact-card-img-wrapper:hover img {
+    -webkit-transform: scale(1.03) rotate(1deg);
+    opacity: 0.9;
+}
+.mt-addons-contact-card-list-title {
+    margin: 25px 0 10px 0 !important;
+}
+.mt-addons-contact-card-list-item a:hover {
+    color: #0a0a0a !important;
+}
+.mt-addons-contact-card-list ul {
+    list-style: none !important;
+    padding: 0 !important;
+}
+.mt-addons-card-content {
+    display: flex !important;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+}
+.mt-addons-contact-card-list-item a i {
+    margin-right: 10px !important;
+}
+.mt-addons-contact-card-img-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    transition: 350ms all;
+}
+.mt-addons-contact-card-img-wrapper img {
+    border-radius: 5px;
+    width: 100%;
+    transition: 350ms all;
+}
+.mt-addons-contact-card-img-wrapper:hover img {
+    -webkit-transform: scale(1.03) rotate(1deg);
+    opacity: 0.9; 
+}
+.mt-addons-left-layout .mt-addons-contact-card-list {
+    margin-left: 20px;
+}
+.mt-addons-contact-card-list-title {
+    margin: 20px 0 10px 0 !important;
+    font-size: 24px;
+    font-weight: 600;
+}
+.mt-addons-left-layout .mt-addons-contact-card-list-title {
+    margin: 0 0 5px 0 !important;
+}
+.mt-addons-contact-card-list-text {
+    font-size: 14px;
+    line-height: 24px;
+}
+.mt-addons-contact-card-list-item a:hover {
+    color: #0a0a0a !important;
+}
+@media screen and (max-width: 764px) {
+    .mt-addons-contact-card-img-wrapper img {
+        width: 100%;
+    }
+    .mt-addons-card-content {
+        padding: 10px 15px 0px 15px;
+    }
+    .mt-addons-contact-card-list {
+        padding: 10px 20px;
+    }
+    .mt-addons-thumb-img {
+        padding: 5px 0px 10px 0px;
+    }
+    .mt-addons-contact-card-list {
+        padding: 0 !important;
+    }
+    .mt-addons-contact-card-img-wrapper img {
+        width: 100%;
+    }
+    .mt-addons-card-content {
+        padding: 10px 15px 0px 15px;
+    }
+    .mt-addons-contact-card-list {
+        padding: 10px 20px;
+    }
+    .mt-addons-thumb-img {
+        padding: 5px 0px 10px 0px;
+    }
+    .mt-addons-contact-card-list {
+        padding: 0 !important;
+    }
+}

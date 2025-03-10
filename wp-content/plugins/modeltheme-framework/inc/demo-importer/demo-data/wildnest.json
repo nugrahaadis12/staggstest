@@ -1,0 +1,36 @@
+{
+   "total":"1",
+   "posts":{
+      "main-home":{
+         "demo_name":"Main Home",
+         "categories":"Elementor",
+         "xml_file":"http://modeltheme.com/json/theme-defaults/wildnest/Main-Home/content.xml",
+         "theme_settings":"http://modeltheme.com/json/theme-defaults/wildnest/Main-Home/dummy-customizer.dat",
+         "widgets_file":"http://modeltheme.com/json/theme-defaults/wildnest/Main-Home/dummy-widgets.wie",
+         "screenshot":"http://modeltheme.com/json/theme-defaults/wildnest/Main-Home/screen-image.jpg",
+         "home_title":"Main Home",
+         "blog_title":"Blog"
+      },
+      "rv-campground":{
+         "demo_name":"RV Campground",
+         "categories":"Elementor",
+         "xml_file":"http://modeltheme.com/json/theme-defaults/wildnest/RV-Campground/content.xml",
+         "theme_settings":"http://modeltheme.com/json/theme-defaults/wildnest/RV-Campground/dummy-customizer.dat",
+         "widgets_file":"http://modeltheme.com/json/theme-defaults/wildnest/RV-Campground/dummy-widgets.wie",
+         "screenshot":"http://modeltheme.com/json/theme-defaults/wildnest/RV-Campground/screen-image.jpg",
+         "home_title":"RV Campground",
+         "blog_title":"Blog"
+      },
+      "van-campsite":{
+         "demo_name":"Van Campsite",
+         "categories":"Elementor",
+         "xml_file":"http://modeltheme.com/json/theme-defaults/wildnest/Van-Campsite/content.xml",
+         "theme_settings":"http://modeltheme.com/json/theme-defaults/wildnest/Van-Campsite/dummy-customizer.dat",
+         "widgets_file":"http://modeltheme.com/json/theme-defaults/wildnest/Van-Campsite/dummy-widgets.wie",
+         "screenshot":"http://modeltheme.com/json/theme-defaults/wildnest/Van-Campsite/screen-image.jpg",
+         "home_title":"Van Campsite",
+         "blog_title":"Blog"
+      }
+   }
+}
+

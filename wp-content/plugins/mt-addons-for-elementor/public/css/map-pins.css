@@ -1,0 +1,253 @@
+.mt-addons-map-pins {
+    clear: both;
+}
+.mt-addons-map-pins-container {
+    display: block;
+    float: left;
+    min-width: 100%;
+    padding: 0 !important;
+}
+.mt-addons-map-pins-container {
+    text-align: center;
+}
+.mt-addons-map-pins-container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.mt-addons-map-pins-wrapper {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+.mt-addons-map-pins-wrapper > img {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mt-addons-map-single-point {
+    position: absolute !important;
+    list-style: none;
+}
+.mt-addons-map-single-point ul li {
+    list-style-type: none;
+}
+.mt-addons-map-single-point {
+    position: absolute;
+    border-radius: 50%;
+}
+.mt-addons-map-single-point.visited > a {
+    background-color: #252525;
+}
+.mt-addons-map-single-point > a {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: inherit;
+    background: #252525;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%), inset 0 0px 0 rgb(255 255 255 / 10%);
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+.mt-addons-replace {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.mt-addons-map-single-point.is-open > a::after, 
+.mt-addons-map-single-point.is-open > a::before {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(
+    135deg
+    );
+        -moz-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+        -ms-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+        -o-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+        transform: translateX(-50%) translateY(-50%) rotate(
+    135deg
+    );
+}
+.mt-addons-map-single-point > a::before {
+    height: 10px;
+    width: 2px;
+}
+.mt-addons-map-single-point > a::after, 
+.mt-addons-map-single-point > a:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #FBDE06;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.mt-addons-replace:before {
+    max-width: 100%;
+    border-bottom: 0 none;
+}
+
+.mt-addons-map-single-point.is-open .mt-addons-map-info {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s, -webkit-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s, -moz-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+}
+.mt-addons-map-single-point .mt-addons-map-info {
+    position: fixed;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    text-align: left;
+    line-height: 1.5;
+    background: none repeat scroll 0 0 rgba(39, 38, 43, 0.8);
+    padding: 5em 1em 1em;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s, -webkit-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, -moz-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+}
+.mt-addons-map-single-point .mt-addons-map-info::before {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    display: none;
+    border: 8px solid transparent;
+}
+.mt-addons-pin-title {
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff !important;
+}
+.mt-addons-map-info p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+ .mt-addons-pin-close {
+     border: 2px solid #ffffff;
+    height: 40px;
+    position: fixed;
+    color: #fff;
+    padding: 5px 10px;
+    right: 10%;
+    top: 13%;
+    width: fit-content;
+    z-index: 34543;
+}
+.mt-addons-map-single-point > a::after {
+    height: 2px;
+    width: 10px;
+}
+.mt-addons-replace.yes{
+    transition: all 350ms !important;
+    animation: grow 1s ease-in-out infinite;
+}
+.mt-addons-map-pins-wrapper.mt-addons-no-img {
+    height: 30px;
+}
+
+@keyframes grow {
+  0% {
+    scale: 1.0;
+  }
+  50% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1.0;
+  }
+}
+@media only screen and (min-width: 600px) {
+    .mt-addons-pin-close {
+        display: none;
+    }
+    .mt-addons-map-single-point.is-open .mt-addons-map-info.pin-bottom {
+        top: 140%;
+    }
+    .mt-addons-map-single-point .mt-addons-map-info.pin-bottom {
+        top: 160%;
+    }
+    .mt-addons-map-single-point .mt-addons-map-info.pin-top, 
+    .mt-addons-map-single-point .mt-addons-map-info.pin-bottom {
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .mt-addons-map-single-point .mt-addons-map-info {
+        position: absolute;
+        width: 320px;
+        height: auto;
+        padding: 30px;
+        overflow-y: visible;
+        line-height: 1.4;
+        border-radius: 3px;
+        box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+        -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 98%);
+    }
+    .mt-addons-map-single-point .mt-addons-map-info.pin-bottom::before {
+        border-bottom-color: rgba(39, 38, 43, 0.8);
+        bottom: 100%;
+    }
+    .mt-addons-map-single-point .mt-addons-map-info.pin-top::before, 
+    .mt-addons-map-single-point .mt-addons-map-info.pin-bottom::before {
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .mt-addons-map-single-point .mt-addons-map-info::before {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .mt-addons-map-single-point .mt-addons-map-info {
+        z-index: 9999;
+        background: none repeat scroll 0 0 rgb(18 17 20 / 97%);
+  }
+}

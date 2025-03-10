@@ -1,0 +1,17 @@
+{
+   "total":"4",
+   "posts":{
+    	"main-home":{
+        	"elementor":"true",
+        	"free":"true"
+      	},
+      	"rv-campground":{
+        	"elementor":"true",
+        	"free":"true"
+      	},
+      	"van-campsite":{
+        	"elementor":"true",
+        	"free":"true"
+      	}
+   }
+}

@@ -1,0 +1,102 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.ccrpac-date-wrapper label, .ccrpac_input_wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #20292f;
+    font-weight: 700;
+    font-size: 16px;
+}
+.ccrpac-submit {
+    font-weight: 600;
+}
+.ccrpac_row input {
+    font-weight: 600;
+}
+.ccrpac_row .form-control {
+    height: fit-content;
+    font-size: 16px;
+}
+.mt-campspot-campgrounds-rv-parks-availability-checker {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+
+/*V1*/
+.ccrpac_row.v1 .ccrpac-date-wrapper {
+    display: flex;
+}
+.ccrpac_row.v1 input {
+    border: none;
+}
+.ccrpac_row.v1 .ccrpac_input_wrapper {
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.ccrpac-btn-group {
+    margin-top: 15px;
+}
+.ccrpac-btn-group input{
+    width: 100% !important;
+    text-align: center;
+    border-radius: 8px;
+}
+.ccrpac-row.v1 .ccrpac-date-wrapper .mt_single_builder_field {
+    margin-bottom: 0 !important;
+}
+.ccrpac_row.v1 .ccrpac-date-wrapper .mt_field--input_datepicker {
+    width: 100% !important;
+}
+.ccrpac_row.v1 .ccrpac-date-wrapper .mt_field--input_datepicker:first-child {
+    border-right: 1px solid #333;
+}
+.ccrpac_row.v1 .ccrpac-date-wrapper .mt_field--input_datepicker {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+.ccrpac_row.v1 .ccrpac-date-wrapper .mt_field--input_datepicker input[type=text]:focus {
+    border: none !important;
+    outline: none !important;
+}
+.ccrpac_row.v1 .mt_single_builder_field {
+    margin-bottom: 0 !important;
+}
+.ccrpac_row.v1 .mt_field--input_number {
+    padding: 10px !important;
+    border-bottom: 1px solid #333;
+}
+.ccrpac_row.v1 .mt_field--input_number.infants,
+.ccrpac_row.v1 .mt_field--input_number.guests {
+    border-bottom: none;
+}
+.ccrpac_row.v1 input[type=date],
+.ccrpac_row.v1 input[type=email],
+.ccrpac_row.v1 input[type=number],
+.ccrpac_row.v1 input[type=password],
+.ccrpac_row.v1 input[type=search],
+.ccrpac_row.v1 input[type=tel],
+.ccrpac_row.v1 input[type=text],
+.ccrpac_row.v1 input[type=url],
+.ccrpac_row.v1 select,
+.ccrpac_row.v1 textarea {
+    padding: 0 !important;
+}
+.ccrpac_row.v1 input[type=date]:focus,
+.ccrpac_row.v1 input[type=email]:focus,
+.ccrpac_row.v1 input[type=number]:focus,
+.ccrpac_row.v1 input[type=password]:focus,
+.ccrpac_row.v1 input[type=search]:focus,
+.ccrpac_row.v1 input[type=tel]:focus,
+.ccrpac_row.v1 input[type=text]:focus,
+.ccrpac_row.v1 input[type=url]:focus,
+.ccrpac_row.v1 select:focus,
+.ccrpac_row.v1 textarea:focus {
+    border: none !important;
+    outline: none !important;
+}

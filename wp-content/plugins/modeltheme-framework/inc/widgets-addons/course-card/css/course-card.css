@@ -1,0 +1,54 @@
+.modeltheme-course-card-wrapper {
+	padding: 35px;
+}
+.modeltheme-course-lessons {
+	margin-right: 35px;
+}
+.modeltheme-course-card-wrapper {
+	transition: all 350ms;
+	display: flex;
+}
+.modeltheme-course-img {
+	margin-right: 30px;
+	width: 100%;
+    max-width: 165px;
+    height: 160px;
+}
+.modeltheme-course-img img {
+	border-radius: 50%;
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.modeltheme-course-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.modeltheme-course-info-title {
+	margin-bottom: 16px;
+}
+.modeltheme-course-card-wrapper:hover {
+	box-shadow: 0 0 25px rgba(0,0,0, .05);
+}
+
+@media only screen and (max-width: 1170px) {
+    .modeltheme-course-info-title {
+    	font-size: 32px !important;
+    	line-height: 42px !important;
+    }
+}
+@media only screen and (max-width: 767px) { 
+	.modeltheme-course-card-wrapper {
+		flex-direction: column;
+	}
+	.modeltheme-course-img {
+		margin-right: 0;
+		margin-bottom: 35px;
+		max-width: 100%;
+	}
+	.modeltheme-course-img img {
+		border-radius: 25px;
+	}
+}

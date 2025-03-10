@@ -1,0 +1,93 @@
+.mt-addons-week-days-shortcode {
+    position: relative;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-line-type--between .mt-addons-week-days-line {
+    border-bottom: 1px solid;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-line-type--below .mt-addons-week-days-item {
+    border-bottom: 1px solid;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-line-type--below .mt-addons-week-days-item:last-child {
+    border-bottom: none;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-line-type--none .mt-addons-week-days-day {
+    margin-right: 10px;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-line-type--none .mt-addons-week-days-line {
+    display: none;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-item {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: baseline;
+    transition: all 350ms;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-item:last-child {
+    margin-bottom: 0px;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-title-holder {
+    display: flex;
+    align-items: baseline;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-m-title {
+    margin: 0 0 1em;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-m-subtitle {
+    margin: 0 0 0.5em;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-m-text {
+    margin: 0.5em 0 0;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-icon {
+    line-height: 1;
+    padding-right: 12px;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-day {
+    margin: 0;
+    transition: all 350ms;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-hours {
+    margin: 0;
+    transition: all 350ms;
+}
+.mt-addons-week-days-shortcode .mt-addons-week-days-line {
+    flex-grow: 1;
+    margin: 0 8px;
+    transition: all 350ms;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-text-underline .mt-addons-week-days-m-text a {
+    position: relative;
+    color: currentColor;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-text-underline .mt-addons-week-days-m-text a:after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-text-underline .mt-addons-week-days-m-text a:hover {
+    text-decoration: none;
+}
+.mt-addons-week-days-shortcode.mt-addons-week-days-text-underline .mt-addons-week-days-m-text a:hover:after {
+    animation: mt-addons-week-days-animate-underline-from-left 0.6s cubic-bezier(0.45, 0.29, 0, 0.82) forwards;
+}
+@media only screen and (max-width: 768px) {
+    .mt-addons-week-days-resposive--768.mt-addons-week-days-shortcode .mt-addons-week-days-item {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .mt-addons-week-days-resposive--680.mt-addons-week-days-shortcode .mt-addons-week-days-item {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mt-addons-week-days-resposive--480.mt-addons-week-days-shortcode .mt-addons-week-days-item {
+        flex-direction: column;
+    }
+}

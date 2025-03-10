@@ -1,0 +1,77 @@
+.price-table-container {
+    padding: 30px;
+    border-radius: 30px;
+    transition: all 250ms ease;
+}
+
+.mt-addon-spacer {
+    height: 50px;
+}
+
+.price-table-container:hover {
+    transform: translateY(-10px);
+}
+.line {
+    color: #d7d7d7;
+    font-weight: 200 !important;
+}
+.mt-package-price {
+    padding: 25px 0 25px 0;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    margin-top: 25px;
+}
+
+.mt-package-list ul{
+    list-style: none;
+    padding: 20px 0 25px 0 !important;
+    margin: 0 !important;
+}
+
+.mt-package-list ul li {
+    padding: 5px 0 5px 0;
+    font-size: 16px;
+}
+
+.package-list-item i {
+    padding-right: 8px;
+}
+
+.mt-btn-zone {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.mt-btn {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transition: all 250ms ease;
+    font-weight: 600;
+}
+
+.price-table-container.mt-addons-absolute-class {
+    padding-bottom: 10px !important;
+}
+.price-table-container.mt-addons-absolute-class .mt-btn {
+    top: -10px;
+}
+
+/*mt eamo subscription */
+.mt-eamo-subscription .mt-package-price {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 5px;
+}
+.mt-eamo-subscription .mt-addon-spacer {
+    height: 0;
+}
+.mt-eamo-subscription .price-table-container {
+    border-radius: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .mt-addon-spacer {
+        height: 0px;
+    }
+}

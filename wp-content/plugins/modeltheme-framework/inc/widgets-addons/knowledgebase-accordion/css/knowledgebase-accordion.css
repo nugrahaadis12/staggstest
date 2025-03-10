@@ -1,0 +1,93 @@
+.knowledge-accordion .accordion {
+    width: 100%;
+    background: #FFF;
+    padding: 0;
+    list-style-type: none;
+}
+.elementor-widget-mtfe-knowledgebase-accordion {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust as needed */
+}
+.knowledge-accordion .accordion .link {
+    cursor: pointer;
+    display: block;
+    padding: 15px 30px;
+    background: #e44d30;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+.knowledge-accordion .accordion li i {
+    position: absolute;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.knowledge-accordion .accordion li i.fa-chevron-right {
+    right: 30px;
+    left: auto;
+    font-size: 14px;
+    top: 22px;
+}
+
+.knowledge-accordion .accordion li.open .link {
+    color: #fff;
+}
+.knowledge-accordion .accordion li.open i {
+    color: #fff;
+}
+.knowledge-accordion .accordion li.open i.fa-chevron-right {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.knowledge-accordion .accordion li.default .submenu {display: block;}
+/**
+ * Submenu
+ -----------------------------*/
+.knowledge-accordion .submenu {
+    display: none;
+    background: #fff;
+    font-size: 16px;
+    padding: 0;
+    list-style-type: none;
+}
+.knowledge-accordion ul.submenu.open:first-of-type {
+    display: block;
+}
+.knowledge-accordion .submenu a {
+    display: block;
+    text-decoration: none;
+    color: rgba(40, 43, 71, .7);
+    padding: 17px 30px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.knowledge-accordion .submenu a:hover ,
+.knowledge-accordion .submenu .current_post a{
+    background: #fff;
+    color: #252525;
+}
+.knowledge-list-accordion  h3.heading-title {
+    background: #716ACA;
+    margin: 0;
+    font-size: 24px;
+    padding: 20px 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.knowledge-list-accordion {
+    box-shadow: 20px 37px 102px rgba(0, 0, 0, 0.098);
+    border-radius: 11px;
+    background: #fff;
+}

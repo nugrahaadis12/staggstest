@@ -1,0 +1,13 @@
+.modeltheme-shaped-video video,
+.modeltheme-shaped-video img {
+  position: absolute;
+  margin: 0;
+  overflow:hidden;
+}
+.modeltheme-shaped-video video {
+object-fit: cover;
+}
+
+.modeltheme-shaped-video img {
+  background:#F8F4EF;
+  mix-blend-mode: lighten;

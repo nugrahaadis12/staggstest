@@ -1,0 +1,247 @@
+/*------------------------------------------------------------------
+[Custom WooCommerce Styling by ModelTheme]
+[Table of contents]
+
+1. Groups
+2. Activity
+3. Youzify
+-------------------------------------------------------------------*/
+/* Form */
+.bps-form {
+    text-align: left;
+}
+.bps-form select {
+    width: 100% !important;
+    background: #F2F2F2;
+    font-weight: 400 !important;
+    border: 1px solid #F2F2F2;
+    transition: ease-in all 150ms;
+}
+.bps-form select:focus {
+    border-color: #ddd;
+}
+.bps-integer-range input{
+    height: 45px;
+    text-align: center;
+    background: #F2F2F2;
+    font-weight: 400 !important;
+    border: 1px solid #F2F2F2;
+}
+.youzify-page {
+    background-color: #fbfbff;
+}
+
+/* Groups */
+.buddypress-wrap .grid.bp-list>li .item .group-desc, .buddypress-wrap .grid.bp-list>li .item .item-block {
+    float: none;
+    width: 100%;
+}
+.buddypress-wrap .groups-list li .group-desc {
+    border: none;
+}
+.bp-list {
+    border: none;
+    margin-top: 0;
+}
+.buddypress-wrap .grid.bp-list>li .list-title {
+    font-size: 26px;
+}
+.buddypress-wrap .grid.bp-list>li .list-title a{
+    font-weight: bold !important
+}
+.bps-form label strong, .bps-form select, .bps-form input {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Member Search */
+.youzify-search-header {
+    display: none !important;
+}
+.bps-selectbox {
+    position: relative;
+}
+.bps-selectbox select {
+    appearance: none;
+}
+.bps-selectbox::after {
+    content: '〱';
+    color: #a8a8a8;
+    font: 15px;
+    -webkit-transform: rotate(272deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(270deg);
+    right: 25px;
+    top: 38px;
+    position: absolute;
+    pointer-events: none;
+}
+
+/* BP General */
+.youzify-sidebar .widget-content,
+#youzify-wall-nav,
+.youzify #youzify-wall-form,
+#buddypress.youzify .activity-list li.load-more, #buddypress.youzify .activity-list>li, .youzify .activity-list>li,
+.youzify-directory-filter,
+#youzify-blogs-list li .youzify-blog-data, #youzify-groups-list li .youzify-group-data,
+#youzify-profile-navmenu,
+.youzify-white-bg,
+#group-create-body,
+#youzify-members-list>li .youzify-user-data,
+#message.info, div#message.info,
+.youzify-account-header,
+.settings-main-content .settings-inner-content,
+.youzify-right-sidebar-layout #subnav.item-list-tabs,
+.youzify-group-infos-widget,
+.youzify-media-no-items,#invite-list, .youzify .group-request-list li,#group-create-body, #group-settings-form, .youzify-tab-post,.youzify-review-item {
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+#youzify-profile-navmenu .youzify-inner-content, 
+.youzify .wild-content, 
+.youzify .youzify-boxed-navbar, 
+.youzify-cover-content, 
+.youzify-header-content, 
+.youzify-page-main-content, 
+.youzify-vertical-layout .youzify-content,
+#youzify-blogs-list, #youzify-groups-list,
+#youzify-members-directory {
+    max-width: 1400px;
+}
+body .youzify.youzify-create-new-group-page .item-list-tabs {
+    background: #fff;
+}
+/* 3. Youzify */
+.youzify-search-landing-heading {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 74px;
+    margin-bottom: 16px;
+    font-family: 'Archivo Narrow';
+}
+.youzify-search-landing-heading-text {
+    font-size: 16px;
+}
+.bookmarks .youzify_effect {
+    visibility: visible;
+}
+#youzify #create-group-form {
+    margin-bottom: 0px !important;
+}
+body form#send-invite-form {
+    margin-bottom: 90px;
+}
+#youzify-groups-list li.youzify-show-cover .youzify-group-data .item-title a {
+    font-size: 22px;
+    line-height: normal;
+    color: #222;
+    font-family: 'Archivo';
+}
+.widget_bp_groups_widget #groups-list li .item-title a {
+    font-size: 16px;
+}
+.youzify-membership-item-inner button {
+    padding: 0 !important;
+}
+.youzify-membership-page-box {
+    padding: 150px 0 !important;
+}
+.youzify-membership-forgot-password {
+    transition: all 350ms;
+    font-weight: 600 !important;
+}
+.youzify-membership-forgot-password:hover {
+    color: rgb(237, 20, 125);
+    font-weight: 600 !important;
+}
+.youzify-membership-form .youzify-membership-login-page,
+.youzify-membership-form .youzify-membership-signup-page
+{
+    padding: 100px 0;
+}
+.youzify-search-input-container {
+    display: none !important;
+}
+.youzify-search-header .youzify-search-landing-image-container:before {
+    padding-top: 0 !important;
+}
+.youzify-search-landing-image-text {
+    top: 60%;
+}
+.youzify-search-landing-heading {
+    margin-bottom: 0;
+}
+.youzify-page-main-content .bps-form {
+    margin: 0 17.5px 35px !important;
+    padding: 0px 30px 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+.youzify-page-main-content .bps-form label.bps-label{
+    display: none;
+}
+.youzify-page-main-content .bps-form .bps-textbox {
+    max-width: 96.5%;
+    width: 50%;
+}
+.youzify-page-main-content .bps-form .bps-textbox input {
+    width: 100%;
+    margin-top: 15px;
+}
+.youzify-search-landing-image-container{
+    text-align: center;
+    background-position: center;
+}
+.bps-filters {
+    display: none !important;
+}
+.bps-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px;
+    position: absolute;
+    top: 1px;
+    right: 12px;
+    width: 20px;
+}
+.bps-form input[type=number],
+.bps-form .select2-container {
+    width: 100%!important;
+}
+.bps-form input[type=number]{
+    width:48%!important;
+}
+.bps-form button {
+    width: 100%;
+    padding: 10px 25px 10px 25px!important;
+    border-radius: 25px;
+}
+@media (max-width: 767px) {
+    .youzify-page-main-content .bps-form .bps-textbox {
+        max-width: 88%;
+    }
+    .bps-form span {
+        visibility: hidden;
+    }
+    .bps-form input[type=number]{
+        width:100%!important;
+    }
+    .youzify-search-landing-heading {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    .youzify-search-landing-heading-text {
+        margin-top: 5px !important;
+    }
+    .youzify-page-main-content .bps-form{
+        padding: 0px 0px 30px !important;
+    }
+}
+@media (max-width: 1190px) {
+    body .bps-form input[type=number] {
+        width: 100%!important;
+    }
+}

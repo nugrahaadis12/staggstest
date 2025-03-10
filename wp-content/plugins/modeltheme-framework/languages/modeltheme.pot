@@ -1,0 +1,2826 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-13 15:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: init.php:258 inc/cmb2/includes/CMB2_JS.php:177
+#: inc/cmb2/includes/CMB2_JS.php:222
+msgid "Clear"
+msgstr ""
+
+#: init.php:259 inc/cmb2/includes/CMB2_JS.php:178
+msgid "Default"
+msgstr ""
+
+#: init.php:260 inc/cmb2/includes/CMB2_JS.php:179
+msgid "Select Color"
+msgstr ""
+
+#: init.php:261 inc/cmb2/includes/CMB2_JS.php:180
+msgid "Current Color"
+msgstr ""
+
+#: init.php:288 inc/cmb2/includes/CMB2_JS.php:244
+msgid "Select / Deselect All"
+msgstr ""
+
+#: init.php:1179 inc/cmb2/includes/helper-functions.php:308
+msgid "Save"
+msgstr ""
+
+#: modeltheme-framework.php:106
+msgid "- Theme Default Header - "
+msgstr ""
+
+#: helpers/cmb_Meta_Box_ajax.php:47 inc/cmb2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_ajax.php:131 inc/cmb2/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_field.php:459 inc/cmb2/includes/CMB2_Field.php:1443
+msgid "Add Group"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_field.php:460 inc/cmb2/includes/CMB2_Field.php:1444
+msgid "Remove Group"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_types.php:250 inc/cmb2/includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_types.php:306 helpers/cmb_Meta_Box_types.php:706
+#: helpers/cmb_Meta_Box_types.php:768 inc/cmb2/includes/CMB2_JS.php:241
+#: inc/cmb2/includes/CMB2_Types.php:408
+#: inc/cmb2/includes/types/CMB2_Type_File_Base.php:95
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:204
+msgid "Remove"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_types.php:601 helpers/cmb_Meta_Box_types.php:635
+#: inc/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:115
+msgid "No terms"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_types.php:674 helpers/cmb_Meta_Box_types.php:728
+#: inc/cmb2/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_types.php:695 helpers/cmb_Meta_Box_types.php:760
+#: inc/cmb2/includes/CMB2_JS.php:240
+#: inc/cmb2/includes/types/CMB2_Type_File_Base.php:75
+msgid "Remove Image"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_types.php:706 helpers/cmb_Meta_Box_types.php:768
+#: inc/cmb2/includes/CMB2_Field_Display.php:453
+#: inc/cmb2/includes/CMB2_JS.php:242
+#: inc/cmb2/includes/types/CMB2_Type_File_Base.php:90
+msgid "File:"
+msgstr ""
+
+#: helpers/cmb_Meta_Box_types.php:706 helpers/cmb_Meta_Box_types.php:768
+#: inc/cmb2/includes/CMB2_JS.php:243
+#: inc/cmb2/includes/types/CMB2_Type_File_Base.php:93
+msgid "Download"
+msgstr ""
+
+#: inc/api-v3/API.php:70
+msgid "Your License is activated"
+msgstr ""
+
+#: inc/api-v3/API.php:71
+msgid ""
+"Great, your license is active! You have successfully registered your copy of "
+"the theme!"
+msgstr ""
+
+#: inc/api-v3/API.php:73
+msgid "Deregister License"
+msgstr ""
+
+#: inc/api-v3/API.php:76
+msgid "Your Envato Elements Token is active"
+msgstr ""
+
+#: inc/api-v3/API.php:80
+msgid "Activate your license"
+msgstr ""
+
+#: inc/api-v3/API.php:81
+msgid ""
+"Please enter a valid Envato Purchase Code. <a href=\"https://help.market."
+"envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code\" target="
+"\"_blank\">Where is my purchase code?</a>. The activation is needed to "
+"access the sample data importer."
+msgstr ""
+
+#: inc/api-v3/API.php:90
+msgid "Please enter a valid Envato Elements Token. <a href=\""
+msgstr ""
+
+#: inc/api-v3/API.php:91
+msgid "Register License"
+msgstr ""
+
+#: inc/api-v3/API.php:539
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: inc/api-v3/API.php:543
+msgid ""
+"The current value is insufficient to properly support the theme. Please "
+"adjust this value to 128M in order to meet the theme requirements. "
+msgstr ""
+
+#: inc/api-v3/API.php:546
+msgid "PHP Version"
+msgstr ""
+
+#: inc/api-v3/API.php:553
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: inc/api-v3/API.php:557
+msgid ""
+"The current value is insufficient to properly support the theme. Please "
+"adjust this value to 256M in order to meet the theme requirements. "
+msgstr ""
+
+#: inc/api-v3/API.php:560
+msgid "PHP Time Limit"
+msgstr ""
+
+#: inc/api-v3/API.php:564
+msgid ""
+"The current value is insufficient to properly support the theme. Please "
+"adjust this value to 300 in order to meet the theme requirements. "
+msgstr ""
+
+#: inc/api-v3/API.php:567
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: inc/api-v3/API.php:571
+msgid ""
+"The current value is insufficient to properly support the theme. Please "
+"adjust this value to 5000 in order to meet the theme requirements. "
+msgstr ""
+
+#: inc/api-v3/API.php:574
+msgid "Max Upload Size"
+msgstr ""
+
+#: inc/api-v3/API.php:578
+msgid ""
+"The current value is insufficient to properly support the theme. Please "
+"adjust this value to 64 MB in order to meet the theme requirements. "
+msgstr ""
+
+#: inc/api-v3/API.php:581
+msgid "Max Execution Time"
+msgstr ""
+
+#: inc/api-v3/API.php:585
+msgid ""
+"The current value is insufficient to properly support the theme. Please "
+"adjust this value to min 300 in order to meet the theme requirements. "
+msgstr ""
+
+#: inc/cmb2/example-functions.php:115
+msgid "Test Metabox"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:148 inc/cmb2/example-functions.php:492
+msgid "Test Text"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:149 inc/cmb2/example-functions.php:162
+#: inc/cmb2/example-functions.php:175 inc/cmb2/example-functions.php:182
+#: inc/cmb2/example-functions.php:195 inc/cmb2/example-functions.php:203
+#: inc/cmb2/example-functions.php:212 inc/cmb2/example-functions.php:220
+#: inc/cmb2/example-functions.php:235 inc/cmb2/example-functions.php:243
+#: inc/cmb2/example-functions.php:251 inc/cmb2/example-functions.php:268
+#: inc/cmb2/example-functions.php:277 inc/cmb2/example-functions.php:293
+#: inc/cmb2/example-functions.php:300 inc/cmb2/example-functions.php:307
+#: inc/cmb2/example-functions.php:332 inc/cmb2/example-functions.php:345
+#: inc/cmb2/example-functions.php:358 inc/cmb2/example-functions.php:370
+#: inc/cmb2/example-functions.php:384 inc/cmb2/example-functions.php:392
+#: inc/cmb2/example-functions.php:401 inc/cmb2/example-functions.php:408
+#: inc/cmb2/example-functions.php:422 inc/cmb2/example-functions.php:493
+#: inc/cmb2/example-functions.php:583 inc/cmb2/example-functions.php:591
+#: inc/cmb2/example-functions.php:598 inc/cmb2/example-functions.php:605
+#: inc/cmb2/example-functions.php:612 inc/cmb2/example-functions.php:619
+#: inc/cmb2/example-functions.php:626 inc/cmb2/example-functions.php:652
+#: inc/cmb2/example-functions.php:660 inc/cmb2/example-functions.php:667
+#: inc/cmb2/example-functions.php:717
+msgid "field description (optional)"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:161
+msgid "Test Text Small"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:174
+msgid "Test Text Medium"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:181
+msgid "Read-only Disabled Field"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:185
+msgid "Hey there, I'm a read-only field"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:194
+msgid "Custom Rendered Field"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:202
+msgid "Website URL"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:211
+msgid "Test Text Email"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:219
+msgid "Test Time"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:227 inc/cmb2/example-functions.php:228
+msgid "Time zone"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:234
+msgid "Test Date Picker"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:242
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:250
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:267
+msgid "Test Money"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:276
+msgid "Test Color Picker"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:292
+msgid "Test Text Area"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:299
+msgid "Test Text Area Small"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:306
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:324
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:325
+msgid "This is a title description"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:331
+msgid "Test Select"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:337 inc/cmb2/example-functions.php:350
+#: inc/cmb2/example-functions.php:362
+msgid "Option One"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:338 inc/cmb2/example-functions.php:351
+#: inc/cmb2/example-functions.php:363
+msgid "Option Two"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:339 inc/cmb2/example-functions.php:352
+#: inc/cmb2/example-functions.php:364
+msgid "Option Three"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:344
+msgid "Test Radio inline"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:357
+msgid "Test Radio"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:369
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:383
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:391
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:400
+msgid "Test Checkbox"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:407
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:413
+msgid "Check One"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:414
+msgid "Check Two"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:415
+msgid "Check Three"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:421
+msgid "Test wysiwyg"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:431
+msgid "Test Image"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:432
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: inc/cmb2/example-functions.php:438
+msgid "Multiple Files"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:439
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: inc/cmb2/example-functions.php:446
+msgid "oEmbed"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:449
+#, php-format
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgstr ""
+
+#: inc/cmb2/example-functions.php:481
+msgid "About Page Metabox"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:511
+msgid "Repeating Field Group"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:519
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:521
+msgid "Entry {#}"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:522
+msgid "Add Another Entry"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:523
+msgid "Remove Entry"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:537
+msgid "Entry Title"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:544
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:156
+msgid "Description"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:545
+msgid "Write a short description for this entry"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:551
+msgid "Entry Image"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:557
+msgid "Image Caption"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:575
+msgid "User Profile Metabox"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:582 inc/cmb2/example-functions.php:651
+msgid "Extra Info"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:590
+msgid "Avatar"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:597
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:604
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:611
+msgid "Google+ URL"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:618
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:625
+msgid "User Field"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:644
+msgid "Category Metabox"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:659
+msgid "Term Image"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:666
+msgid "Arbitrary Term Field"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:685
+#: inc/demo-importer/classes/class-dashboard.php:117
+#: inc/demo-importer/classes/class-dashboard.php:222
+msgid "Theme Options"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:716
+msgid "Site Background Color"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:753
+#, php-format
+msgid "%s &mdash; Updated!"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:785
+msgid "REST Test Box"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:794
+msgid "REST Test Text"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:795
+msgid "Will show in the REST API for this box and for pages."
+msgstr ""
+
+#: inc/cmb2/example-functions.php:801
+msgid "REST Editable Test Text"
+msgstr ""
+
+#: inc/cmb2/example-functions.php:802
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2.php:199
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2.php:618
+msgid "Click to toggle"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Ajax.php:189
+#: inc/cmb2/includes/helper-functions.php:107
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Base.php:423
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Base.php:427
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%2$s\" parameter."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Base.php:457
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Base.php:459
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Base.php:492
+#: inc/cmb2/includes/CMB2_Hookup_Base.php:102
+#: inc/cmb2/includes/CMB2_Options.php:247
+#: inc/cmb2/includes/CMB2_Options_Hookup.php:369
+#: inc/cmb2/includes/types/CMB2_Type_Base.php:173
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Base.php:510
+#: inc/cmb2/includes/types/CMB2_Type_Base.php:157
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Field.php:1476 inc/cmb2/includes/CMB2_Field.php:1480
+msgid "None"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Field.php:1594
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Hookup.php:188
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Hookup.php:192
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Hookup.php:560
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Hookup_Base.php:44
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:212
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:213
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:214
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:215
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:216
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:217
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:218
+msgid "Next"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:219
+msgid "Prev"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:220
+msgid "Today"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:221 inc/cmb2/includes/CMB2_JS.php:231
+msgid "Done"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:225
+msgid "Choose Time"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:226
+msgid "Time"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:227
+msgid "Hour"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:228
+msgid "Minute"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:229
+msgid "Second"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:230
+msgid "Now"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:232
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:238
+msgid "Use this file"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:239
+msgid "Use these files"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Options_Hookup.php:139
+msgid "Nothing to update."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Options_Hookup.php:143
+msgid "Settings updated."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Types.php:226
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Types.php:408
+msgid "Remove Row"
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr ""
+
+#: inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:35
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:47
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:59
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:71
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:83
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:95
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:107
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:119
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:131
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:143
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:155
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr ""
+
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: inc/cmb2/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: inc/cmb2/includes/types/CMB2_Type_Counter_Base.php:50
+msgid "Words left"
+msgstr ""
+
+#: inc/cmb2/includes/types/CMB2_Type_Counter_Base.php:51
+msgid "Words"
+msgstr ""
+
+#: inc/cmb2/includes/types/CMB2_Type_Counter_Base.php:56
+msgid "Characters left"
+msgstr ""
+
+#: inc/cmb2/includes/types/CMB2_Type_Counter_Base.php:57
+msgid "Characters"
+msgstr ""
+
+#: inc/cmb2/includes/types/CMB2_Type_Counter_Base.php:62
+msgid "Your text may be truncated."
+msgstr ""
+
+#: inc/cmb2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr ""
+
+#: inc/demo-importer/modeltheme-sites.php:44
+#: inc/demo-importer/modeltheme-sites.php:45
+msgid "Theme Panel"
+msgstr ""
+
+#: inc/demo-importer/modeltheme-sites.php:64
+msgid "Welcome to "
+msgstr ""
+
+#: inc/demo-importer/modeltheme-sites.php:67
+msgid "Version:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:38
+msgid "Demo Importer"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:45
+#: inc/demo-importer/classes/class-dashboard.php:110
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:50
+#: inc/demo-importer/classes/class-dashboard.php:113
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:55
+#: inc/demo-importer/classes/class-dashboard.php:112
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:103
+msgid "of"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:104
+msgid "Close"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:105
+msgid "Installing"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:106
+msgid "Activated"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:107
+msgid "Importing"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:108
+msgid "Imported"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:109
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:111
+msgid "Modeltheme Addons for WPBakery"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:114
+msgid "Downloading"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:115
+msgid "Demo Files"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:116
+msgid "Downloaded"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:118
+#: inc/demo-importer/classes/class-dashboard.php:223
+#: inc/demo-importer/templates/general.php:55
+msgid "Widgets"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:119
+#: inc/demo-importer/classes/class-dashboard.php:224
+msgid "Pages & Posts"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:120
+#: inc/demo-importer/classes/class-dashboard.php:225
+msgid "Images"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:121
+msgid ""
+"PHP error 500, Internal server error, Please check your server error log "
+"file or contact with support."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:122
+msgid ""
+"PHP error 503, Internal server error, Please try again with same import demo."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:123
+msgid ""
+"An error has occured, Please deactivate all plugins except theme plugins and "
+"try again, If still have same issue, Please submit ticket to theme author."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:124
+msgid "Choose at least one feature to import."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:125
+msgid "URL input is empty, Please fill the input then submit."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:166
+msgid "Import"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:168
+msgid "Live Demo"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:183
+msgid "Back to demos"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:200
+msgid "Selected demo:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:201
+msgid "Live preview:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:202
+msgid "Check Live Demo"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:208
+msgid "Choose page builder:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:211
+msgid "Elementor"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:218
+msgid "Full Import"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:219
+msgid "Custom Import"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:226
+#: inc/demo-importer/templates/general.php:65
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:227
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:241
+msgid "All Done !"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:242
+msgid "The demo has been imported successfully."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:244
+msgid "View your website"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:245
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:251
+msgid "Error!"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:252
+#: inc/demo-importer/classes/class-dashboard.php:374
+msgid "An error has occured, Please try again."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:253
+msgid "Back to Demos"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:264
+msgid "Prev Step"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:266
+msgid "Getting Started"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:267
+msgid "Choose Builder"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:268
+msgid "Configuration"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:269
+msgid "Please wait, Importing"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:272
+msgid "Next Step"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:313
+msgid "AJAX requested name is empty, Please try again."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:325
+msgid "Redirected successfully."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:347
+#, php-format
+msgid "Could not find plugin \"%s\" API, Please refresh page and try again."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:399
+msgid "Plugin  is no listed as a valid plugin."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:422
+msgid "WordPress required FTP login details"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:438
+msgid "WordPress API Error:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:451
+#, php-format
+msgid ""
+"Could not download \"%s\" plugin ZIP file, Please go to Appearance > Install "
+"Plugins and install it manually, and try again demo importer."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:513
+#, php-format
+msgid ""
+"Error, Through FTP delete plugins > \"%s\" folder & increase PHP "
+"max_execution_time to 300 then try again."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:532
+msgid "Plugin activation error, "
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:543
+msgid "Plugin  installed and activated successfully."
+msgstr ""
+
+#: inc/demo-importer/classes/class-dashboard.php:568
+msgid "Plugin API error:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:594
+msgid "No Title"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:709
+msgid ""
+"Your uploads folder is not writable, please change it's permission to 0777"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:793
+msgid ""
+"Your server PHP cURL is not enable, Please contact with your hosting support."
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:803
+msgid ""
+"Download failed, Please makes sure your theme and plugins are up to date and "
+"If still get the same error, your server blocked PHP for downloading ZIP "
+"files, Please contact with your server support."
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:814
+msgid "Demo file downloaded successfully."
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:822
+msgid "Something went wrong, Please contact with theme support."
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:832
+msgid "Download demo failed, importer could not create demo folder."
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:865
+#, php-format
+msgid "%1$s was not uploaded. (%2$s: %3$s)"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:882
+#: inc/demo-importer/classes/class-demo-importer.php:895
+#, php-format
+msgid "%1$s could not be uploaded because of an error. (%2$s: %3$s)"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:889
+#: inc/demo-importer/classes/class-wp-importer.php:1021
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:919
+#, php-format
+msgid "%s was uploaded successfully"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:940
+msgid "File already exists"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:969
+msgid "Could not create temporary file."
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:988
+#, php-format
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:1004
+#, php-format
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:1016
+#: inc/demo-importer/classes/class-wp-importer.php:1071
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:1023
+#: inc/demo-importer/classes/class-wp-importer.php:1091
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:1028
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:1034
+#: inc/demo-importer/classes/class-wp-importer.php:1097
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:1066
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: inc/demo-importer/classes/class-demo-importer.php:1081
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:130
+#: inc/demo-importer/classes/class-wp-importer.php:139
+#: inc/demo-importer/classes/class-wp-importer.php:190
+#: inc/demo-importer/classes/class-wp-importer.php:194
+#: inc/demo-importer/classes/class-wp-importer.php:203
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:131
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:174
+msgid "All done."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:174
+msgid "Have fun!"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:175
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:195
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:211
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:236
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:262
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:263
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:265
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:275
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:278
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:282
+msgid "Submit"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:295
+msgid "Import author:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:306
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:309
+msgid "as a new user:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:317
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:319
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:320
+msgid "- Select -"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:370
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:429
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:481
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:537
+#: inc/demo-importer/classes/class-wp-importer.php:799
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:691
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:761
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:928
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:935
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:1008
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:1079
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:1086
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:1197
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:1204
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:1219
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:1220
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-importer.php:1295
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-parsers.php:42
+#: inc/demo-importer/classes/class-wp-parsers.php:75
+#: inc/demo-importer/classes/class-wp-parsers.php:83
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/demo-importer/classes/class-wp-parsers.php:87
+#: inc/demo-importer/classes/class-wp-parsers.php:92
+#: inc/demo-importer/classes/class-wp-parsers.php:309
+#: inc/demo-importer/classes/class-wp-parsers.php:505
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:8
+msgid ""
+"Providing the quickest way to customize your theme with the inbuilt "
+"customizer."
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:15
+msgid "Header Builder"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:20
+msgid "Footer Builder"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:25
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:30
+msgid "Social Media"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:35
+msgid "General Settings"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:40
+msgid "Styling Settings"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:45
+msgid "404 Settings"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:50
+msgid "Menus"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:60
+msgid "Homepage"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:70
+msgid "Additional CSS"
+msgstr ""
+
+#: inc/demo-importer/templates/general.php:85
+msgid "Quick Links"
+msgstr ""
+
+#: inc/demo-importer/templates/tabs.php:31
+msgid "About"
+msgstr ""
+
+#: inc/demo-importer/templates/tabs.php:32
+msgid "Demos"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:24
+msgid "MT Mega Menus"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:25
+#: inc/mega-menu/modeltheme-mega-menu.php:26
+msgid "MT Mega Menu"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:27
+msgid "All Mega Menus"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:28
+msgid "Add New Mega Menu"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:29
+msgid "Edit Mega Menu"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:30
+msgid "New Mega Menu"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:31
+msgid "View Mega Menu"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:32
+msgid "Search Mega Menus"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:33
+msgid "No mega menus found"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:34
+msgid "No mega menus found in trash"
+msgstr ""
+
+#: inc/mega-menu/modeltheme-mega-menu.php:36
+msgid "A utility post type used to control contents within mega menu dropdowns"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:58
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:62
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:78
+msgid "sub item"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:93
+msgid "Move up"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:106
+msgid "Move down"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:108
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:110
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:119
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:45
+msgid "URL"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:126
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:132
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:139
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:144
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:150
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:158
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:164
+msgid "Mega Menu:"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:169
+msgid "-- None --"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:173
+msgid "The mega menu to display where mega menus are enabled."
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:179
+msgid "Move"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:180
+msgid "Up one"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:181
+msgid "Down one"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:184
+msgid "To the top"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:191
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/mega-menu/lib/class.modeltheme-mega-menu.php:205
+msgid "Cancel"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:21
+msgid "Page Custom Options"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:27
+msgid "<h1>Custom Header Options</h1>"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:28 inc/metaboxes/metaboxes.php:130
+#: inc/metaboxes/metaboxes.php:183
+msgid "These options replaces the Theme Options for current page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:33
+msgid "Transparent Header"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:34
+msgid "If \"Yes\" - Navigation will go over Header"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:39
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:82
+msgid "Yes"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:40
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:83
+msgid "No"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:45
+msgid "Header (Texts and Nav links color)"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:46 inc/metaboxes/metaboxes.php:53
+#: inc/metaboxes/metaboxes.php:60 inc/metaboxes/metaboxes.php:70
+msgid ""
+"This option will override the options from the Theme Panel (and will only be "
+"applied to this page only). To change it globally, please go to Theme Panel."
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:52
+msgid "Header (Nav links color) - Hover"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:59
+msgid "Header Top Background (Override)"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:69
+msgid "Header Main Background (Override)"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:79
+msgid "Header Main Background (Override) - Sticky"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:80
+msgid ""
+"Only if sticky header option is enabled. This option will override the "
+"options from the Theme Panel (and will only be applied to this page only). "
+"To change it globally, please go to Theme Panel."
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:89
+msgid "Custom Logo"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:90 inc/metaboxes/metaboxes.php:98
+msgid ""
+"Important: The logo is usually set from the Theme Panel -> Header (Only "
+"upload a custom logo here if you want to replace the global logo on this "
+"page only)."
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:97
+msgid "Custom Logo (Sticky Header)"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:105
+msgid "Select Header Variant"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:112
+msgid "Page title-breadcrumbs"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:113 inc/metaboxes/metaboxes.php:152
+msgid "Select an option"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:117
+msgid "Default - As Selected from the Theme Panel"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:118
+msgid "Off - Hide title-breadcrumbs area"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:119
+msgid "On - Show title-breadcrumbs area"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:129
+msgid "<h1>General Options</h1>"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:135
+msgid "Body Background Image"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:136
+msgid "Replaces customizer background image option"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:144
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:145
+msgid "(Optional): Replaces customizer background color option"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:151
+msgid "Page top/bottom spacing"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:156
+msgid "High Padding"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:157
+msgid "No Padding"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:158
+msgid "No Padding top"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:159
+msgid "No Padding bottom"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:164
+msgid "First Skin Color"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:165 inc/metaboxes/metaboxes.php:172
+msgid "Replaces theme options main color"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:171
+msgid "Skin Color - Hover"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:188
+msgid "Disable Footer Main"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:189
+msgid "Check to disable footer top row"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:194
+msgid "Disable Footer Bottom"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:195
+msgid "Check to disable footer bottom copyright bar"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:201
+msgid "Footer Background Image"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:202
+msgid "Replaces theme panel footer background image option"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:210
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:211
+msgid "(Optional): Replaces theme panel footer background color option"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:218
+msgid "Footer Headings color"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:219
+msgid ""
+"(Optional): Replaces theme options color (widget titles & copyright text)"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:225
+msgid "Footer texts color"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:226
+msgid ""
+"(Optional): Replaces theme options color (links, social media, texts, "
+"headings and more)"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:232
+msgid "Footer texts color - hover"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:233
+msgid "(Optional): Replaces theme options color (links & social media)"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:239
+msgid "Footer Bottom Border"
+msgstr ""
+
+#: inc/metaboxes/metaboxes.php:240
+msgid "(Optional): Replaces theme options footer bottom border color"
+msgstr ""
+
+#: inc/post-type/post-type.php:15 inc/post-type/post-type.php:30
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/post-type/post-type.php:31
+msgid "Knowledge"
+msgstr ""
+
+#: inc/post-type/post-type.php:32
+msgid "MT Knowledge Base"
+msgstr ""
+
+#: inc/post-type/post-type.php:33
+msgid "Add Knowledge"
+msgstr ""
+
+#: inc/post-type/post-type.php:34
+msgid "Add New Knowledge"
+msgstr ""
+
+#: inc/post-type/post-type.php:35
+msgid "Edit"
+msgstr ""
+
+#: inc/post-type/post-type.php:36
+msgid "Edit Knowledge"
+msgstr ""
+
+#: inc/post-type/post-type.php:37
+msgid "New Knowledge"
+msgstr ""
+
+#: inc/post-type/post-type.php:38 inc/post-type/post-type.php:39
+msgid "View Knowledge"
+msgstr ""
+
+#: inc/post-type/post-type.php:40
+msgid "Search Knowledge Base"
+msgstr ""
+
+#: inc/post-type/post-type.php:41
+msgid "No Knowledge Found"
+msgstr ""
+
+#: inc/post-type/post-type.php:42
+msgid "No Knowledge Found in Trash"
+msgstr ""
+
+#: inc/post-type/post-type.php:43
+msgid "Parent Knowledge"
+msgstr ""
+
+#: inc/post-type/post-type.php:52
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: inc/post-type/post-type.php:53
+msgctxt "Taxonomy Singular Name"
+msgid "Categories"
+msgstr ""
+
+#: inc/post-type/post-type.php:54
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:240
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:251
+msgid "Categories"
+msgstr ""
+
+#: inc/post-type/post-type.php:55
+msgid "All Items"
+msgstr ""
+
+#: inc/post-type/post-type.php:56
+msgid "Parent Item"
+msgstr ""
+
+#: inc/post-type/post-type.php:57
+msgid "Parent Item:"
+msgstr ""
+
+#: inc/post-type/post-type.php:58
+msgid "New Item Name"
+msgstr ""
+
+#: inc/post-type/post-type.php:59
+msgid "Add New Item"
+msgstr ""
+
+#: inc/post-type/post-type.php:60
+msgid "Edit Item"
+msgstr ""
+
+#: inc/post-type/post-type.php:61
+msgid "Update Item"
+msgstr ""
+
+#: inc/post-type/post-type.php:62
+msgid "View Item"
+msgstr ""
+
+#: inc/post-type/post-type.php:63
+msgid "Separate items with commas"
+msgstr ""
+
+#: inc/post-type/post-type.php:64
+msgid "Add or remove items"
+msgstr ""
+
+#: inc/post-type/post-type.php:65
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/post-type/post-type.php:66
+msgid "Popular Items"
+msgstr ""
+
+#: inc/post-type/post-type.php:67
+msgid "Search Items"
+msgstr ""
+
+#: inc/post-type/post-type.php:68
+msgid "Not Found"
+msgstr ""
+
+#: inc/widgets/widgets.php:7
+msgid "MT - Contact + Social Media"
+msgstr ""
+
+#: inc/widgets/widgets.php:67
+msgid "Social icons"
+msgstr ""
+
+#: inc/widgets/widgets.php:73 inc/widgets/widgets.php:178
+msgid "Widget Title:"
+msgstr ""
+
+#: inc/widgets/widgets.php:76
+msgid "* Social Network account must be set from Customizer - Social Media."
+msgstr ""
+
+#: inc/widgets/widgets.php:99
+msgid "MT - Recent Posts with thumbnails"
+msgstr ""
+
+#: inc/widgets/widgets.php:165
+msgid "Recent posts"
+msgstr ""
+
+#: inc/widgets/widgets.php:172
+msgid "5"
+msgstr ""
+
+#: inc/widgets/widgets.php:182
+msgid "Number of posts:"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:20
+msgid "MT - Countdown"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:43
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:38
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:36
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:39
+#: inc/widgets-addons/knowledgebase-search/class-knowledgebase-search-widget-elementor.php:30
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:51
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:40
+#: inc/widgets-addons/shaped-video/class-shaped-video-widget-elementor.php:40
+#: inc/widgets-addons/stacked-photos/class-stacked-photos-widget-elementor.php:40
+msgid "Content"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:50
+msgid "Date"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:53
+msgid "2024-07-20"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:59
+msgid "Dots"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:61
+msgid "On"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:62
+msgid "Off"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:74
+msgid "Digit Typography"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:82
+msgid "Text Typography"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:90
+msgid "Color of the digits"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:103
+msgid "Color of the text"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:115
+msgid "Background Digits"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:133
+msgid "Border Radius Digits"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:148
+msgid "Padding Digits"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:167
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:568
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:576
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:792
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:799
+msgid "Margin"
+msgstr ""
+
+#: inc/widgets-addons/countdown/class-countdown-widget-elementor.php:187
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:16
+msgid "MT - Course Card"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:59
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:69
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:332
+msgid "Title"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:71
+msgid "Default title"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:72
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:163
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:172
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:344
+msgid "Type your title here"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:78
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:245
+msgid "Price"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:80
+msgid "$35 / 20 hours"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:81
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:247
+msgid "Type your price here"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:87
+msgid "Lessons No."
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:98
+msgid "Students No."
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:110
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:92
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:58
+msgid "Style"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:117
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:539
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:547
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:765
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:772
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:489
+msgid "Padding"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:137
+msgid "Title Tipography"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:145
+msgid "Price Tipography"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:153
+msgid "Stats Tipography"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:165
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:115
+msgid "Title Color"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:175
+msgid "Price Color"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:185
+msgid "Stats Color"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:196
+msgid "Card Color"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:206
+msgid "Card Color Hover"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:238
+msgid "Lessons"
+msgstr ""
+
+#: inc/widgets-addons/course-card/class-course-card-widget-elementor.php:241
+msgid "Students"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:21
+msgid "MT - Knowledgebase Accordion"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:44
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:46
+msgid "Heading Title"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:61
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:69
+msgid "Category"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:71
+msgid "Number of posts"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:80
+msgid "Is Active"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-accordion/class-knowledgebase-accordion-widget-elementor.php:92
+msgid "Accordion Items"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:17
+msgid "MT - Knowledgebase List"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:46
+msgid "Knowledgebase List version"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:50
+msgid "Choose the Knowledgebase List version"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:52
+msgid "Version 1"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:53
+msgid "Version 2"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:73
+msgid "Select the category"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:81
+msgid "Knowledgebase Posts Number"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:85
+msgid "Type here the number of Knowledgebase posts to be displayed"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:100
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:408
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:452
+msgid "Title Typography"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:108
+msgid "Item Typography"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:125
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:145
+msgid "Item Color"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:135
+msgid "List Icon Color"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:156
+msgid "Button Text Color Hover"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:166
+msgid "Button Bg Color Hover"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:176
+msgid "Button Border Color Hover"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:250
+#, php-format
+msgid "%s Article in this category"
+msgid_plural "%s Articles in this category"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets-addons/knowledgebase-list/class-knowledgebase-list-widget-elementor.php:254
+msgid "View all"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-search/class-knowledgebase-search-widget-elementor.php:15
+msgid "Knowledgebase - Search Bar"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-search/class-knowledgebase-search-widget-elementor.php:36
+msgid "Form Width"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-search/class-knowledgebase-search-widget-elementor.php:57
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:143
+msgid "Border Radius"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-search/class-knowledgebase-search-widget-elementor.php:76
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:307
+msgid "Icon Color"
+msgstr ""
+
+#: inc/widgets-addons/knowledgebase-search/class-knowledgebase-search-widget-elementor.php:86
+msgid "Icon Color_Hover"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:28
+msgid "MT Masonry Gallery"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:58
+msgid "Add Gallery Images"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:101
+msgid "Number Of Columns"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:117
+msgid "Column Spacing"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:154
+msgid "Elements"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:162
+msgid "Show Title"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:165
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:198
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:231
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:262
+msgid "NO"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:166
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:199
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:232
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:263
+msgid "YES"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:179
+msgid "Show Title in"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:183
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:216
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:823
+msgid "Lightbox"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:184
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:217
+msgid "Gallery"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:185
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:218
+msgid "Both"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:195
+msgid "Show Caption"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:212
+msgid "Show Caption in"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:228
+msgid "Enable Lightbox"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:244
+msgid "Title & Caption Style in Lightbox"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:248
+msgid "Image Overlay"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:249
+msgid "Below Image"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:259
+msgid "Overlay on Hover"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:276
+msgid "Overlay Icon"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:293
+msgid "Gallery Styling"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:309
+msgid "Image Rounded Corners"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:341
+msgid "Title Heading Level"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:348
+msgid "H1"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:353
+msgid "H2"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:358
+msgid "H3"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:363
+msgid "H4"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:368
+msgid "H5"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:373
+msgid "H6"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:390
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:615
+msgid "Normal"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:397
+msgid "Text Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:419
+msgid "Text Shadow"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:431
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:657
+msgid "Hover"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:439
+msgid "Title Text Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:463
+msgid "Title Text Shadow"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:473
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:699
+msgid "Transition Duration (ms) "
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:498
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:291
+msgid "Title Alignment"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:503
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:729
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:295
+msgid "Left"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:507
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:733
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:296
+msgid "Center"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:511
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:737
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:297
+msgid "Right"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:525
+msgid "Title Padding and Margin"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:601
+msgid "Caption"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:623
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:665
+msgid "Caption Text Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:634
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:678
+msgid "Caption Typography"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:645
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:689
+msgid "Caption Text Shadow"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:724
+msgid "Caption Alignment"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:751
+msgid "Caption Padding and Margin"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:832
+msgid "Lightbox Background Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:845
+msgid "Exit Icon Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:858
+msgid "Arrow Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:872
+msgid "Arrow Border Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:886
+msgid "Title & Caption Background Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:902
+msgid "Overlay"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:911
+msgid "Icon Size"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:946
+msgid "Overlay Icon Color"
+msgstr ""
+
+#: inc/widgets-addons/masonry-gallery/class-masonry-gallery-widget-elementor.php:960
+msgid "Overlay Background Color"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:16
+msgid "Pricing Comparison Table"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:40
+msgid "GENERAL OPTIONS"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:48
+msgid "Column Width"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:75
+msgid "General Color"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:100
+msgid "HEADER"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:108
+msgid "Show as Featured Item"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:110
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:353
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:389
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:479
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:49
+msgid "Show"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:111
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:354
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:390
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:480
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:50
+msgid "Hide"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:120
+msgid "Show Featured Text"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:123
+msgid "Type your featured text here"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:148
+msgid "Header Color"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:160
+msgid "Title Text"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:169
+msgid "Subtitle Text"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:179
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:351
+msgid "Icon"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:192
+msgid "Icon Width"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:219
+msgid "Item Height"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:255
+msgid "Button Title"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:257
+msgid "Type your button title here"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:265
+msgid "Link"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:267
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:283
+msgid "FEATURES"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:318
+msgid "Tooltip Backgorund Color"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:330
+msgid "Tooltip Color"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:342
+msgid "Feature Title"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:364
+msgid "Choose"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:368
+msgid "Check"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:372
+msgid "Unchecked"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:387
+msgid "Custom Icon"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:400
+msgid "Choose Icon"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:416
+msgid "Tooltip Title"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:418
+msgid "Type your tooltip title here"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:429
+msgid "Table Elements"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:434
+msgid "Sites"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:437
+msgid "Data Retention"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:440
+msgid "Chart Annotations"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:443
+msgid "Uptime Monitoring"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:446
+msgid "Weekly Reports"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:449
+msgid "Security Audit"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:452
+msgid "On-Demand Audit"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:455
+msgid "Priority Support"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:458
+msgid " Easy Billing + No Contracts"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:469
+msgid "FOOTER"
+msgstr ""
+
+#: inc/widgets-addons/pricing-comparison-table/class-pricing-comparison-table-widget-elementor.php:477
+msgid "Show Footer Button"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:17
+msgid "MT - Search Forms"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:47
+msgid "Show Category"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:63
+msgid "Select"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:64
+msgid "Products"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:65
+msgid "Posts "
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:66
+msgid "Course "
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:73
+#: inc/widgets-addons/shaped-video/class-shaped-video-widget-elementor.php:81
+#: inc/widgets-addons/stacked-photos/class-stacked-photos-widget-elementor.php:56
+msgid "Width"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:99
+msgid "Search Result Position"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:125
+msgid "Padding Search"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:186
+msgid "Form Background Color"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:198
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/widgets-addons/search-forms/class-search-forms-widget-elementor.php:260
+msgid "Find your course"
+msgstr ""
+
+#: inc/widgets-addons/shaped-video/class-shaped-video-widget-elementor.php:17
+msgid "MT - Shaped Video"
+msgstr ""
+
+#: inc/widgets-addons/shaped-video/class-shaped-video-widget-elementor.php:47
+msgid "Choose Placeholder Image"
+msgstr ""
+
+#: inc/widgets-addons/shaped-video/class-shaped-video-widget-elementor.php:57
+msgid "Choose Shape"
+msgstr ""
+
+#: inc/widgets-addons/shaped-video/class-shaped-video-widget-elementor.php:67
+msgid "Video URL"
+msgstr ""
+
+#: inc/widgets-addons/shaped-video/class-shaped-video-widget-elementor.php:96
+msgid "Height"
+msgstr ""
+
+#: inc/widgets-addons/shaped-video/class-shaped-video-widget-elementor.php:111
+msgid "Mask Color"
+msgstr ""
+
+#: inc/widgets-addons/stacked-photos/class-stacked-photos-widget-elementor.php:17
+msgid "MT - Stacked Photos dasda"
+msgstr ""
+
+#: inc/widgets-addons/stacked-photos/class-stacked-photos-widget-elementor.php:47
+msgid "Add Images"
+msgstr ""
+
+#: inc/widgets-addons/stacked-photos/class-stacked-photos-widget-elementor.php:79
+msgid "Radius"
+msgstr ""
+
+#: inc/widgets-addons/stacked-photos/class-stacked-photos-widget-elementor.php:100
+msgid "Margin Left (-)"
+msgstr ""

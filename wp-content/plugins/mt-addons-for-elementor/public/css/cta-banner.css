@@ -1,0 +1,129 @@
+.mt-addons-cta-banner-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+    transition: box-shadow 0.35s ease-out;
+    z-index: 1;
+}
+.mt-addons-cta-banner-content-inner{
+    width:100%;
+}
+.mt-addons-cta-banner-html--link {
+    -webkit-transition: all 250ms ease 0s;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-title {
+    margin: 0 !important;
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-title-inner {
+    display: inline-block;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-subtitle {
+    margin: 0;
+    color: #fff;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-content-inner > .mt-addons-cta-banner-text {
+    margin: 0.7em 0 0;
+    color: ffff;
+    font-weight: 600;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-button {
+    margin: 0.5em 0 0;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-button .mt-addons-cta-banner-button {
+    z-index: 2;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-image {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    width: auto;
+    overflow: hidden;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-image img {
+    display: inline-block;
+}
+.mt-addons-cta-banner-inner .mt-addons-cta-banner-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: background-color 0.35s ease-out;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-vertical--top .mt-addons-cta-banner-content {
+    justify-content: flex-start;
+}
+.mt-addons-cta-banner-button a {
+    font-weight: 600;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-vertical-iddle .mt-addons-cta-banner-content {
+    justify-content: center;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-vertical--bottom .mt-addons-cta-banner-content {
+    justify-content: flex-end;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-horizontal--left .mt-addons-cta-banner-content {
+    align-items: flex-start;
+    text-align: left;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-horizontal--center .mt-addons-cta-banner-content {
+    align-items: center;
+    text-align: center;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-horizontal--right .mt-addons-cta-banner-content {
+    align-items: flex-end;
+    text-align: right;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hover-zoom img {
+    transform: scale(1.005) translateZ(0);
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: transform;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hover-zoom:hover img {
+    transform: scale(1.03);
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hover-zoom-out img {
+    transform: scale(1.03) translateZ(0);
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: transform;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hover-zoom-out:hover img {
+    transform: scale(1);
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hoverove img {
+    transform: scale(1.2);
+    transition: transform 0.5s cubic-bezier(0.33, 0.02, 0, 0.93);
+    will-change: transform;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hoverove:hover img {
+    transform: scale(1.2) translateX(12px);
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hover-from-top img {
+    transform-origin: top;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hover-from-bottom img {
+    transform-origin: bottom;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hover-from-left img {
+    transform-origin: left;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-image--hover-from-right img {
+    transform-origin: right;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-layout--in-box .mt-addons-cta-banner-content {
+    padding: 45px;
+}
+.mt-addons-cta-banner-inner.mt-addons-cta-banner-layout--in-box .mt-addons-cta-banner-content-inner {
+    background-color: #fff;
+    padding: 25px;
+    max-width: 100%;
+    width: 100%;
+}

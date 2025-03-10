@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------
+[Custom Tribe events Styling by ModelTheme]
+[Table of contents]
+
+1. Events
+-------------------------------------------------------------------*/
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar--border {
+    border: none;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+body .tribe-common .tribe-common-l-container,
+body #tribe-events-pg-template {
+    max-width: 1400px;
+}
+.tribe-events-view,
+.single-tribe_events div#wildnest-site-content {
+    background-color: #fbfbff;
+}
+.tribe-events-content p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.tribe-events-event-meta.primary, .tribe-events-event-meta.secondary {
+    width: 50%;
+}
+body #tribe-events-footer{
+    display: none;
+}
+.tribe-events-back a, .tribe-events-back a:visited{
+    font-weight: 500;
+}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+    padding-bottom: 60px;
+}
+@media only screen and (max-width: 767px) {
+    .tribe-events-event-meta.primary, .tribe-events-event-meta.secondary {
+        width: 100% !important; 
+    }
+    .tribe-events-event-meta dt:not(:first-child) {
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .tribe-events-meta-group .tribe-events-single-section-title {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+    body .tribe-events-schedule h2 {
+        font-size: 19px !important;
+        line-height: 27px !important;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .builder-item--my_account a.menu-grid-item {
+        padding-top: 10px;
+        padding-right: 35px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+    
+}

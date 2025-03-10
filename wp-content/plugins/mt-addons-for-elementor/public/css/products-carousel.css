@@ -1,0 +1,93 @@
+.mt-addons-products-carousel .mt-addons-products-carousel-slider-wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 0px;
+}
+.mt-addons-products-carousel-slider{
+    padding-top: 30px;
+}
+.mt-addons-products-carousel .mt-addons-products-carousel-thumbnail-and-details {
+    border-bottom: 0;
+    overflow: hidden;
+}
+.mt-addons-products-carousel .mt-addons-products-carousel-title-metas {
+    padding: 17px 20px;
+}
+.mt-addons-products-carousel .mt-addons-products-carousel-archive-product-title {
+    text-align: center;
+    background: #fff;
+    margin-top: 10px;
+}
+ .mt-addons-products-carousel-archive-product-title a {
+    text-align: left;
+    color: #111111;
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    width: 100%;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+}
+.mt-addons-products-carousel-title-metas {
+    float: right;
+    width: 100%;
+    height: auto !important;
+    cursor: auto;
+}
+.mt_addons_products_carousel a.button{
+    color: #FFF;
+    background: #252525;
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+
+}
+.mt-addons-products-carousel .mt-addons-products-carousel-title-metas p:first-of-type {
+    margin-bottom: 0px;
+}
+.mt-addons-products-carousel .mt-addons-products-carousel-title-metas p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.mt-addons-products-carousel img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    background: transparent;
+    padding: 0;
+}
+.mt-addons-products-carousel img {
+    display: block;
+    width: 100%;
+}
+.mt-addons-products-carousel .mt-addons-products a:hover,
+.mt-addons-products-carousel .mt-addons-products-carousel-mt-addons-products a:hover{
+    background-color: #292927 !important;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+.mt-addons-products-carousel .mt-addons-products a,
+.mt-addons-products-carousel .mt-addons-products-carousel-button-bid a {
+    position: relative !important;
+    color: #fff !important;
+    display: inline-block;
+    float: none;
+    font-size: 14px !important;
+    line-height: 1 !important;
+    width: auto !important;
+    padding: 12px 25px;
+    background: #151515;
+    font-weight: 600;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    margin: 10px 0px 30px;
+}

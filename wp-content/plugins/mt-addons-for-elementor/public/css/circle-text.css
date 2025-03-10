@@ -1,0 +1,30 @@
+svg textPath { 
+  text-transform: uppercase;
+  background: #333;
+  font-weight: bold;
+}
+.mt-addons-circle-svg-text{
+  position: relative;
+  height: 0;
+}
+.mt-addons-circle-svg-text-static,
+.mt-addons-circle-svg-subtitle {
+    font-weight: 700;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+g.mt-addons-text-circle-animate.yes {
+  transform-origin: 250px 250px;
+  animation: rotate 30s linear infinite; 
+}
+@media only screen and (max-width: 768px) { 
+  .mt-addons-circle-svg-text {
+    width: fit-content !important;
+  }
+}

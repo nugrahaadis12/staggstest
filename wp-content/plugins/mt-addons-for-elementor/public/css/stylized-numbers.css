@@ -1,0 +1,22 @@
+.mt-addons-numbers-item {
+    display: inline-table;
+    margin: 0 5px;
+}
+.mt-addons-numbers-item span {
+    font-weight: 700;
+    font-size: 30px;
+}
+.mt-addons-numbers-digit .mt-addons-numbers-item {
+    height: 24px;
+    border-radius: 5px;
+    min-width: 23px;
+    padding: 2px 6px 0 6px;
+    background: #252525;
+    margin: 0 1px;
+    display: inline-table;
+}
+.mt-addons-description-number p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}

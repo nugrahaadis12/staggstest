@@ -1,0 +1,30 @@
+.mt-addons-niche-categories-card-container {
+  overflow: hidden;
+  transition: all 250ms ease-in-out;
+  position: relative;
+}
+.mt-addons-niche-categories-image-section {
+  position: absolute;
+}
+.mt-addons-niche-categories-gallery_columns a{
+  margin-bottom: 20px;
+  transition: all 250ms ease-in-out;
+}
+.mt-addons-niche-categories-card-img-wrapper{
+  transform: rotate(30deg);
+  position: relative;
+}
+.mt-addons-niche-categories-card-title {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 20px 100px 20px;
+}
+.mt-addons-niche-categories-card-container img {
+  transition: all 250ms ease-in-out;
+}
+.mt-addons-niche-categories-card-container:hover img {
+    transform: rotate(30.5deg) scale(1.2);
+}
+#mt-addons-niche-categories:hover > div {
+    opacity: 0.8;
+}

@@ -1,0 +1,98 @@
+.mt-addons-class-post-details {
+  box-shadow: 0 0 15px #e5e5e5;
+  -webkit-box-shadow: 0 0 15px #e5e5e5;
+  background: #ffffff;
+  padding: 45px;
+}
+.mt-addons-grid-class-single .mt-addons-class-expandable-overlay  {
+  width: 5px;
+  background: linear-gradient(230.57deg, #18BE72 -1.25%, #14A361 102.24%);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 250ms ease-in-out 0ms;
+  -ms-transition: all 250ms ease-in-out 0ms;
+  -webkit-transition: all 250ms ease-in-out 0ms;
+}
+.mt-addons-grid-class-single:hover .mt-addons-class-expandable-overlay  {
+  width: 100%;
+}
+.mt-addons-grid-class-single .mt-addons-class-metas {
+  position: relative;
+}
+.mt-addons-grid-class-single .mt-addons-grid-btn-more{
+  opacity: 1;
+  transition: all 250ms ease-in-out 0ms;
+  -ms-transition: all 250ms ease-in-out 0ms;
+  -webkit-transition: all 250ms ease-in-out 0ms;
+}
+.mt-addons-grid-item .mt-addons-grid-class-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+}
+.mt-addons-grid-item .mt-addons-grid-class-subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+.mt-addons-img-wrapper {
+  display: flex;
+}
+.mt-addons-grid-class-single .mt-addons-class-expandable-overlay.no-hover {
+  display: none;
+}
+.mt-addons-grid-class-single img {
+  filter: brightness(1);
+  opacity: 1;
+  max-height: 60px;
+  -webkit-filter: brightness(1);
+  transition: all 250ms ease-in-out 0ms;
+  -ms-transition: all 250ms ease-in-out 0ms;
+  -webkit-transition: all 250ms ease-in-out 0ms;
+}
+.mt-addons-grid-class-single:hover img.container-hover {
+  filter: brightness(0) invert(1);
+}
+.mt-addons-grid-class-single:hover img.no-container-hover {
+  filter: brightness(1);
+  -webkit-filter: brightness(1);
+  opacity: 1;
+}
+.mt-addons-grid-class-single:hover .mt-addons-grid-btn-more,
+.mt-addons-grid-class-single:hover .mt-addons-grid-class-subtitle,
+.mt-addons-grid-class-single:hover .mt-addons-grid-class-title {
+    color: #fff;
+}
+.mt-addons-grid-class-single .mt-addons-grid-class-title  {
+  color: #000000;
+  letter-spacing: 1px;
+}
+.mt-addons-grid-class-single .mt-addons-grid-btn-more {
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.mt-addons-icon-btn-zone {
+    display: flex;
+}
+.mt-addons-title-wrapper, .mt-addons-subtitle-wrapper {
+  display: flex;
+}
+.mt-addons-grid-class-title, .mt-addons-grid-class-subtitle{
+  width: fit-content;
+}
+.title-separator {
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.mt-addons-grid-class-title a {
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+}
+p.mt-addons-grid-class-subtitle {
+  margin: 0;
+}

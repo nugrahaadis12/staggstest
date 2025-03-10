@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-22 16:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inc/elementor.php:11
+msgid "Campspot Campgrounds, RV parks Availability Checker"
+msgstr ""
+
+#: inc/elementor.php:27
+msgid "General Options"
+msgstr ""
+
+#: inc/elementor.php:33
+msgid "Version"
+msgstr ""
+
+#: inc/elementor.php:37
+msgid "V1"
+msgstr ""
+
+#: inc/elementor.php:38
+msgid "V2"
+msgstr ""
+
+#: inc/elementor.php:45
+msgid "Detailed Finder"
+msgstr ""
+
+#: inc/elementor.php:47
+msgid "Yes"
+msgstr ""
+
+#: inc/elementor.php:48
+msgid "No"
+msgstr ""
+
+#: inc/elementor.php:56
+msgid "Property ID Code"
+msgstr ""
+
+#: inc/elementor.php:59
+msgid "Example: 901405844313394925"
+msgstr ""
+
+#: inc/elementor.php:65
+msgid "Max Guests"
+msgstr ""
+
+#: inc/elementor.php:76
+msgid "Submit Button Label"
+msgstr ""
+
+#: inc/elementor.php:78
+msgid "ex: Submit"
+msgstr ""
+
+#: inc/elementor.php:85
+msgid "Style Options"
+msgstr ""
+
+#: inc/elementor.php:92
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/elementor.php:101
+msgid "Button Text Color Hover"
+msgstr ""
+
+#: inc/elementor.php:112
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/elementor.php:121
+msgid "Button Background Color Hover"
+msgstr ""
+
+#: inc/elementor.php:132
+msgid "Background Form"
+msgstr ""
+
+#: inc/elementor.php:142
+msgid "Label Text Color"
+msgstr ""
+
+#: inc/shortcode.php:56 inc/shortcode.php:100
+msgid "Check In"
+msgstr ""
+
+#: inc/shortcode.php:60 inc/shortcode.php:105
+msgid "Check Out"
+msgstr ""
+
+#: inc/shortcode.php:67 inc/shortcode.php:80 inc/shortcode.php:125
+msgid "Guests"
+msgstr ""
+
+#: inc/shortcode.php:68 inc/shortcode.php:81 inc/shortcode.php:113
+#: inc/shortcode.php:126
+msgid "Age 13+"
+msgstr ""
+
+#: inc/shortcode.php:71 inc/shortcode.php:116
+msgid "Children"
+msgstr ""
+
+#: inc/shortcode.php:72 inc/shortcode.php:117
+msgid "Ages 2–12"
+msgstr ""
+
+#: inc/shortcode.php:75 inc/shortcode.php:120
+msgid "Infants"
+msgstr ""
+
+#: inc/shortcode.php:76 inc/shortcode.php:121
+msgid "Under 2"
+msgstr ""
+
+#: inc/shortcode.php:112
+msgid "Adults"
+msgstr ""
+
+#: inc/shortcode.php:182
+msgid "Campspot Campgrounds, RV parks Availability Checker"
+msgstr ""

@@ -1,0 +1,187 @@
+span.mtfe-premium-tag {
+    background: #ff0594;
+    font-size: 11px;
+    color: #fff;
+    padding: 0px 5px 0px;
+    margin-left: 7px;
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+}
+.mtfe-row.mtfe-type-checkbox.no-premium,
+.mtfe-row.mtfe-type-checkbox.no-premium a {
+    color: #c4c4c4;
+}
+.mtfe-row.mtfe-type-checkbox.no-premium input.mtfe-checkbox + label{
+    background-color: #e1e1e1;
+}
+.mtfe-row.mtfe-type-checkbox.no-premium input.mtfe-checkbox + label:after {
+    margin-left: 23px;
+    background-color: #dcdcdc;
+}
+.mtfe-row {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px 18px;
+  margin: 0 25px 0 0; }
+.mtfe-label {
+  font-weight: bold;
+  display: block;
+  font-size: 15px;
+  line-height: 24px;
+  cursor: default; }
+.mtfe-tab-content {
+  position: relative;
+  display: none;
+  margin: 0; }
+
+.mtfe-tab-content:first-child {
+  display: block; }
+input[type=radio].first-input {
+  margin-left: 0; }
+.mtfe-toggle {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 6px 0; }
+
+input[type=checkbox].mtfe-checkbox {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0 !important; }
+
+.mtfe-checkbox + label {
+  display: inline-block;
+  position: relative;
+  margin: 0 4px 0 0;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+input.mtfe-checkbox + label {
+  padding: 2px;
+  width: 43px;
+  height: 20px;
+  background-color: #3147FF;
+  border-radius: 60px;
+  transition: background 0.2s; 
+}
+
+input.mtfe-checkbox + label:before, input.mtfe-checkbox + label:after {
+  display: block;
+  position: absolute;
+  content: ""; }
+
+input.mtfe-checkbox + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: background 0.2s; }
+
+input.mtfe-checkbox + label:after {
+  top: 3px;
+  left: 3px;
+  bottom: 3px;
+  width: 18px;
+  background-color: #3147FF;
+  border-radius: 10px;
+  transition: margin 0.2s, background 0.2s; 
+}
+
+input.mtfe-checkbox:checked + label {
+  background-color: #dcdcdc; }
+
+input.mtfe-checkbox:checked + label:after {
+  margin-left: 23px;
+  background-color: #dcdcdc; }
+
+/* =========================== Buttons ==================== */
+.mtfe-button {
+  border: none;
+  text-shadow: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  line-height: 26px;
+  height: auto;
+  margin: 0;
+  padding: 0 10px;
+  color: #fff;
+  background: #f94213;
+  border-radius: 0;
+  vertical-align: top;
+  transition: opacity 0.2s; }
+
+.mtfe-button:hover {
+  opacity: 0.8; }
+
+/* ========================== Info box ====================== */
+.mtfe-infobox {
+  position: relative;
+  display: block;
+  background: #f1f1f1;
+  margin: 30px;
+  padding: 15px;
+  line-height: 20px;
+  font-style: italic;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.mtfe-infobox .dashicons {
+  float: left;
+  margin-right: 10px;
+  -webkit-animation: flash linear 1s infinite;
+  animation: flash linear 1s infinite; }
+.mtfe-infobox h3 {
+  font-size: 14px;
+  padding: 0 !important;
+  margin: 0;
+  line-height: 1.4; }
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: .1; }
+  100% {
+    opacity: 1; } }
+@keyframes flash {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: .1; }
+  100% {
+    opacity: 1; } }
+/* ========= Misc ============= */
+.wp-picker-container {
+  box-sizing: content-box; }
+
+.mtfe-elements-deactivate {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: space-between; 
+}
+.mtfe-elements-deactivate .mtfe-row {
+    width: 254px;
+    margin-bottom: 15px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}

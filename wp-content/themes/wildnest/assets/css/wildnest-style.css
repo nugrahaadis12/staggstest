@@ -1,0 +1,3896 @@
+    /* WordsFlow Theme Styling */
+/* Heights page */
+html {
+    overflow: hidden;
+}
+:root { 
+    --tec-color-accent-primary: #3a3089; 
+    --tec-color-link-accent-hover: #e974af;
+    --tec-color-button-primary-hover: #BF5F90;
+    --tec-border-radius-default: 30px;
+    --tec-font-size-2: 14px;
+    --tec-font-family-sans-serif: "Lato";
+}
+.wildnest-single-product ol, .wildnest-single-product ul {
+    padding-left: 20px !important;
+}
+.high-padding {
+    padding: 110px 0;
+}
+.nav-menu-desktop .sub-menu {
+    padding: 15px 0;
+    border-radius: 5px;
+}
+.woocommerce-form.woocommerce-form-track-order, .woocommerce form.lost_reset_password, .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+    background-color: #fff;
+    margin-top: 30px;
+}
+.nav-menu-desktop .sub-menu li a {
+    padding: 5px 20px;
+}
+.no-results.not-found form.search-form input.search-field {
+    border-radius: 0;
+    border: 2px solid #000;
+}
+.no-results.not-found form.search-form input.search-field:focus {
+    border: 2px solid #2E7D32;
+}
+.nav-menu-desktop .menu>li>a {
+    transition: all 250ms;
+}
+.wildnest-breadcrumbs .breadcrumb li {
+    font-size: 17px !important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    padding: 0 !important;
+}
+.wildnest-breadcrumbs h1::after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.sticky-wrapper .header-main {
+    background-color: #fff;
+}
+.breadcrumb a::after {
+    color: #fff;
+}
+img,
+video {
+max-width: 100%;
+height: auto;
+}
+figcaption {
+text-align: center;
+font-size: 14px;
+margin-top: 5px;
+}
+body .image-border img{
+    border-top-left-radius: 350px;
+    border-top-right-radius: 350px;
+}
+body.single-post #page {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto!important;
+    background-attachment: initial!important;
+}
+body .wildnest-article-wrapper .wildnest-article-inner {
+    border: 0;
+    background: transparent;
+    border-style: ridge;
+    border: none;
+}
+body .wildnest-article-content {
+    border: none;
+    margin-bottom: 30px;
+}
+.wp-block-search .wp-block-search__input{
+    padding-top: 15px!important;
+    padding-right: 30px;
+    padding-bottom: 15px!important;
+    padding-left: 30px;
+ }
+body .is-size-large .hamburger .hamburger-box {
+    margin-top: 8px;
+}
+.mt-addons-blog-posts-carousel-head-content {
+    padding: 25px 30px 10px;
+    overflow: hidden;
+    -moz-transition: all 550ms ease;
+    -ms-transition: all 550ms ease;
+    -webkit-transition: all 550ms ease;
+    transition: all 550ms ease;
+}
+.mt-addons-blog-posts-carousel-head-content:hover  .mt-addons-blog-posts-carousel-content-inside-style2 a{
+    color: red;
+}
+#cb-row--footer-main .footer--row-inner {
+    border-top: 1px solid rgba(10,10,10,0.06);
+}
+body .widget_categories .cat-item:last-child{
+    padding-bottom: 0px;
+}
+body .widget_mt_recent_entries_with_thumbnail li:last-child {
+    margin-bottom: 7px !important;
+}
+.sidebar-content .widget:last-child .widget-title:after {
+    display: none;
+}
+body .elementor-icon-box-title a:hover{
+    color: #3A3089;
+}
+body .wpcf7 form.invalid .wpcf7-response-output, body .wpcf7 form.unaccepted .wpcf7-response-output, body .wpcf7 form.payment-required .wpcf7-response-output{
+    border-radius: 0px;
+}
+body .wpcf7 form.sent .wpcf7-response-output {
+    border-color: #3A3089;
+}
+body .wildnest-contact label span, body div.wpcf7-response-output{
+    font-weight: initial;
+}
+.icon-shortcode{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    left: 100px;
+    transform: translate(-54%, -53%);
+}
+.download {
+    cursor: pointer;
+    height: 5vw;
+    width: 20vw;
+    overflow: visible;
+    background: #3A3089;
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+    }
+.download:hover .arrow {
+  -webkit-animation: bounce 1.75s both ease-out 1;
+          animation: bounce 1.75s both ease-out 1;
+}
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* For demo styling only */
+.mt-addons-cta-banner-button {
+    width: fit-content;
+}
+.mt-addons-members .mt-addons-member-image-flex-zone-inside {
+    margin-top: 10px;
+}
+.mt-addons-members .mt-addons-member-image-flex-zone-inside a {
+    transition: all 350ms;
+}
+.mt-addons-members .mt-addons-member-image-flex-zone-inside a:hover i,
+.mt-addons-members .mt-addons-member-image-flex-zone-inside a:hover svg {
+    color: #2E7D32;
+    fill: #2E7D32 !important;
+}
+.modeltheme-search-post input.search-field {
+    background-color: #fff !important;
+}
+.nav-menu-desktop .nav-icon-angle {
+    margin-left: 4px;
+}
+.wildnest-mega-banner .mt-addons-cta-banner-title {
+    width: 60%;
+}
+.wildnest-service-container .elementor-widget-wrap {
+    transition: all 350ms;
+}
+.wildnest-service-container .elementor-widget-wrap:hover {
+    box-shadow: rgba(149, 157,  165, 0.2) 0px 8px 24px;
+}
+.wildnest-progress-item .mt-addons-progress-bar {
+    margin: 0 !important;
+}
+.mt-addons-progress-fixed-above {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+.wildnest-progress-item .mt-addons-progress-title {
+    margin-bottom: 0 !important;
+    margin-top: 5px !important;
+}
+.mt-addons-testimonial-item {
+    border-radius: 0 !important;
+}
+.wildnest-progress-item svg {
+    margin-top: -15px;
+}
+.wodsflow-progress-container {
+    position: absolute;
+    left: 75px;
+}
+.wildnest-highlighted .mt-addons-text-highlighted {
+    padding: 0 10px 5px 10px;
+    background: rgb(158,148,236);
+    background: linear-gradient(360deg, rgba(158,148,236,0.38) 0%, rgba(158,148,236,0.24) 50%, rgba(255,255,255,0) 50%);
+}
+body .mt-addons-blog-posts-carousel-single-post.swiper-slide {
+    padding: 15px;
+    margin-left: 15px !important;
+    margin-right: 5px !important;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+body .mt-addons-blog-posts-carousel-content-inside {
+    width: 185px !important;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.wildnest-contact-items {
+    padding-left: 45px;
+}
+.wildnest-breadcrumbs .breadcrumb a, .wildnest-breadcrumbs .breadcrumb .active {
+    color: #fff;
+}
+.wildnest-hero-title .asterisk {
+    width: 30px;
+    height: 30px;
+}
+.wildnest-hero-title .asterisk .asterisk-line{
+    width: 30px;
+    height: 5px;
+}
+.wildnest-section-subtitle.white .asterisk .asterisk-line {
+    background: #fff !important;
+}
+.mt-addons-blog-posts-carousel-custom a {
+    color: #fff !important;
+    letter-spacing: 1;
+}
+body .wildnest-blogpost .swiper-button-next,
+body .wildnest-blogpost .swiper-button-prev {
+    border: 2px solid #2E7D32;
+    color: #2E7D32;
+}
+body .wildnest-blogpost .mt-addons-blog-posts-carousel-custom a{
+    padding: 15px 45px !important;
+}
+body .wildnest-blogpost .swiper-button-next.nav_above_right {
+    right: 15px !important;
+}
+body .wildnest-blogpost .swiper-button-prev.nav_above_right {
+    right: 60px !important;
+}
+.wildnest-breadcrumbs .container .row {
+    background-size: cover !important;
+    background: transparent;
+    
+}
+.wildnest-breadcrumbs .row {
+    padding: 60px 0 !important;
+}
+.wildnest-breadcrumbs .container .row {
+    border-bottom: 2px dashed #ddd;
+    margin: 0px 15px;
+}
+.mt-slider .mt-caption.desc {
+    line-height: 35px !important;
+}
+.mt-addons-circle-svg-text svg {
+    width: 190% !important;
+}
+.wildnest-circle-svg .mt-addons-circle-svg-text svg {
+    width: 90% !important;
+}
+body .pagination .page-numbers {
+    line-height: 25px !important;
+    border-radius: 6px;
+}
+.wildnest-video-text {
+    width: fit-content !important;
+}
+.wildnest-video {
+    width: fit-content !important;
+}
+.wildnest-countdown .modeltheme-countdown > div {
+    width: 160px;
+}
+.wildnest-contact.book-appointment .wpcf7-form-control.wpcf7-radio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wildnest-contact.book-appointment .wpcf7-form-control.wpcf7-radio .wpcf7-list-item {
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.wildnest-quote-top-title h3 {
+    font-weight: 900;
+    font-size: 39px;
+}
+.wildnest-countdown .modeltheme-countdown {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.woocommerce ul.cart_list li .star-rating, .woocommerce ul.product_list_widget li .star-rating {
+    display: none;
+}
+.woocommerce ul.product_list_widget li span.product-title {
+    font-weight: 600 !important;
+    color: #000;
+}
+.wildnest-newsletter .wpcf7-form-control:not(input[type="submit"]) {
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 12px 0;
+    font-weight: 400;
+    border-radius: 0 !important;
+}
+.wildnest-newsletter input[type="submit"] {
+    padding: 12px 25px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.wildnest-categories .wpcf7-checkbox {
+    display: flex;
+    flex-direction: column;
+}
+.wildnest-categories, .wildnest-categories p:nth-child(2)  {
+    margin-bottom: 0px !important;
+}
+.widget-title {
+    font-weight: 600 !important;
+    font-size: 26px !important;
+    margin-top: 5px;
+}
+.wildnest-list-title {
+    font-weight: 800 !important;
+    font-size: 20px !important;
+}
+ .wpcf7-checkbox .wpcf7-list-item label {
+    margin-bottom: 5px !important;
+    margin-top: 5px;
+}
+.sidebar-content .widget {
+    margin-bottom: 60px;
+}
+.sidebar-content .widget .widget-title {
+    margin-bottom: 10px !important;
+}
+.sidebar-content .tagcloud {
+    margin-top: 10px !important;
+    margin-bottom: -5px !important;
+}
+.wildnest-contact textarea {
+    margin-bottom: 0px;
+}
+.wildnest-contact textarea:focus {
+    border: 2px solid #3A3089 !important;
+}
+.wildnest-contact .book-form-items.radio p {
+    margin-bottom: 0 !important;
+}
+.wildnest-contact .wildnest-contact-submit-wrapper {
+    position: absolute;
+    bottom: 35px;
+}
+.wildnest-contact .wpcf7-checkbox .wpcf7-list-item label {
+    display: flex;
+}
+.builder-item--primary-menu .nav-menu-desktop .menu>li>a {
+    font-weight: 600 !important;
+}
+.wildnest-contact .wpcf7-checkbox .wpcf7-list-item label input {
+    margin-right: 10px;
+}
+.wildnest-contact label span, div.wpcf7-response-output {
+    margin: 0;
+}
+.mt-addons-blog-posts-carousel-custom a {
+    font-weight: 500;
+    font-size: 15px;
+}
+.wildnest-btn span i {
+    transition: all 350ms;
+}
+.wildnest-btn .elementor-button:hover span i {
+    transform: rotate(90deg);
+}
+.mt-location ul li::before{
+    margin: 0 10px 0 0 !important;
+}
+.wildnest-about-members .mt-addons-member-columns-wrapper {
+    background-color: #fff;
+}
+.wildnest-about-members .mt-addons-member-name {
+    margin-top: 10px;
+    padding-top: 0;
+}
+.mt-addons-member-name a {
+    transition: all 350ms;
+}
+.mt-addons-member-name a:hover {
+    color: #e64d30 !important;
+}
+.wildnest-progress .mt-addons-progress-bar {
+    margin: 0;
+}
+.mt-addons-tab-content img.mt-addons-tab-content-image {
+    max-height: 390px !important;
+    border-radius: 6px;
+}
+.menu#menu-copyright-menu li {
+    padding-right: 0 !important;
+}
+.header-search-form button.search-submit {
+    position: absolute;
+    right: 36px;
+    top: 24px;
+}
+.header-search-form button.search-submit {
+    color: #000;
+}
+.header-search_icon-item .search-field {
+    border: 2px solid #000 !important;
+}
+.sidebar-content {
+    top: 0;
+    position: sticky;
+}
+.menu-item .nav-icon-angle {
+    color: transparent !important;
+}
+.menu-item .nav-icon-angle i {
+    color: #000;
+}
+.menu-item a:hover .nav-icon-angle i {
+    color: #000;
+}
+body .mega_menu.menu-item .nav-icon-angle {
+    display: none;
+} 
+body .mega_menu .cf-mega-menu.sub-menu {
+    min-width: 1200px;
+    padding: 0 !important;
+    left: -500px;
+}
+body .mega_menu .cf-mega-menu.sub-menu .elementor-widget-container {
+    height: fit-content !important;
+}
+.mega_menu .cf-mega-menu.sub-menu .elementor-icon-list-item a {
+    display: flex;
+}
+.mega_menu .cf-mega-menu.sub-menu a.wildnest-featured-course {
+    padding: 110px 0 !important;
+}
+body .site-header-inner a.item--button:hover {
+    background-color: #000 !important;
+}
+.woocommerce ul.products .products-wrapper {
+    margin-bottom: 20px !important;
+}
+/* Knowledgebase Demo */
+.wildnest-knowledgebase-subtitle {
+    padding: 7px 17px;
+    border-radius: 30px;
+    background-color: #6dd6b3;
+}
+.wildnest-knowledge-tags-wrapper {
+    font-size: 14px;
+}
+body .wildnest-knowledge-tags-wrapper  .wildnest-knowledge-tags {
+    padding: 12px 25px;
+    border-radius: 30px;
+    background-color: #ffffff30;
+    margin-right: 5px;
+    color: #fff;
+    transition: all 350ms;
+    width: fit-content;
+}
+body .wildnest-knowledge-tags:hover {
+    background-color: #6dd6b3;
+}
+.wildnest-knowledge-text {
+    margin-right: 15px;
+}
+.wildnest-knowledge-cta .mt-addons-cta-banner-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.wildnest-knowledge-cta .mt-addons-cta-banner-content-inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.wildnest-knowledge-cta .mt-addons-cta-banner-button a {
+    width: fit-content;
+}
+body .wildnest-knowledge-cta .mt-addons-cta-banner-subtitle {
+    width: fit-content;
+    padding: 7px 17px !important;
+    border-radius: 30px;
+    background-color: #6dd6b3;
+    margin-bottom: 30px;
+}
+body .wildnest-knowledge-cta .mt-addons-cta-banner-title {
+    width: 50%;
+}
+.wildnest-blog-widget.knowledge .mt-addons-blog-posts-carousel-date {
+    display: none;
+}
+.wildnest-knowledge-list .elementor-icon-list-item {
+    width: 100%;
+    padding: 22px !important;
+    border-radius: 0;
+    transition: all 350ms;
+    border-bottom: 1px solid #cfe4de;
+}
+.wildnest-knowledge-list .elementor-icon-list-item a span {
+    transition: all 350ms;
+}
+.wildnest-knowledge-list .elementor-icon-list-item:hover a span:last-child{
+    text-decoration: underline;
+}
+.wildnest-knowledge-list .elementor-icon-list-item:last-child {
+    border-bottom: 0;
+}
+.wildnest-knowledge-list .elementor-icon-list-item:last-child:hover {
+    border-bottom: none;
+}
+.wildnest-knowledge-accordion .elementor-accordion-item {
+    margin-bottom: 20px;
+    border-top: 1px solid #d5d8dc !important;
+}
+.wildnest-blog-widget.knowledge .mt-addons-blog-posts-category a {
+    padding: 7px 17px;
+    border-radius: 30px;
+    background-color: #6dd6b3;
+    font-size: 14px;
+}
+body .wildnest-blog-widget.knowledge .mt-addons-blog-posts-category a:hover {
+    background-color: #fff;
+    color: #6dd6b3;
+}
+.wildnest-blog-widget.knowledge .mt-addons-blog-posts-carousel-post-name {
+    margin-top: 20px;
+}
+.wildnest-blog-widget.knowledge .mt-addons-blog-posts-carousel-post-name a:hover {
+    color: #6dd6b3;
+}
+body .wildnest-knowledge-accordion.video .elementor-tab-title {
+    background: rgb(20,27,75);
+    background: linear-gradient(90deg, rgba(20,27,75,1) 0%, rgba(25,35,100,1) 40%, rgba(64,42,120,1) 100%);  
+}
+body .wildnest-price-list .mt-package-price {
+    margin-top: 0;
+}
+body .wildnest-price-list .mt-package-list ul {
+    padding-top: 10px !important;
+    padding-bottom: 35px !important;
+}
+
+/* LearnPress */
+body .learn-press-pagination {
+    width: 100%;
+}
+.comment-respond .comment-form textarea
+body .learn-press-courses.grid .course-content {
+    padding: 35px;
+    background-color: #fff;
+}
+body .learn-press-courses[data-layout=grid] .course-content .course-title {
+    font-size: 20px;
+}
+body .comment-respond .comment-form textarea {
+    padding: 12px 27px;
+}
+body .course-extra-box__title {
+    background: #fff;
+}
+body .course-extra-box__content li {
+    background: #fff;
+}
+.comment-respond .comment-form textarea, .comment-respond .comment-form input {
+    border: 1px solid #ccc !important;
+}
+.comment-respond .comment-form input {
+    padding: 12px 27px !important;
+}
+body .comment-respond .comment-form input[type=text], body .comment-respond .comment-form input[type=email], body .comment-respond .comment-form input[type=url] {
+    height: 60px;
+}
+body .course-short-description {
+    margin-bottom: 0;
+}
+body .learn-press-pagination .page-numbers {
+    display: flex;
+}
+body .learn-press-pagination ul.page-numbers {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 50px;
+    padding-left: 0;
+}
+body .learn-press-pagination ul.page-numbers:hover {
+    background-color: transparent !important;
+}
+body .learn-press-pagination .page-numbers>li .page-numbers:hover {
+    color: #fff;
+}
+body .learn-press-pagination .page-numbers>li .page-numbers {
+    background-color: #fff;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-extra-box .course-extra-box__content li {
+    font-weight: 500;
+    font-size: 14px;
+}
+body .learn-press-courses[data-layout=grid] .course-content {
+    padding: 20px 25px;
+}
+body .learn-press-courses[data-layout=grid] .course-content .separator {
+    display: none;
+}
+body .learn-press-courses[data-layout=grid] .course-content .course-permalink {
+    margin-bottom: 0;
+}
+body .learn-press-courses[data-layout=grid] .course-content {
+    background-color: #fff;
+}
+body .course-sidebar-preview .course-price .price, body .course-sidebar-preview .course-price .free {
+    font-size: 25px;
+    font-weight: 600;
+    color: #2E7D32;
+}
+
+
+.comment-respond .comment-form .comment-form-author, .comment-respond .comment-form .comment-form-email, .comment-respond .comment-form .comment-form-url {
+    width: 99% !important;
+}
+body .lp-archive-courses .course-meta__pull-left .meta-item__value>div a {
+    color: #000;
+}
+.lp_course-template-default.single .learn-press-breadcrumb {
+    display: none !important;
+}
+.course-summary-sidebar .lp-course-buttons form, .course-summary-sidebar .lp-course-buttons button { 
+    width: 90% !important;
+    border-radius: 30px;
+}
+body .course-summary-sidebar .course-sidebar-preview {
+    margin-bottom: 0;
+}
+body .curriculum-sections .section {
+    margin-bottom: 20px !important;
+}
+body .course-summary .course-summary-sidebar .lp-course-buttons {
+    margin-bottom: 0;
+}
+body #learn-press-course .course-price {
+    margin-top: 30px;
+}
+body .course-summary-sidebar .lp-course-buttons button {
+    margin: 0;
+    color: #fff;
+    margin-bottom: 25px;
+    padding: 12px 27px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 0;
+
+}
+ul.learn-press-nav-tabs {
+    background-color: #fff !important;
+}
+body .course-curriculum .course-item {
+    background-color: #fff;
+}
+body .woocommerce-product-details__short-description li {
+    padding: 2px 0;
+}
+body .course-curriculum .section-header {
+    border-bottom: 1px solid #2E7D32;
+}
+body .course-summary-sidebar .lp-course-buttons button {
+    background-color: #000;
+}
+.lp-archive-courses .course-meta__pull-left .meta-item__value label {
+    color: #000 !important;
+}
+.lp-archive-courses .lp-entry-content {
+    margin-bottom: 70px;
+}
+.meta-item__value label {
+    font-weight: 600 !important;
+}
+.lp-archive-courses .course-summary-sidebar {
+    margin-top: 60px !important;
+}
+.learn-press-courses-header h1 {
+    font-weight: 600 !important;
+    font-size: 55px !important;
+}
+body .lp-archive-courses .course-detail-info {
+    padding: 50px 0 50px 0
+}
+body #learn-press-course .course-content .course-title {
+    font-weight: 600 !important;
+    font-size: 45px !important;
+}
+body .course-meta .meta-item {
+    white-space: nowrap;
+}
+body .course-meta .meta-item span {
+    font-weight: 500;
+    white-space: nowrap;
+}
+body .lp-archive-courses .course-meta__pull-left .meta-item {
+    font-weight: 500;
+}
+body .course-tab-panel-instructor {
+    display: none !important;
+}
+
+.instructor-display-name {
+    color: #000;
+}
+.course-tab-panel-instructor .course-author {
+    display: none;
+}
+.learn-press-pagination .page-numbers>li .page-numbers.current {
+    color: #fff !important;
+}
+.search-courses label {
+    float: right;
+    width: 310px;
+}
+body .lp-courses-bar .search-courses button {
+    right: 15px;
+}
+.lp-archive-courses .course-detail-info .course-title {
+    color: #000 !important;
+}
+.lp-archive-courses .course-detail-info {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.lp-courses-bar .search-courses input[type=text] {
+    padding: 12px 20px !important;
+    border: 2px solid #000 !important;
+}
+body .learn-press-courses .course {
+    width: 50%;
+}
+body .lp-courses-bar .search-courses input[type=text] {
+    font-weight: 400;
+    font-size: 14px;
+}
+body .learn-press-breadcrumb {
+    padding-top: 100px !important;
+}
+body .lp-content-area, body .learn-press-breadcrumb {
+    max-width: 1420px !important;
+}
+body .learn-press-courses[data-layout=list] .course-content .course-readmore a {
+    padding: 12px 27px !important;
+    border-radius: 0;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 28px;
+}
+body .learn-press-courses[data-layout=list] .course-content .course-readmore a:hover {
+    background-color: #000;
+    opacity: 1 !important;
+}
+body .learn-press-courses[data-layout=grid] .course-content .course-categories a:hover {
+    color: #fff;
+    background-color: #000;
+}
+.lp-courses-bar .switch-layout .switch-btn::before {
+    margin-right: 0 !important;
+}
+body .course-curriculum .section-left .section-title {
+    color: #000;
+    font-weight: 600;
+    text-align: left !important;
+    font-size: 26px;
+}
+.course-tab-panels .course-tab-panel {
+    display: block !important;
+}
+.course-nav-tabs {
+    display: none !important;
+}
+.lp-archive-courses .course-summary-content .course-info-left {
+    width: 100% !important;
+}
+.lp-archive-courses .course-meta__pull-left .meta-item-categories {
+    justify-content: flex-end !important;
+}
+body .learn-press-courses[data-layout=list] .course-item {
+    background: #fff;
+}
+body .learn-press-courses[data-layout=list] .course {
+    border: none;
+}
+body .lp-courses-bar {
+    width: 100%;
+}
+body ul.learn-press-breadcrumb {
+    text-align: center;
+    padding-top: 45px !important;
+}
+body .lp-archive-courses .learn-press-courses-header {
+    float: none;
+    text-align: center;
+    padding-top: 4px;
+    border-bottom: 2px dashed #ddd;
+    padding-bottom: 50px;
+    margin-bottom: 45px;
+}
+body .learn-press-courses[data-layout=list] .course-wrap-thumbnail {
+    width: 30%;
+}
+body .lp-archive-courses .course-title {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+}
+body .learn-press-courses[data-layout=list] .course-wrap-meta {
+    border-bottom: 1px dashed #d8d8d8;
+    margin-bottom: 20px;
+}
+body .lp-courses-bar .switch-layout {
+    background: #fff;
+    padding: 0px 20px;
+}
+body .learn-press-courses[data-layout=list] .course-content {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding-left: 43px;
+}
+body .learn-press-courses[data-layout=list] .course-content .course-footer {
+    width: 100%;
+}
+body .lp-archive-courses .course-content .course-info .course-price {
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E7D32;
+    padding: 10px 0;
+    font-size: 20px;
+    width: 124px;
+    float: right !important;
+}
+body .lp-archive-courses .course-content .course-info .course-price .origin-price, body .lp-archive-courses .course-content .course-info .course-price .price {
+    font-size: 20px;
+}
+body .lp-archive-courses .course-item .course-instructor {
+    bottom: 0;
+    font-weight: 600;
+    position: absolute;
+}
+body .learn-press-courses[data-layout=grid] .course-item .course-instructor {
+    margin-bottom: 0 !important;
+    bottom: 35px;
+}
+body .course-extra-box+.course-tabs {
+    margin-top: 0;
+}
+body .lp-archive-courses .course-item .course-instructor::before {
+    content: "Instructor: ";
+    font-weight: 400;
+}
+body .lp-archive-courses .course-content .course-categories {
+    width: fit-content;
+    font-weight: 600;
+}
+body .learn-press-courses[data-layout=list] .course-content .course-readmore{
+    display: none;
+}
+body .learn-press-courses[data-layout=list] .course-item {
+    align-items: center;
+}
+body .lp-archive-courses .learn-press-courses-header h1::after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    margin-top: 30px;
+}
+#wildnest-site-content {
+    background-color: #f7fbf8 !important;
+}
+.nav-menu-desktop .menu>li>a {
+    transition: all 350ms;
+    padding: 12px 17px;
+    font-weight: 600 !important;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+.nav-menu-desktop .menu>li>a:hover {
+    border: 2px solid #3c434a;
+    border-radius: 6px;
+}
+.header-search_icon-item .search-icon {
+    padding: 10px;
+    width: 42px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #DFDED9;
+    transition: all 350ms;
+}
+.header-search_icon-item .search-icon svg {
+    margin-left: 2px;
+}
+.header-search_icon-item .search-icon:hover {
+    background-color: #2E7D32;
+}
+.header-search_icon-item .search-icon:hover span svg path {
+    fill: #fff !important;
+}
+.header-search_icon-item .search-icon svg {
+    height: 22px;
+}
+.modeltheme-search-post input.search-field {
+    font-weight: 500 !important;
+}
+.wildnest-header-counter span.mt-addons-skill-counter-suffix{
+    left: 30px;
+}
+.wildnest-header-counter .mt-addons-skill-counter {
+    width: 200px;
+}
+.wildnest-header-counter .mt-addons-skill-counter-title {
+    text-align: left !important;
+}
+.menu-grid-item .wildnest-cart-icon {
+    height: 22px;
+    width: 22px;
+    margin-bottom: 3px;
+    transition: all 350ms;
+}
+.mfp-wrap{
+    z-index: 99999;
+}
+.menu-grid-item {
+    padding: 13px;
+    border-radius: 6px;
+    background-color: #DFDED9;
+    transition: all 350ms;
+}
+.menu-grid-item:hover {
+    background-color: #2E7D32;
+}
+.menu-grid-item:hover svg {
+    fill: #fff;
+}
+.wildnest-counter .mt-addons-skill-counter-stats-block.statistics {
+    border-right: 3px solid #3a4799;
+}
+.wildnest-counter .mt-addons-skill-counter-stats-block.statistics:last-child {
+    border-right: 0;
+}
+.wildnest-counter .mt-addons-skill-counter-stats-content.percentage {
+    margin-left: -45px;
+}
+.widget_mt_address_social_icons .social-links a {
+    border-radius: 6px;
+    padding: 10px 10px 5px 10px;
+    height: fit-content;
+    width: 52px;
+}
+.widget_mt_address_social_icons .social-links a i {
+    font-size: 20px;
+}
+.wildnest-footer-email:focus {
+    border-color: #2E7D32 !important;
+}
+.wpcf7-form div p {
+    position: relative;
+}
+.wildnest-footer-submit {
+    position: absolute;
+    top: 3px;
+    height: 55px;
+    border: none;
+}
+.widget-area img {
+    width: 225px !important;
+    margin-bottom: 50px;
+}
+.wildnest-footer-submit i {
+    font-size: 30px;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+.mt-info-item p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.mt-info-item a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+.mt-info-item a {
+    transition: all 350ms;
+}
+.mt-info-item a:hover {
+    color: #2E7D32 !important;
+}
+#nav_menu-1, #nav_menu-2, #nav_menu-3 {
+    width: 33% !important;
+}
+#nav_menu-7 {
+    float: left;
+}
+#nav_menu-8, #nav_menu-9 {
+    float: right;
+}
+.menu#menu-copyright-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu#menu-copyright-menu a {
+    padding: 0 0 5px 0 !important;
+}
+.menu#menu-copyright-menu a:before {
+    content: ""
+}
+.textwidget form p {
+    margin-bottom: 35px;
+}
+.wildnest-blog-widget .mt-addons-blog-posts-title-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.wildnest-blog-widget .mt-addons-blog-posts-category a{
+    font-weight: 600;
+    transition: all 350ms;
+    color: #2E7D32;
+}
+.wildnest-blog-widget .mt-addons-blog-posts-category a:hover {
+    opacity: .7;
+}
+.wildnest-blog-widget .mt-addons-blog-posts-category h3 {
+    margin-top: 5px !important;
+}
+.wildnest-rating h3, .wildnest-rating p {
+    text-align: center;
+}
+.wildnest-rating h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.wildnest-rating p {
+    font-weight: 400;
+    color: #000;
+}
+.wildnest-search-form .modeltheme-search-post input.search-field {
+    border-left: none !important;
+    padding: 5px 20px;
+    border: 2px solid #000 !important;
+    transition: all 350ms;
+}
+.wildnest-search-form .modeltheme-search-post input.search-field:focus {
+    border: 2px solid #2E7D32 !important;
+}
+.wildnest-search-form .modeltheme-search-post {
+    width: 90%;
+}
+.wildnest-search-form .modeltheme-search-submit {
+    width: 45px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+} 
+.wildnest-search-form .modeltheme-search-submit button {
+    height: 42px !important;
+}
+.wildnest-search-form .modeltheme-search-submit.submit button:hover {
+    opacity: 1;
+    background-color: #2E7D32 !important;
+}
+.wildnest-btn .elementor-button-content-wrapper span i {
+    transform: rotate(45deg);
+}
+.wildnest-testimonial .mt-addons-testimonial-image-holder {
+    border-top: 2px solid #ffffff2b;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.wildnest-testimonial .mt-addons-testimonial-title-position {
+    padding: 0;
+}
+.asterisk {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  animation: spin 5s infinite linear;
+}
+.asterisk-line {
+  position: absolute;
+  top: calc(50%);
+  display: inline-bock;
+  width: 20px;
+  height: 3px;
+  background: #2E7D32 !important;
+}
+.asterisk-v1 {
+  .asterisk-line {
+    background: rgba(0, 255, 0, 0.5);
+    &:nth-child(2) {
+      transform: rotate(60deg);
+    }
+    &:nth-child(3) {
+      transform: rotate(120deg);
+    }
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.wildnest-list .elementor-icon-list-icon i {
+    transform: rotate(-45deg);
+    transition: all 350ms !important;
+}
+.wildnest-list .elementor-icon-list-item:hover .elementor-icon-list-icon i {
+    transform: rotate(0);
+}
+.mt-addons-blog-posts-carousel-date {
+    font-weight: 500 !important;  
+}
+.mt-addons-blog-posts-carousel-post-name {
+    margin-bottom: 15px !important;
+}
+.mt-addons-blog-posts-carousel-post-name a {
+    transition: all 350ms;
+}
+.mt-addons-blog-posts-carousel-post-name a:hover {
+    color: #2E7D32;
+}
+.wildnest-testimonial .mt-addons-testimonial-image.text-and-img-left {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.swiper-button-next.nav_above_right, .swiper-button-prev.nav_above_right {
+    top: 10px;
+}
+.error404 div#primary {
+    min-height: 72vh;
+}
+body .wildnest-breadcrumbs.wildnest-alignment-center {
+    text-align: center;
+    background-position: initial;
+    background-size: initial;
+}
+.mt-addons-circle-svg-text:after {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding-bottom: 16%;
+    width: 16%;
+    height: 0;
+    z-index: -1;
+    border-radius: 100%;
+    background-color: transparent;
+    content: "";
+    background: transparent;
+    backdrop-filter: blur(0.75em);
+}
+.wildnest_is_nav_sticky div#masthead-inner{
+   z-index: 99 !important;
+    width: 100% !important;
+    top: 0;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: background-color .3s linear;
+    transition: background-color .3s linear;
+}
+body .featureslist p.mt-icon-listgroup-text {
+    padding: 0 35px 0px 0px;
+}
+body .featureslist .mt-addons-before_content .mt-icon-listgroup-icon-holder-inner{
+    margin-right: 20px;
+}
+body .featureslist .mt-icon-listgroup-title{
+    margin-bottom: 10px;
+}
+body .featureslist.new .mt-icon-listgroup-title{ 
+    margin-bottom: 0px;
+}
+body .mt-addons-timeline-content{
+    float: right;
+    width: 95%;
+}
+body .mt-addons-timeline-content{
+    padding: 0em 45px;
+}
+body .mt-addons-timeline-content::before{
+    content: none;
+}
+body .mt-addons-timeline-content h3{
+    font-weight: 600;
+}
+.mt-addons-timeline-subtitle {
+    font-size: 16px;
+}
+body .mt-addons-timeline-subtitle span {
+    font-weight: 400;
+    color: #6b6768;
+}
+.mt-addons-timeline-item:nth-child(even) .mt-addons-timeline-content .mt-addons-timeline-date{
+    text-align: left!important;
+}
+body .mt-addons-timeline-item:nth-child(even) .mt-addons-timeline-content .mt-addons-timeline-date{
+
+}
+.mt-addons-title-section {
+    line-height: 70px;
+}
+body .mt-addons-timeline-content .mt-addons-timeline-date{
+    top: 90px;
+    left: unset;
+}
+body .mt-addons-timeline-item:nth-child(even) .mt-addons-timeline-content .mt-addons-timeline-date{
+    right: 76%;
+}
+body .mt-addons-timeline::before {
+    left: 32px;
+    background: #ddd;
+    width: 2px;
+}
+.mt-addons-video-buton-image{
+    width: 40px!important;
+}
+img.mt-addons-video-buton-image {
+    margin-right: 10px;
+}
+body .mt-addons-timeline-img{
+    border-color: rgb(171, 82, 50);
+    background-color: rgb(171, 82, 50);
+}
+body .mt-addons-timeline-img img{
+    display: none;
+}
+body .mt-addons-timeline::before{
+   margin-left: -22px;
+}
+body .mt-addons-timeline-img{
+    width: 20px;
+    height: 20px;
+}
+.mt-addons-video{
+    position: relative;
+}
+.video-text{
+    position: relative;
+    top: -134px;
+    left: 230px;   
+}
+a.mt-addons-video-popup-vimeo-youtube .mt-addons-video-buton-image:hover {
+    transform: scale(1.1);
+    transition: all 400ms ease-in-out 0s;
+    -ms-transformtransition: all 400ms ease-in-out 0s;
+    -webkit-transformtransition: all 400ms ease-in-out 0s;
+}
+body .mt-addons-timeline-img {
+    left: 0;
+    margin-left: 0;
+}
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+}
+body .site-footer li, body .site-footer ul {
+    display: inline-table;
+    width: auto!important;
+    padding: 0 10px;
+    padding-left: 0;
+}
+body .title-pricing{
+    border-radius: 0px 0px 0 0;
+}
+body .price-container:hover {
+    box-shadow: 20px 37px 102px rgba(0, 0, 0, .2);
+    transition: all 250ms ease;
+}
+body .price-container {
+    border-radius: 0px!important;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+}
+.search-no-results .high-padding {
+    min-height: 66vh;
+}
+div#primary {
+    min-height: 71vh;
+}
+.mt-slider.custom .swiper-container {
+    overflow: visible!important;
+}
+.mt-slider.custom .swiper-slide{
+    opacity: 0!important;
+    visibility: hidden!important;
+}
+.mt-slider.custom .swiper-slide.swiper-slide-active,.mt-slider.custom .swiper-slide.swiper-slide-prev{
+    opacity: 1!important;
+    visibility: visible!important;
+}
+@media only screen and (min-width: 5040px) {
+    .error404 div#primary {
+        min-height: 90vh;
+    }
+    .search-no-results .high-padding {
+        min-height: 80vh;
+    }
+    .mt-slider.swiper-container, .mt-slider .slider-content-wrap {
+        min-height: 3000px;
+    }
+}
+@media only screen and (min-width: 3360px) and (max-width: 5040px) {
+    .error404 div#primary {
+        min-height: 85vh;
+    }
+    .search-no-results .high-padding {
+        min-height: 81vh;
+    }
+    .mt-slider.swiper-container, .mt-slider .slider-content-wrap {
+        min-height: 2200px;
+    }
+}
+@media only screen and (min-width: 2520px) and (max-width: 3359px) {
+    .error404 div#primary {
+        min-height: 80vh;
+    }
+    .search-no-results .high-padding {
+        min-height: 75vh;
+    }
+    .mt-slider.swiper-container, .mt-slider .slider-content-wrap {
+        min-height: 1500px;
+    }
+}
+@media only screen and (min-width: 2240px) and (max-width: 2519px) {
+    .error404 div#primary {
+        min-height: 77vh;
+    }
+    .search-no-results .high-padding {
+        min-height: 71vh;
+    }
+    .mt-slider.swiper-container, .mt-slider .slider-content-wrap {
+        min-height: 1100px;
+    }
+}
+@media only screen and (min-width: 2100px) and (max-width: 2239px) {
+    .error404 div#primary {
+        min-height: 75vh;
+    }
+    .search-no-results .high-padding {
+        min-height: 72vh;
+    }
+}
+@media only screen and (min-width: 1900px) and (max-width: 2100px) {
+    .mt-slider.swiper-container, .mt-slider .slider-content-wrap {
+        min-height: 1000px;
+    }
+}
+/* Header */
+body .elementor-icon i:before, 
+body .elementor-icon svg:before {
+    position: initial;
+}
+body .site-header-inner .container {
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .mt-addons-product-category-wrapper a.mt-addons-product-category:after{
+        display: none;
+    }
+    .mt-addons-product-category-wrapper:hover a.mt-addons-product-category:after{
+        display: none;
+    }
+    body .woocommerce ul.products li.product .price, body .woocommerce ul.products li.type-product .price{
+        display: block;
+        float: unset!important;
+        margin-top: unset!important;
+    }
+}
+.widget_search form.search-form {
+    max-width: 90%;
+}
+body.woocommerce div.product div.images .wildnest-woo-media-thumbs-wrapper .woocommerce-product-gallery__image {
+    width: 25%;
+}
+.bottom-categ-menu a {
+    font-weight: 600 !important;
+}
+body .first.bottom-categ-menu {
+    padding-top: 20px !important;
+    margin-top: 10px;
+}
+.last.bottom-categ-menu {
+    padding-bottom: 20px !important;
+}
+.header-search_box-item .header-search-form .search-field::placeholder {
+    color: #757575 !important;
+}
+.header-search-form select.form-control1 {
+    color: #222;
+    font-weight: 500;
+}
+.wildnest-breadcrumbs.wildnest-alignment-left {
+    border-bottom: 1px solid #eee;
+}
+.wildnest-breadcrumbs .row{
+    border-bottom: unset;
+}
+.sidebar-content .widget-title, .sidebar-content .widget h2, .sidebar-content .widget .wp-block-search__label{
+    border:unset;
+}
+.sidebar-content .widget:last-child {
+    border-bottom: 0px;
+}
+.zoom-img--main {
+   position: relative;
+  overflow: hidden;
+  width: 600px;
+  height: 600px;
+  float: left;
+  margin: 10px;
+}
+.zoom-img--main__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: -webkit-transform .5s ease-out;
+    transition: -webkit-transform .5s ease-out;
+    transition: transform .5s ease-out;
+    transition: transform .5s ease-out,-webkit-transform .5s ease-out;
+}
+.mt-addons-tab-flex-zone .zoom-img--main,
+.mt-addons-tab-flex-zone .zoom-img--main__img {
+    max-height: 350px;
+    float: right;
+}
+
+.sidebar-contact i {
+    margin-right: 10px;
+    color: #3A3089;
+}
+p.sidebar-contact a {
+    color: #606060;
+}
+p.sidebar-contact {
+    margin-bottom: 0;
+}
+p.sidebar-contact a:hover {
+    color: #242424;
+}
+.wildnest-single-product .wildnest-breadcrumbs h2,
+.single-post .wildnest-breadcrumbs h1 {
+    display: none;
+}
+body .mt-addons-product-category-title{
+    color: unset;
+}
+.mt-addons-product-category-wrapper a{
+    overflow: hidden;
+    border-radius: 50%;
+}
+body #dropdown-user-profile .woocommerce-MyAccount-navigation-link > a {
+    border: none !important;
+    padding: 5px 0px;
+    color: #000;
+    transition: all 350ms;
+}
+.elementor-widget-mtfe-skill-counter .elementor-widget-mtfe-skill-counter {
+    border-style: none !important;
+}
+.elementor-2342 .elementor-element.elementor-element-c8b8f5e > .elementor-widget-container {
+    border: 0;
+}
+#dropdown-user-profile ul li {
+    font-size: 14px;
+}
+body #dropdown-user-profile ul {
+    padding: 15px 20px;
+}
+.no-menu {
+    color: #010101;
+    margin-left: 15px;
+}
+.header--row .builder-item--primary-menu{
+    margin-left: -15px !important;
+}
+body .mt-addons-cta-banner-inner .mt-addons-cta-banner-content {
+    position: initial;
+}
+body .mt-addons-product-category-wrapper a {
+    width: 80%;
+}
+body .mt-addons-product-category-columns {
+    padding: 0;
+}
+.sidebar-content .widget .wp-block-search__inside-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.sidebar-content .widget .wp-block-search__inside-wrapper .wp-block-search__input {
+    background: transparent;
+}
+.sidebar-content .widget .wp-block-search__inside-wrapper .wp-block-search__button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    padding: 13px 25px;
+} 
+.sidebar-content .widget .wp-block-search__inside-wrapper .wp-block-search__button:hover {
+    transform: translateY(0px);
+}  
+body .wildnest-highlights .mt-addons-hero-slider-bg .container {
+    padding: 310px 30px 10px 30px;
+}
+body .wildnest-highlights .mt-addons-hero-slider-holder {
+    background: #ffffffbf;
+    padding: 25px;
+    backdrop-filter: blur(0.75em);
+}
+body .wildnest-highlights p.mt-addons-hero-slider-subtitle {
+    margin: 0;
+}
+body .mt-addons-member-image-flex-zone.icon-text .member_social.social-icons a{
+    display: inline;
+    opacity: 1!important;
+    visibility: visible!important;
+}
+body .mt-addons-member-image-flex-zone.icon-text.img-square {
+    opacity: 1!important;
+    visibility: visible!important;
+}
+body .mt-addons-testimonial-item {
+    height: 275px !important;
+}
+.mt-addons-testimonial-name{
+    line-height: 18px;
+}
+.sidebar-social-networks {
+    float: left;
+}
+body .widget_mt_address_social_icons .social-links a:after{
+    border: 1px solid transparent;
+}
+body .mt-addons-pin-title{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+body .nav-menu-desktop .sub-menu li {
+    border-bottom: none!important;
+}
+body .header--row:not(.header--transparent).header-main .header--row-inner{
+    border:none;
+    background-color: #f7fbf8;
+}
+.sticky-wrapper.is-sticky .header-main {
+    box-shadow: 0 0 10px rgba(0,0,0,.065);
+}
+form.post-password-form label input {
+    height: 46px;
+}
+.builder-item--footer-1 .widget.widget_media_image {
+    width: 250px;
+}
+.wp-block-search .wp-block-search__input{
+    height: 27px;
+}
+body .mt-addons-banner-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+body .sidebar-content.sidebar-content-right-side,
+body .sidebar-content.sidebar-content-left-side {
+    padding: 50px;
+    border-radius: 10px;
+    width: 30%;
+    background: #fff;
+    height: fit-content;
+}
+body .sidebar-content.sidebar-content-right-side {
+    margin-left: 40px;
+}
+body .sidebar-content.sidebar-content-left-side {
+    margin-right: 40px;
+}
+.mt-discount-content:hover {
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    transform: scale(1.05) rotate(0deg);
+    -webkit-transform: scale(1.05) rotate(0deg);
+}
+.mt-discount-content {
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.mt-addons-product-category-wrapper {
+    border-radius: 5px;
+    text-align: center;
+}
+.wildnest-article-wrapper .wildnest-article-inner {
+    padding-left: 0;
+}
+a.text-uppercase.text-xsmall.link-meta {
+    color: #a8a8a8;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+body .woocommerce ul.products li.product .price, 
+body .woocommerce ul.products li.type-product .price {
+    color: #484848;
+    margin: 0;
+    clear: both;
+    display: block;
+}
+body .builder-header-html-item.item--html{
+    color: #474747;
+}
+body .mt-addons-top_content .mt-icon-listgroup-title {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+body .wildnest-icon-listgroup .mt-addons-top_content .mt-icon-listgroup-title {
+    padding: 0px 70px 0px 70px;
+}
+a.mt-addons-product-category :hover{
+    box-shadow: none !important;
+}
+.wildnest-article-details .article-detail-meta i{
+    display: none;
+}
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+    height: 50px !important;
+}
+.woocommerce ul.products .products-wrapper {
+    background-color: #fff;
+}
+body .wildnest-article-inner .wildnest-post-metas a, .wildnest-article-details .post-author a {
+    color: #1a1a1a;
+    padding: 3px 5px 3px 5px;
+    line-height: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.woocommerce-MyAccount-navigation ul li a {
+    transition: all 350ms;
+}
+.social-icons .mt-addons-member-link {
+    display: none !important;
+}
+.woocommerce-MyAccount-navigation ul li.is-active a, .woocommerce-MyAccount-navigation ul li:hover a {
+    background: #fff !important;
+}
+.widget_mt_recent_entries_with_thumbnail .post-date {
+    font-size: 13px !important;
+    font-weight: 500;
+    color: #7d7d7d;
+    border-right: 0px !important;
+    padding: 0px 3px 0px 0px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+body .wildnest-post-metas .article-detail-meta a, body .wildnest-article-details .article-detail-meta a, body .wildnest-article-details .article-detail-meta.post-date {
+    display: inline-table;
+    font-size: 13px;
+    margin: 0;
+    font-weight: 600;
+    color: #1a1a1a;
+    border-right: 0px !important;
+    padding: 0px 5px 0px 5px;
+    text-transform: uppercase;
+}
+.wildnest-article-inner .wildnest-post-metas{
+    margin-bottom: 7px;
+}
+body .widget_mt_recent_entries_with_thumbnail li a {
+    color: #222;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.sidebar-content .widget-title::before,
+.sidebar-content .widget h2::before,
+.sidebar-content .widget .wp-block-search__label::before{
+    display: none;
+}
+.sidebar-content .widget .search-field {
+    background-color: #FFF;
+    width: 89%;
+    border: 2px solid #E44D2F;
+}
+.sidebar-content .widget .search-field:focus {
+    border-color: #E44D32;
+}
+body .mt-addons-contact-form .wpcf7-form input[type=text],
+body .mt-addons-contact-form .wpcf7-form textarea {
+    border: 2px solid #ddd;
+}
+.woocommerce.widget_product_search .screen-reader-text, 
+.woocommerce.widget_product_search input[type="submit"] {
+    display: none;
+}
+body.woocommerce .woocommerce-ordering span.select2-selection {
+    padding: 12px 20px;
+    border: 2px solid #000;
+}
+.wildnest-shop-sort-group .gridlist-toggle a.active {
+    background: #e64d30 !important;
+}
+body .wildnest-shop-sort-group .gridlist-toggle a#grid {
+    border-radius: 6px;
+}
+body .wildnest-shop-sort-group nav.gridlist-toggle{
+    border-radius: 5px;
+    margin-top: 8px !important;
+}
+body.woocommerce .woocommerce-result-count {
+    margin-top: 15px;
+}
+body .wildnest-shop-sort-group .gridlist-toggle a#list{
+    border-radius: 6px;
+}
+body .wildnest-shop-sort-group{
+    border-radius: 6px;
+    margin-left: 0px !important;
+    margin-right: 8px !important;
+}
+.sidebar-content .tagcloud {
+    margin-bottom: -10px;
+}
+body .nav-menu-mobile .menu li {
+    border-bottom: 1px solid #eee;
+}
+body .contact-wildnest-newsletter.row button[type="submit"]{
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+body .header-search-modal {
+    width: 280px;
+}
+#reply-title.comment-reply-title {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+}
+body.single-post .wildnest-article-details {
+    margin: 30px 0 25px !important;
+}
+body.single-post .wildnest-article-details h1 {
+    margin-top: 10px;
+}
+body .wildnest-article-details h1{
+    display: block;
+}
+/*.site-footer {
+    background: url("https://wildnest.modeltheme.com/wp-content/uploads/2024/05/footer-bg.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #fff;
+}*/
+.products.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+body ul.products.list li.product {
+    width: 50% !important;
+}
+.woocommerce div.product .product_title {
+    font-size: 45px;
+    font-weight: 500;
+}
+//* Sidebar *//
+body .wildnest-shop-has-sidebar ul.products.list li.product img{
+    width: 30% !important;
+}
+body.woocommerce ul.products.list li.product .thumbnail-and-details a.button {
+    left: 34% !important;
+}
+//* No Sidebar *//
+.woocommerce div.product form.cart div.quantity {
+    border-radius: 0 !important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    background-color: #fff;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+    background-color: #e64d30 !important;
+}
+.woocommerce.single-product div.product form.cart .button {
+    padding: 8px 27px !important;
+}
+.sidebar-content.sidebar-content-left-side {
+    padding-right: 80px;
+    width: 30%;
+}
+.sidebar-content .widget-title:(:last-child):after {
+    content: unset!important;
+}
+.mt-addons-portfolio-grid .mt-addons-portfolio-grid-nav-title:hover {
+    color: #3A3089 !important;
+}
+body .sidebar-content .tagcloud > a, 
+body .single-post-tags a, 
+body .tagcloud > a, 
+body .wp-block-tag-cloud > a{
+    border-radius: 0px;
+}
+.wildnest-quote-top img, .wildnest-quote-top-title img {
+    width: 40px;
+    margin-top: -10px;
+    margin-left: 0px;
+}
+body .footer--row-inner.footer-main-inner {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+body .fixed-sidebar-menu{
+    min-height: 100vh;
+}
+.fixed-sidebar-menu .burger-sidebar-content{
+    transform: translate(0%, 0%);
+}
+.fixed-sidebar-menu-overlay{
+    min-height: 100vh;
+}
+body button, input, optgroup, select, textarea{
+    font:-apple-system-footnote;
+}
+.sticky-wrapper.is-sticky .header-main{
+    background: #fff!important;
+}
+.wildnest_is_nav_sticky div#masthead-inner{
+    background: transparent!important;
+}
+body .mt-addons-circle-svg-text{
+    height:0;
+}
+.wildnest-quote-content textarea,
+.wildnest-quote-content input[type="email"],
+.wildnest-quote-content input[type="text"] {
+    border: 1px solid #e0e0e0;
+}
+.wildnest-quote-content label {
+    display: inline;
+}
+.wildnest-quote.wildnest-quote-sidebar{
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+}
+.wildnest-quote-top-title {
+    display: flex;
+    padding-bottom: 20px;
+}
+span.cd-value-year {
+    font-size: 40px;
+    color: #111;
+    font-weight: 500;
+}
+body .skills .mt-addons-subtitle-section{
+    width: 100%;
+}
+body .elementor-progress-bar {
+    border: 2px solid #EEEEEE;
+    border-radius: 50px;
+}
+.sidebar-content .widget:last-child {
+    border-bottom: 0px;
+}
+body .tagcloud > a:hover, body .sidebar-content .tagcloud > a:hover, body .single-post-tags a:hover {
+    color: #fff !important;
+    background: #2E7D32 !important;
+}
+.sidebar-content .widget:first-child,
+.sidebar-content .widget:last-child {
+    border: none;
+}
+.sidebar-content .tagcloud > a, .single-post-tags a, .tagcloud > a, .wp-block-tag-cloud > a{
+    background: #C8E6C9;
+    color: #2E7D32;
+    float: left;
+}
+.contact-wildnest-newsletter.row button[type="submit"]{ 
+    color: #fff;
+    background: #3A3089;
+    border: none;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+}
+.contact-wildnest-newsletter.row button[type="submit"]:hover{ 
+    background: #222;
+}
+body .mt-addons-trail-slider-content__img {
+    height: auto;
+    width: 100%;
+    max-height: 900px;
+    max-width: 100%;
+}
+body .mt-addons-trail-slider-content__nav {
+    max-width: 1000px;
+}
+body .mt-addons-trail-slider-content__nav {
+    margin-top: 46vh;
+}
+body .swiper-button-prev.nav_bottom_right {
+    right: 65px;
+}
+body .swiper-button-next.nav_above_left {
+    left: 60px;
+}
+body .mt-addons-hero-slider-background {
+    border-radius: 0px;
+}
+body .swiper-slide {
+    padding: 0;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+body .swiper-slide .mt-addons-hero-slider-background:hover {
+    -webkit-transform: scale(1.07,1.07);
+    -ms-transform: scale(1.07,1.07);
+    transform: scale(1.07,1.07);
+    opacity: .9;
+}
+body .swiper-slide .mt-addons-hero-slider-background{
+    will-change: transform;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    -ms-transition: -ms-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.01,1.01);
+    -ms-transform: scale(1.01,1.01);
+    transform: scale(1.01,1.01);
+}
+
+body .mt-addons-trail-slider.content{
+    height: 500px;
+}
+body .widget_text form::after, 
+body .widget_archive select::after, 
+body .wp-block-archives form::after{
+    display: none;
+}
+body .swiper-pagination-bullet-active,
+.view-details-btn:hover{
+    background: transparent!important;
+}
+.mt-addons-product-category {
+    display: inline-flex;
+}
+.mt-addons-banner-simple-top .mt-addons-banner {
+    padding-right: 30px;
+}
+.wildnest-custom .mt-addons-category-tabs img.mt-addons-icon {
+    max-height: 40px; }
+.woosw-list table.woosw-items .woosw-item .woosw-item--name a {
+    font-weight: 500 !important;
+}
+.mt-addons-accordion-holder .mt-addons-accordion-header {
+    color: #000;
+}
+.elementor-element-0c28b79 .mt-icon-listgroup-title a {
+    font-weight: 400;
+}
+.wildnest-custom .mt-addons-category-tabs nav ul li a {
+    padding: 25px 0; }
+.wildnest-custom .mt-addons-category-tabs .mt-addons-title {
+    margin-top: 15px;
+}
+.wildnest-custom .mt-addons-category-tabs .mt-addons-title {
+    font-size: 20px !important;
+    font-weight: 600; 
+}
+ul.wildnest-zone-flex li{
+  float: left;
+  padding: 0 16px;
+  width: auto!important;
+}
+
+ul.wildnest-zone-flex li:first-child {
+  padding-left: 0;
+ margin-bottom: 12px;
+}
+
+ul.wildnest-zone-flex-1 li{
+  float: left;
+  padding: 0 25px;
+  width: auto!important;
+}
+ul.wildnest-zone-flex-1,
+ul.wildnest-zone-flex {
+    padding-bottom: 60px;
+}
+body .mt-addons-tab-content section p{
+    color: #c4c4c4;
+    margin-top: 0px;
+    transition: .5s;
+}
+body .mt-addons-tab-content section {
+    max-width: unset;
+    transition: .5s;
+}
+.mt-addons-tab-flex-zone {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+body .mt-addons-tab-fancy-gallery-content section p,
+body .mt-addons-tab-fancy-gallery-content {
+    color: #c4c4c4;
+}
+body .mt-addons-tab-fancy-gallery-content section p{
+    margin-top: 10px;
+}
+ul.wildnest-zone-flex-2 li,
+ul.wildnest-zone-flex-1 li,
+body .mt-addons-tab-content ul li {
+    color: #c4c4c4;
+}
+ul.wildnest-zone-flex-1 li:first-child {
+padding-left: 0;
+ margin-bottom: 12px;
+}
+ul.wildnest-zone-flex-2 li{
+  float: left;
+  padding: 0 35px;
+  width: auto!important;
+}
+
+ul.wildnest-zone-flex-2 li:first-child {
+  padding-left: 0;
+ margin-bottom: 12px;
+}
+body .mt-addons-banner-button a {
+    color: #222 !important;
+    font-weight: 600;
+    font-size: 13px;
+    border: 1.5px solid #fff;
+    background: #fff;
+    padding: 15px 30px;
+    line-height: initial;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: none;
+}
+body .mt-addons-banner-button a:hover{
+    color: #d1793e !important;
+}
+body .about-video .elementor-widget-wrap{
+    background-position: inherit!important;
+}
+.header-social-icons li a i:hover {
+    color: #b18e72;
+}
+.header-search-modal {
+    width: 270px;
+}
+.mt-addons-tab-content-v2 strong {
+    color: #000;
+}
+body .swiper-container-initialized .slider-preloader{
+    display: none!important;
+    opacity: unset;
+}
+/*contact*/
+.schedule-form-items.dates p {
+    display: flex;
+    padding-bottom: 20px;
+}
+.schedule-form-items .wpcf7-form-control:not(input[type="submit"]) {
+    border: none;
+    border-bottom: 1px solid #b2b2b2;
+    padding-left: 0px;
+}
+.schedule-form-items .wpcf7-form-control:not(input[type="submit"]):focus{
+    border-bottom: 1px solid #3A3089;
+
+}
+.schedule-form-items.dates span.wpcf7-form-control-wrap:first-child {
+    margin-right: 10px;
+}
+.schedule-form-items label {
+    width: 100%;
+}
+.schedule-form-items .wpcf7-submit {
+    padding: 15px 60px;
+}
+.schedule-form-items select.wpcf7-form-control.wpcf7-select {
+    width: 230%;
+    padding: 15.8px 0px;
+}
+.schedule-form-items .wpcf7-form span.wpcf7-not-valid-tip{
+    display: none;
+}
+
+/*contact house schedule*/
+.book-form-items.radio .wpcf7-list-item:first-child::before {
+    content: url("https://wildnest.modeltheme.com/wp-content/uploads/2024/04/wildnest-contact-icon-4.svg");
+    display: flex;
+    justify-content: center;
+}
+.book-form-items.radio .wpcf7-list-item:nth-child(2)::before {
+    content: url("https://wildnest.modeltheme.com/wp-content/uploads/2024/04/wildnest-contact-icon-3.svg");
+    display: flex;
+    justify-content: center;
+}
+.book-form-items.radio .wpcf7-list-item:nth-child(3)::before {
+    content: url("https://wildnest.modeltheme.com/wp-content/uploads/2024/04/wildnest-contact-icon-1.svg");
+    display: flex;
+    justify-content: center;
+}
+.book-form-items.radio .wpcf7-list-item:last-child::before {
+    content: url("https://wildnest.modeltheme.com/wp-content/uploads/2024/04/wildnest-contact-icon-2.svg");
+    display: flex;
+    justify-content: center;
+}
+.book-button .wpcf7-submit {
+    width: 100%;
+    max-width: 100%;
+}
+.book-button input[type="submit"]{
+    border-radius: 0;
+    border: 0 none;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 25px;
+    padding:10px 30px 10px 30px;
+    -webkit-appearance: none;
+}
+.book-button p {
+    margin-bottom: 0px;
+}
+.wildnest-contact.book-appointment{
+    background-color: #fff;
+    padding: 25px 0 20px 40px;
+}
+body .space-title h2{
+    margin-bottom: 0px!important;
+}
+.book-appointment p.booking-text {
+    color: #222;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom:  10px;
+}
+.book-form-items {
+    margin-bottom: 25px;
+}
+.book-form-items.your-pet span {
+    margin-right: 7px;
+    color: #222;
+}
+.book-form-items.radio input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100px;
+    opacity: 0;
+    cursor: pointer;
+}
+.book-form-items.radio {
+    display: flow-root;
+}
+.wp-block-tag-cloud a, .tagcloud > a, .single-post-tags a {
+    border-radius: 6px !important;
+    font-weight: 600;
+    font-size: 14px !important;
+
+}
+ul li.cat-item a {
+    transition: all 350ms;
+}
+ul li.cat-item a::before {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f062";
+    margin-right: 10px;
+    display: inline-block;
+    transform: rotate(45deg);
+    transition: all 350ms;
+    color: #2E7D32;
+    font-weight: bold;
+}
+ul li.cat-item a:hover {
+    color: #e44d32;
+}
+ul li.cat-item a:hover::before {
+    transform: rotate(90deg);
+}
+.mt-addons-contact-form .wpcf7-form [type=submit]:hover {
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+.wildnest-article-details .post-author {
+    border-right: 1px solid #000;
+}
+.book-form-items span.wpcf7-not-valid-tip {
+    display: none;
+}
+.book-form-items.radio span.wpcf7-list-item {
+    position: relative;
+    width: 125px;
+    font-size: 13px;
+    border-radius: 0px;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 16px 10px 10px 10px;
+    color: #222;
+    transition: all 300ms ease-in-out 0ms;
+    -o-transition: all 300ms ease-in-out 0ms;
+    -moz-transition: all 300ms ease-in-out 0ms;
+    -webkit-transition: all 300ms ease-in-out 0ms;
+    -ms-transition: all 300ms ease-in-out 0ms;
+}
+.book-form-items.radio input[type=radio]:checked + .wpcf7-list-item {
+    border: 1px solid #3A3089 !important;
+}
+.book-form-items.times span.wpcf7-list-item {
+    position: relative;
+    width: 170px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin: 5px;
+    float: left;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #222;
+    transition: all 300ms ease-in-out 0ms;
+    -o-transition: all 300ms ease-in-out 0ms;
+    -moz-transition: all 300ms ease-in-out 0ms;
+    -webkit-transition: all 300ms ease-in-out 0ms;
+    -ms-transition: all 300ms ease-in-out 0ms;
+}
+.book-form-items.times {
+    display: flow-root;
+}
+.book-form-items.times input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100px;
+    opacity: 0;
+    cursor: pointer;
+}
+.book-form-items.dates p {
+    display: flex;
+}
+.book-form-items.dates span.wpcf7-form-control-wrap {
+    width: 100%;
+}
+.book-form-items.radio span.wpcf7-list-item:hover,
+.book-form-items.times span.wpcf7-list-item:hover {
+    border: 1px solid #3A3089;
+}
+.book-form-items.dates span.wpcf7-form-control-wrap:first-child {
+    margin-right: 10px;
+}
+.book-form-items.radio input[type=radio]:checked ~ span,
+.book-form-items.times input[type=radio]:checked ~ span {
+    color: #3A3089;
+    font-weight: 600;
+}
+footer .textwidget > p:last-child{
+    float: right;
+}
+.wildnest-quote-top-title {
+    text-align: center;
+    display: flow-root;
+}
+/*Footer*/
+.sidebar-social-networks {
+    float: left;
+}
+ul#menu-footer-copyright {
+    display: inline-block;
+    padding: 0px;
+}
+ul#menu-footer-copyright .site-footer li, ul#menu-footer-copyright .site-footer ul {
+    width: auto;
+}
+ul#menu-footer-copyright li {
+    float: left;
+    padding: 0 16px;
+    width: auto!important;
+}
+ul#menu-footer-copyright li:first-child {
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+body .gallery img {
+    background: #fff;
+}
+.elementor-image-gallery .gallery-item {
+    margin-bottom: 0px !important;
+}
+footer .widget_mt_address_social_icons .social-links a:after {
+    border: 1px solid transparent;
+}
+footer .widget span {
+    line-height: 20px;
+    font-size: 14px;
+}
+.widget_mt_address_social_icons .social-links {
+    margin-top: 10px;
+}
+.footer-bottom .footer--row-inner .container {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+body .mt-addons-member-image .mt-addons-member-image-flex-zone {
+    top: 190px;
+    z-index: 1;
+}
+.wildnest-tabs .mt-addons-tab-content .mt-addons-tab-content-title {
+    margin-bottom: 20px !important;
+    font-size: 40px;
+    font-weight: 600;
+}
+.wildnest-tabs .mtfe-row .col-md-6 {
+    padding: 0 !important;
+}
+.wildnest-tabs .mtfe-row .col-md-6.text-center {
+    text-align: left !important;
+    margin-left: -5px;
+}
+.wildnest-tabs .mtfe-row .col-md-6.text-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.wildnest-tabs .mtfe-row .col-md-6.text-left .mt-addons-tab-content-button {
+    width: fit-content !important;
+}
+.wildnest-tabs .mt-addons-tabs-nav li {
+    margin: 0 10px !important;
+    transition: all 350ms;
+    border: 2px solid #eaeaea;
+    border-radius: 6px;
+}
+.mt-addons-tabs nav ul li:first-child {
+    border-radius: 6px !important;
+    overflow: hidden;
+}
+body .builder-item--primary-menu .nav-menu-desktop .menu>li>a:hover {
+    color: #000;
+}
+body .wildnest-search-form .modeltheme-form {
+    background: transparent;
+}
+.wildnest-tabs .mt-addons-tabs-nav li:hover {
+    border: 2px solid #2E7D32;
+}
+.wildnest-tabs .mt-addons-tabs-nav li:first-child {
+    margin-left: 0 !important;
+    border-radius: 0;
+}
+.wildnest-tabs .mt-addons-tabs nav ul {
+    border-radius: 0;
+}
+.wildnest-tabs .mt-addons-tab-content-button {
+    font-weight: 400;
+    padding: 12px 27px !important;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.wildnest-tabs .mt-addons-tab-content-button:hover {
+    background-color: #000 !important;
+}
+.wildnest-tabs .mt-addons-tabs-nav li:last-child {
+    margin-right: 0 !important;
+}
+.woocommerce ul.products.list li.product .thumbnail-and-details a.added_to_cart {
+    bottom: -140px !important;
+    left: 31% !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.wildnest-tabs .mt-addons-tabs nav {
+    background: transparent !important;
+    box-shadow: none;
+}
+.wildnest-tabs .mt-addons-tabs nav ul li.tab-active img {
+    filter: brightness(0) invert(1) !important;
+}
+body .wildnest-tabs .mt-addons-tab-content section p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+.wildnest-tabs .mt-addons-tabs-nav {
+    background-color: transparent !important;
+}
+.wildnest-tabs .mt-addons-tabs nav ul li.tab-active {
+    background: #2E7D32 !important ;
+}
+ body .header-social-icons li {
+    margin-right: 20px;
+}
+.woocommerce ul.products.list li.product img {
+    width: 30% !important;
+}
+body sup {
+    top: -2.9px;
+    margin-right: -8px;
+    font-size: 85%  ;
+}
+body .wildnest-testimonials .mt-addons-testimonial-item {
+    border-radius: 0 !important;
+}
+body .wildnest-pricing .mt-package-price {
+    padding-top: 3px !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+body .wildnest-pricing .mt-package-list ul li { 
+    padding: 2px 0 2px 0;
+}
+body .wildnest-pricing .mt-btn-zone {
+    width: 75%;
+}
+.wildnest-builder-btn:hover {
+    box-shadow: none;
+}
+
+/*Media */
+@media only screen and (max-width: 1170px){
+    .sticky-wrapper.is-sticky .header-main {
+        background: #fff!important;
+    }
+    body.woocommerce ul.products.list li.product {
+        display: flex;
+        flex-direction: column;
+    }
+    /*body.woocommerce ul.products.list li.product .products-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }*/
+/*   
+    .woocommerce ul.products.list li.product .thumbnail-and-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }*/
+/*    .woocommerce ul.products.list li.product .price {
+        width: 100%;
+        text-align: center;
+    }
+    .woocommerce ul.products.list li.product .thumbnail-and-details a.added_to_cart {
+        position: initial !important;
+    }
+    body.woocommerce ul.products.list li.product .thumbnail-and-details a.button {
+        position: initial !important;
+    }
+    .woocommerce ul.products.list li.product .products-wrapper {
+        padding: 30px 0;
+    }*/
+    .woocommerce ul.products.list li.product img {
+        width: auto !important;
+        border-radius: 6px !important;
+    }
+    .sticky-wrapper.is-sticky .header-main {
+        box-shadow: 0 0 10px rgba(0,0,0,.065);
+    }
+    .nav-menu li:hover ul, .nav-menu li:hover .cf-mega-menu.sub-menu {
+        display: none;
+    }
+    body .sidebar-content.sidebar-content-right-side, body .sidebar-content.sidebar-content-left-side {
+        width: 100% !important;
+    }
+    body .wildnest-section-subtitle h3 {
+        font-size: 20px !important;
+    }
+    body .wildnest-section-title h2 {
+        font-size: 42px !important;
+    }
+    body .course-title {
+        font-size: 32px !important;
+    }
+    body .learn-press-courses[data-layout=list] .course-content {
+        width: 100%;
+        padding-left: 0;
+    }
+    body .wildnest-knowledgebase-subtitle {
+        font-size: 15px !important;
+    }
+    body .widget-area img {
+        margin-top: 50px;
+    }
+    body .mt-addons-member-section {
+        padding-top: 5px !important;
+    }
+    body .wildnest-knowledge-tags-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    body .lp-archive-courses .course-meta-secondary .course-meta__pull-left {
+        grid-template-columns: repeat(3,1fr);
+        display: grid;
+    }
+    body .wildnest-knowledge-tags {
+        margin-bottom: 20px;
+    }
+    body .wildnest-knowledge-text {
+        margin-bottom: 20px;
+    }
+    body .wildnest-knowledge-cta .mt-addons-cta-banner-title {
+        width: 100%;
+        font-size: 30px !important;
+        line-height: 41px !important;
+    }
+    body .wildnest-section-title.knowledge h3 {
+        font-size: 36px !important;
+        line-height: 1.3em !important;
+    }
+    body .menu-item .nav-icon-angle {
+        color: initial !important;
+    }
+    body .wildnest-contact-page-form .mt-addons-contact-form .wpcf7-form [type=submit] {
+        width: 100%;
+    }
+    body .learn-press-courses[data-layout=list] .course-wrap-thumbnail {
+        width: 100%;
+    }
+    body .learn-press-courses[data-layout=list] .course-item  {
+        display: flex;
+        flex-direction: column;
+    }
+    body .learn-press-courses[data-layout=list] .course-item .course-wrap-thumbnail {
+        margin-bottom: 30px;
+    }
+    body .learn-press-courses[data-layout=list] .course-item .course-short-description {
+        margin-bottom: 20px;
+    }
+    body .lp-archive-courses .course-item .course-instructor {
+        bottom: 0;
+    }
+    body .lp-content-area {
+        padding: 0 20px;
+    }
+    body .lp-archive-courses .course-item .course-permalink {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    body .menu-item .nav-icon-angle {
+        color: initial !important;
+    }
+    .woocommerce-Price-amount bdi,
+    .woocommerce .woocommerce-loop-product__title a {
+        font-size: 18px!important;
+    }
+    body .wildnest-section-subtitle h3 {
+        font-size: 18px !important;
+    }
+    body .wildnest-section-subtitle h3 {
+        font-size: 20px !important;
+    }
+    body .woocommerce-title-metas {
+        height: fit-content !important;
+    }
+    .wildnest-contact.book-appointment {
+        border: solid 5px transparent;
+    }
+    .wildnest-search-form .modeltheme-search-submit {
+        right: -2px;
+    }
+    body .mt-addons-portfolio-grid nav ul li {
+        padding-bottom: 20px;
+    }
+    body .site-footer .widget, body .sidebar-content .widget{
+        width: 100% !important;
+    }
+    body .responsive-size .mt-addons-title-section{
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    body .mt-addons-portfolio-grid nav ul li{
+        min-width: 40%;
+    }
+    .wildnest_is_nav_sticky div#masthead-inner{
+        position: absolute!important;
+    }
+    body .swiper-wrapper .mt-addons-testimonial-item,
+    body .mt-addons-testimonial-item {
+        height: 350px !important;
+    }
+
+    body .header-search-modal {
+        margin-top: 22px;
+    }
+    .wpcf7-spinner {
+        position: absolute !important;
+    }
+    body .book-form-items.radio span.wpcf7-list-item{
+        margin: 0px 10px 10px 0px;
+    }
+    .footer-bottom-inner .container .row .footer-column:first-child {
+        margin-bottom: 0;
+    }
+    .footer-bottom-inner .container .row .footer-column:last-child {
+        display: none;
+    }
+    .nav-menu-mobile .menu li {
+        display: table-column-group!important;
+    }
+    .header-search_icon-item .header-search-modal-wrapper {
+        transform: unset!important;
+    }
+    .sticky-wrapper.is-sticky .header-main {
+        background: #fff!important;
+    }
+    .sticky-wrapper.is-sticky .header-main {
+        box-shadow: 0 0 10px rgba(0,0,0,.065);
+    }
+    body .wildnest-breadcrumbs .row {
+        padding: 100px 15px 50px;
+    }
+    body .wildnest-breadcrumbs .row h1 {
+        font-size: 50px !important;
+        line-height: 1.2 !important;
+    }
+    body .tween-img img {
+        width: 100%;
+        max-width: 100%!important;
+        overflow: hidden;
+        position: absolute;
+        right: 40px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    .wildnest-contact-items {
+        padding-left: 15px;
+    }
+    .widget_mt_recent_entries_with_thumbnail .post-thumbnail {
+        width: 25% !important;
+    }
+    body .about-video{ 
+        height: 260px;
+        left: 55px;
+    }
+    body .learn-press-courses[data-layout=list] .course-content {
+        padding-bottom: 45px;
+    }
+    footer .textwidget > p:last-child {
+        margin-bottom: 20px;
+    }
+    body .lp-archive-courses .course-item .course-instructor {
+        bottom: 40px;
+    }
+    .here-size.elementor-widget-heading .elementor-heading-title{
+        font-size: 43px!important;
+        line-height: 53px!important;
+    }
+    .mt-addons-quote-image {
+        display: none;
+    }
+    body .book-form-items.radio span.wpcf7-list-item {
+        margin: 0 9px 9px 0 !important;
+        width: 135px;
+    }
+    .mt-addons-blog-posts-carousel-date span, .mt-addons-blog-posts-carousel-date a {
+        font-weight: 500 !important;
+    }
+    body .book-form-items.radio span.wpcf7-list-item:nth-child(even) {
+        margin: 0 0 9px 0 !important;
+    }
+    .mt-addons-blog-posts-carousel-post-name:hover a {
+        color: #2E7D32;
+    }
+    .book-button p {
+        width: 110% !important;
+    }
+    .wildnest-testimonials .mt-addons-testimonial-item.mt-addons-holder_top .mt-addons-testimonial-image-holder {
+        left: 0;
+        right: initial !important;
+    }
+    body #page .wildnest_preloader_holder .preloader_image {
+        top: 40%;
+        left: 35% !important;
+        width: 35% !important;
+    }
+    .header-search_icon-item .search-field {
+        width: 75% !important;
+    }
+    body .mt-addons-banner-simple-top .mt-addons-banner {
+        padding: 0;
+    }
+    .mt-addons-product-category {
+        flex-direction: column;
+    }
+    .mt-addons-product-category-wrapper:hover a.mt-addons-product-category:after{
+        opacity: 0;
+    }
+    .wildnest-custom .mt-addons-category-tabs section {
+        padding: 0px;
+    }
+    body .mt-addons-category-tabs .woocommerce ul.products li.product {
+        width: 100% !important;
+        padding-bottom: 0px!important;
+    }
+    .mt-addons-hero-slider-holder h3 {
+        font-size: 33px !important;
+        line-height: 46px !important;
+    }
+    .mt-addons-hero-slider-holder h2 {
+        font-size: 16px !important;
+    }
+    body.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+        padding: 0px 5px !important;
+    }
+    body .wildnest-shop-sort-group {
+        margin-left: 0px;
+        margin-right: 6px;
+    }
+    body .footer-column {
+        margin-bottom: 20px;
+    }
+    body.woocommerce-page.woocommerce ul.products {
+        margin: 0 -5px !important;
+    }
+    .mt-addons-testimonial-image.text-and-img-left {
+        display: none;
+    }
+    body .wildnest-shop-filters-button {
+        margin-top: 12px;
+    }
+    body.woocommerce nav.woocommerce-pagination {
+        margin-left: 0 !important; 
+    }
+    #cb-row--footer-bottom div .widget_text img {
+        float: left !important;
+        margin-top: 14px;
+    }
+    body .search-courses label {
+        width: 100%;
+    }
+    body .learn-press-courses[data-layout=list] .course-wrap-thumbnail {
+        width: 100%;
+    }
+    body .wildnest-post-metas .article-detail-meta, body .wildnest-article-details .article-detail-meta {
+        margin-bottom: 13px !important;
+    }
+    .mt-addons-skill-counter-stats-block.statistics.mt-addons-border{
+        border: none !important;
+    }
+    .woocommerce ul.products li.product:hover .button::after{
+        display: none;
+    }
+    .tribe-events-calendar-day__event-content {
+        flex: auto !important;
+    }
+    body .tribe_events .tribe-tickets__tickets-wrapper, body .tribe_events div#rsvp-now {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    body .tribe_events .tribe-events-event-image, body .tribe_events .tribe-events-single-event-description {
+        width: 100% !important;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .wildnest-countdown-btn {
+        display: flex;
+        justify-content: center !important;
+    }
+    body .lp-content-area {
+        padding: 0 20px;
+    }
+    .wildnest-countdown .modeltheme-countdown { 
+        flex-direction: column;
+    }
+    .wildnest-countdown .modeltheme-countdown  span {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .mt-addons-blog-posts-excerpt p {
+        margin-bottom: 0 !important;
+    }
+    body .wildnest-testimonials .swiper-button-next.nav_above_left,
+    body .wildnest-testimonials .swiper-button-prev.nav_above_left {
+        top: -35px;
+    }
+    body .wildnest-testimonials .swiper-button-next.nav_above_left {
+        left: 100%;
+    }
+    body .wildnest-testimonials .swiper-button-prev.nav_above_left {
+        left: 80%;
+    }
+    .header-search-modal {
+        position: relative;
+    }
+    .search-submit svg {
+        position: absolute;
+        top: 35px;
+        right: 35px;
+    }
+    .header-search-modal label {
+        width: 110%;
+        flex-basis: initial;
+    }
+    .header-v2 .cb-row--mobile .row-v2 {
+        padding: 0 20px 0 12px;
+    }
+    body .woocommerce ul.products.list li.product:hover .button {
+        width: 50px !important;
+    }
+    body .nav-menu-mobile .menu-item .link-before {
+        font-weight: 600;
+    }
+    #cb-row--footer-main div img {
+        width: 220px;
+    }
+    .nav-menu-mobile .menu{
+        margin-bottom: 0px !important;
+    }
+    body .nav-menu-mobile .menu li a:focus, body .nav-menu-mobile .menu li a:hover {
+        background: none;
+        border-top: 1px solid #eee;
+    }
+    .mt-addons-member-columns {
+        width: 100% !important;
+    }
+    body .woocommerce ul.products li.product .woocommerce-loop-product__title a{
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .header-search-modal::before{
+        left: 3px;
+    }
+    body .header-search-modal{
+        left: 10px;
+    }
+    .woocommerce ul.products.list li.product .products-wrapper {
+        padding-bottom: 30px;
+    }
+    body.woocommerce ul.products li.product .woocommerce-loop-product__title, 
+    body.woocommerce ul.products li.product .woocommerce-loop-product__title {
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+    .wildnest-contact .wildnest-contact-submit-wrapper {
+        position: static;
+    }
+    .wildnest-tabs .mt-addons-tabs-nav li {
+        margin: 0 !important;
+    }
+
+    #nav_menu-1, #nav_menu-2, #nav_menu-3 {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .cb-row--mobile .logo.logo-image img {
+        width: 175px !important;
+    }
+    .wildnest-tabs .mt-addons-tab-content {
+        margin-top: 0;
+    }
+    body .lp-courses-bar .switch-layout {
+        display: none;
+    }
+    body .lp-courses-bar .search-courses {
+        margin-right: 0;
+    }
+    .wildnest--about-members .mt-addons-member-image .mt-addons-member-image-flex-zone.no {
+        padding-top: 40px;
+    }
+    body .course-meta.course-meta-primary .course-meta__pull-left {
+        display: flex;
+    }
+    body .mt-addons-blog-posts-carousel-single-post.swiper-slide {
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    body .lp-archive-courses .course-detail-info {
+        padding: 50px 0;
+    }
+    body .footer--row-inner.footer-main-inner {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #menu-copyright-menu {
+        display: none !important;
+    }
+    .wildnest-testimonial .mt-addons-testimonial-holder {
+        padding: 30px 0 !important;
+    }
+    .wildnest-testimonial .mt-addons-testimonial-image-holder {
+        margin-left: 0;
+    }
+   .wildnest-hero-title {
+        font-size: 50px !important;
+        line-height: 1.3em !important;
+    }
+    .mt-addons-members .mt-addons-member-image-flex-zone-inside {
+        margin-top: -5px !important;
+    }
+    .wildnest-hero-title h2 {
+        line-height: 1.2em !important;
+        font-size: 70px !important;
+    }
+    body .wildnest-section-title h2 {
+        font-size: 42px !important;
+        line-height: 1.2em !important;
+    }
+    .wildnest-tabs .mt-addons-tab-content .mt-addons-tab-content-title {
+        font-size: 32px !important;
+    }
+}
+
+/* ipad Mini Portrait */
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+    .item--inner.builder-item--search_icon {
+        margin-left: -5.5em;
+    }
+    body .nav-menu-mobile .menu-item .link-before {
+        font-weight: 600;
+    }
+    body .wildnest-section-subtitle h3 {
+        font-size: 20px !important;
+    }
+    body .mt-addons-testimonial-item {
+        height: 317px !important;
+    }
+    body.woocommerce ul.products li.product .button,
+    body .woocommerce ul.products li.product .button {
+        width: 100% !important;
+    }
+     body.woocommerce ul.products.list li.product .button,
+    body .woocommerce ul.products.list li.product .button {
+        width: 170px !important;
+    }
+    .wildnest-countdown-btn {
+        display: flex;
+        justify-content: center !important;
+    }
+    .woocommerce ul.products li.product:hover .button::after{
+        display: none;
+    }
+    .mt-addons-hero-slider-holder h3 {
+        font-size: 33px !important;
+        line-height: 46px !important;
+    }
+    .item--inner.builder-item--nav-icon {
+        margin-right: 0px;
+    }
+    body .wildnest-custom .mt-addons-category-tabs nav ul {
+        max-width: 700px;
+    }
+    body .wildnest-custom .mt-addons-category-tabs .mt-addons-title {
+        font-size: 14px !important;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    #cb-row--footer-main div img {
+        width: 220px;
+    }
+    .wildnest-custom .mt-addons-category-tabs section {
+        max-width: 770px !important;
+    }
+    .mt-addons-hero-slider-bg .container {
+        padding: 255px 10px 0px 10px !important;
+    }
+    body .wildnest-highlights .mt-addons-hero-slider-title{ 
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+    body .mt-addons-tabs nav ul{
+        display: inline-block;
+        width: 100%;
+        padding-right: 15px;
+        list-style: none;
+    }
+    body .mt-addons-tabs nav ul {
+        float: unset;
+    }
+    .mt-addons-tab-flex-zone {
+        padding-right: 15px;
+    }
+    .mt-addons-tab-flex-zone .col-sm-12 {
+        width: 100%;
+    }
+    body .mt-addons-tab-content {
+        margin-top: 0px;
+    }
+    body .wildnest-highlights .mt-addons-hero-slider-holder{
+        padding: 16px;
+    }
+    .here-size.elementor-widget-heading .elementor-heading-title{
+        font-size: 43px!important;
+        line-height: 53px!important;
+    }
+    .header-hero-media {
+        left: 16px;
+    }
+}
+/*Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1190px) {
+    .mt-addons-testimonial-name {
+        font-size: 16px !important;
+        line-height: 1.2 !important;
+    }
+    body .wildnest-section-subtitle h3 {
+        font-size: 20px !important;
+    }
+    .mt-addons-member-columns {
+        width: 50% !important;
+    }
+    .menu#menu-copyright-menu {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .item--inner.builder-item--search_icon {
+        margin-left: -0.5em;
+    }
+    body .mt-addons-tab-fancy-gallery-grid-item-3,
+    body .mt-addons-tab-fancy-gallery-grid-item-4 {
+        margin-top: unset;
+        display: none;
+    }
+    body img.mt-addons-tab-fancy-gallery-image {
+        padding-bottom: 25px;
+        padding-right: 25px;
+    }
+    body .mt-addons-tab-fancy-gallery-description {
+        margin-right: 65px;
+        margin-left: 40px;
+    }
+    body .mt-addons-tab-fancy-gallery-wrapper {
+        margin-top: auto;
+    }
+    body .mt-addons-tab-content-v2 img.mt-addons-tab-content-image {
+        margin-top: -150px!important;
+    }
+    .woocommerce ul.products li.product .woocommerce-loop-product__title {
+        line-height: 20px !important;
+        font-size: 15px!important;
+    }
+    body .mt-swipper-carusel-position .swiper{
+        overflow: hidden;
+    }
+    body .mt-addons-testimonial-item {
+        height: 200px !important;
+    }
+    section.related.products ul.products {
+        margin: 0 -5px !important;
+    }
+    body.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+        padding: 0px 5px !important;
+    }
+    body .wildnest-shop-sort-group {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    body.woocommerce-page.woocommerce ul.products {
+        margin: 0 -5px !important;
+    }
+    body.woocommerce nav.woocommerce-pagination {
+        margin-left: 0px !important;
+    }
+    .mt-addons-banner-simple-top .mt-addons-banner{
+        display: none;
+    }
+    .mt-addons-banner-simple-top .mt-addons-products {
+        width: 98%;
+    }
+    body .woocommerce ul.products li.product, .woocommerce ul.products li.type-product {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    body.woocommerce .products ul, body .woocommerce ul.products {
+        margin: 0 0px !important;
+    }
+    .here-size.elementor-widget-heading .elementor-heading-title{
+        font-size: 66px!important;
+        line-height: 75px!important;
+    }
+    body .tween-img img {
+        width: 66%;
+        max-width: 66%!important;
+        overflow: hidden;
+        position: initial;
+        display: inline-block;
+        margin: 0;
+    }
+    body .about-video {
+        left: 135px;
+    }
+    body .about-video .elementor-widget-wrap{
+        background-position: inherit!important;
+    }
+    .wildnest-countdown .modeltheme-countdown > div {
+        width: 225px;
+    }
+    .modeltheme-countdown > span {
+        display: none;
+    }
+    .wildnest-countdown .modeltheme-countdown {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .wildnest-countdown .modeltheme-countdown .days, 
+    .wildnest-countdown .modeltheme-countdown .hours {
+        margin-bottom: 35px;
+    }
+    .mt-addons-tab-content .mtfe-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .mt-addons-tab-content .mtfe-row .col-md-6 {
+        width: 100% !important;
+    }
+    .mt-addons-tab-content .mtfe-row .col-md-6.text-center {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .wildnest-counter .mt-addons-skill-counter-stats-content.percentage {
+        margin-left: 0;
+    }
+    #menu-copyright-menu {
+        margin-top: 15px;
+        margin-left: -10px;
+    }
+    body .footer--row-inner.footer-main-inner {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .swiper-button-next.nav_above_right, .swiper-button-prev.nav_above_right {
+        top: 35px;
+    }
+    .wildnest-hero-title h2 {
+        font-size: 75px !important;
+        line-height: 1.2em !important;
+    }
+    .wildnest-search-form .modeltheme-search-submit {
+        right: 35px;
+    }
+    .mt-addons-skill-counter.mtfe-row .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .wildnest-counter .mt-addons-skill-counter-stats-block.statistics {
+        border-right: 0;
+    }
+    .modeltheme-course-card-wrapper {
+        background-color: #fff !important;
+    }
+}
+/*galaxy fold*/
+@media(max-width: 320px){ 
+    body .about-video {
+        height: 198px;
+        left: 50px;
+    }
+}
+/*surface pro 7*/
+@media only screen and (min-width: 850px) and (max-width: 1000px){  
+    body .mt-slider .content-width {
+        max-width: 78%!important;
+    }
+    .header--row-inner.header-main-inner .container {
+        max-width: 845px;
+    }
+}
+/*ipad min*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .tablet-view .elementor-element-populated {
+        padding: 0px 0px 0px 35px!important;
+    }
+    .page-template-template-blog-left-sidebar .blog-posts .row {
+        display: flex !important;
+    }
+    body .sidebar-content {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .price-title {
+        font-size: 16px !important;
+        line-height: 1em !important;
+        margin-bottom: 5px !important;
+    }
+    .tablet-view2 .elementor-element-populated {
+        padding: 0px 0px 0px 25px!important;
+    }
+    body .mt-addons-portfolio-grid nav ul li {
+        padding-bottom: 20px;
+    }
+    body .mt-addons-tab-content-v2 img.mt-addons-tab-content-image{
+        margin-left: -25px;
+    }
+     .price-table-container .mt-btn{
+        padding: 10px 15px 10px 15px!important;
+    }
+    body .book-form-items.radio span.wpcf7-list-item{
+        margin: 0px 10px 10px 0px;
+    }
+    .wildnest-contact .wildnest-contact-submit-wrapper {
+        bottom: 25px;
+    }
+    .wildnest-contact-info {
+        flex-direction: column !important;
+    }
+}
+/* Nest Hub */
+@media only screen and (min-width: 1023px) and (max-width: 1190px) {
+    .sidebar-content .widget:last-child{
+        width: 53%;
+    }
+    body input[type="email"]{
+        font-size: smaller;
+    }
+    body .mt-btn{
+        padding: 10px 20px 10px 20px!important;
+    }
+    body .footer-column{
+        padding-left: 0;
+    }
+    body .mt-slider .content-width {
+        max-width: 94%!important;
+    }
+    body .mt-addons-fancy-gallery-tabs {
+        height: 480px;
+    }
+    body .mt-addons-tab-fancy-gallery-description {
+        margin-right: 0px;
+        padding-bottom: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    body .mt-addons-niche-categories-card-title {
+        height: 100px;
+    }
+    body .mt-addons-tab-fancy-gallery-flex-zone {
+        display: initial;
+    }
+    body .schedule-form-items select.wpcf7-form-control.wpcf7-select {
+        width: 125%;
+    }
+    body .mt-addons-tab-fancy-gallery-description {
+        margin-right: 30px;
+    }
+    body .mt-addons-tab-content-v2 img.mt-addons-tab-content-image {
+        margin-top: -130px!important;
+    }
+    body .nav-menu-mobile .menu-item .link-before {
+        font-weight: 600;
+    }
+    body .mt-addons-hero-slider-title {
+        font-size: 20px!important;
+        line-height: 30px;
+    }
+    .img-position .elementor-widget-container img{
+        float: left!important;
+    }
+    .widget_mt_recent_entries_with_thumbnail .post-thumbnail {
+        width: 18%;
+    }
+    body.woocommerce div.product div.images .wildnest-woo-media-thumbs-wrapper .woocommerce-product-gallery__image {
+        width: 20.5% !important;
+    }
+    body .wildnest-pagination {
+        margin: 0px 0 70px;
+    }
+    body .site-header-inner .container {
+        padding: 10px;
+    }
+    body.single-post .main-content {
+        width: 100%;
+    }
+    .woocommerce section.related ul.products li.product .button {
+        width: 40%;
+    }
+    .woocommerce-shop .high-padding .row {
+        display: grid;
+    }
+    body.woocommerce.archive .sidebar-content:not(.header7) {
+        order: 2;
+    }
+    body .wildnest-shop-sort-group{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    body.woocommerce-page.woocommerce ul.products {
+        margin: 0 -5px !important;
+    }
+    body.woocommerce ul.products .products-wrapper {
+        margin-bottom: 0px;
+    }
+    body.woocommerce nav.woocommerce-pagination {
+        margin-left: 0 !important;
+        margin-bottom: 40px;
+    }
+    body.woocommerce-page ul.products.columns-4 li.product {
+        width: 24.6%;
+    }
+    .wildnest-slider-col {
+        width: 100% !important;
+    }
+    body.home .wildnest_category_button .button_dropdown {
+        display: none;
+    }
+    .no-slide-col {
+        width: 0% !important;
+    }
+    .mt-addons-product-category-wrapper a.mt-addons-product-category:after{
+        display: none;
+    }
+    .mt-addons-product-category-wrapper:hover a.mt-addons-product-category:after{
+        display: none;
+    }
+    body .about-video .elementor-widget-wrap{
+        background-position: inherit!important;
+    }
+}
+@media only screen and (min-width: 1191px) and (max-width: 1228px) {
+    .wildnest-slider-col {
+        width: 100% !important;
+    }
+    body.home .wildnest_category_button .button_dropdown {
+        display: none;
+    }
+    .no-slide-col {
+        width: 0% !important;
+    }
+    .wildnest-slider-col .elementor-widget-wrap {
+        margin-left: 50px !important;
+    }
+}
+/* Nest Hub Max*/
+@media only screen and (min-width: 1229px) and (max-width: 1300px) {
+    body span.mt-addons-skill-counter-suffix {
+        width: 96%;
+    }
+/*    body .container.blog-posts{
+        padding-right: 0;
+        padding-left: 0;
+    }*/
+    body .mt-addons-circle-svg {
+        display: none;
+    }
+    body .site-header-inner .container {
+        padding-right: unset;
+        padding-left: unset;
+    }
+    body .mt-slider .content-width{
+        max-width: 1200px!important;
+    }
+    body .mt-addons-tab-fancy-gallery-description {
+        margin-right: 40px;
+    }
+    body.woocommerce div.product div.images .wildnest-woo-media-thumbs-wrapper .woocommerce-product-gallery__image {
+        width: 21.4% !important;
+    }
+    body.woocommerce-page div.product div.summary {
+        width: 49% !important;
+    }
+    body.woocommerce.archive .sidebar-content:not(.header7) {
+        margin-right: 45px !important;
+    }
+    body .mt-addons-banner-simple-top .mt-addons-banner-wrapper{
+        padding-bottom: 70% !important;
+    }
+    .wildnest-slider-col {
+        width: 100% !important;
+    }
+    body.home .wildnest_category_button .button_dropdown {
+        display: none;
+    }
+    .no-slide-col {
+        width: 0% !important;
+    }
+    .wildnest-slider-col .elementor-widget-wrap {
+        margin-left: 50px !important;
+    }
+    body .header-hero-media {
+        left: 40px;
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+    .wildnest-slider-col {
+        width: 98% !important;
+    }
+    body.home .wildnest_category_button .button_dropdown {
+        display: none;
+    }
+    .no-slide-col {
+        width: 0% !important;
+    }
+    .wildnest-slider-col .elementor-widget-wrap {
+        margin-left: 80px !important;
+    }
+}
+@media only screen and (max-width: 319px) {
+    body.woocommerce ul.products li.product,
+    body .woocommerce ul.products li.product{
+        width: 100% !important;
+    }
+    body .wildnest-custom .mt-addons-category-tabs .mt-addons-title {
+        ont-size: 14px !important;
+    }
+    .mt-addons-client-image-item {
+        width: 100% !important;
+    }
+    body .mt-swipper-carusel-position .mt-addons-testimonial-item {
+        height: 300px !important;
+    }
+    body .mt-addons-testimonial-item.mt-addons-holder_top .mt-addons-testimonial-holder {
+        top: 65px;
+    }
+    body .mt-addons-testimonial-image {
+        width: 90px;
+    }
+}
+/*mobile*/
+@media only screen and (max-width: 767px) {
+    h1.mt-addons-hero-slider-title, .mt-addons-hero-slider-subtitle {
+        line-height: normal !important;
+    }
+    body .mt-addons-video {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    .woocommerce-shop ul.products .products-wrapper{
+        padding: 0px!important;
+    }
+    body .mt-addons-circle-svg-text{
+        left: 0%!important;
+        top: 382px !important;
+    }
+    .slider-content {
+        margin-top: 60px;
+    }
+    .mt-addons-skill-counter-suffix {
+        margin-left: 11px;
+    }
+    .mt-addons-skill-counter-stats-block span {
+        margin-top: 6px;
+    }
+    .wildnest-event-btn {
+        display: flex;
+        justify-content: center !important;
+    }
+    body .mt-addons-tabs nav ul {
+        display: inline-block;
+    }
+    body .mt-addons-contact-form .wpcf7-form [type=submit] {
+        width: 100% !important;
+    }
+    .schedule-form-items select.wpcf7-form-control.wpcf7-select {
+        width: 185%;
+    }
+    img.woo_secondary_media_image {
+        display: none!important;
+    }
+    body .sidebar-content.sidebar-content-right-side,
+    body .sidebar-content.sidebar-content-left-side {
+        width: 93%!important;
+        margin-right: 12px !important;
+        margin-left: 12px !important;
+
+    }
+    body .sidebar-content.sidebar-content-right-side, body .sidebar-content.sidebar-content-left-side {
+        padding: 50px 15px;
+    }
+    body.woocommerce ul.products li.product .woocommerce-loop-product__title {
+        padding: 0.1em 0;
+    }
+    body .mt-addons-testimonial-position{
+        display: none;
+    }
+    body .mt-addons-tab-content .mt-addons-tab-content-title{
+        padding-top: 25px;
+    }
+    body .mt-addons-testimonial-name{
+        margin-top: 0px;
+    }
+    body .wildnest-pricing .mt-btn-zone {
+        width: 100%;
+    }
+    .price-title {
+        font-size: 23px !important;
+        line-height: 1em !important;
+    }
+    body .woocommerce ul.products li.product .price, 
+    body .woocommerce ul.products li.type-product .price {
+        color: #484848;
+        margin: 0;
+        clear: both;
+        display: block;
+        float: unset;
+        margin-top: 0px;
+    }
+    .woocommerce-Price-amount bdi {
+        font-size: 17px;
+    }
+    ul#menu-footer-copyright li {
+        float: left;
+        padding: 0 6px;
+        width: auto!important;
+    }
+    ul#menu-footer-copyright li:first-child {
+        padding-left: 0;
+        margin-bottom: 0px;
+    }
+    div#masthead-inner-sticky-wrapper {
+        display: contents;
+    }
+    .wildnest-contact.book-appointment {
+        padding: 12px 10px 20px 10px;
+    }
+    body .mt-addons-tabs nav ul {
+        width: 100%;
+    }
+    .wildnest-breadcrumbs, .youzify-search-landing-image-container {
+        background-position: right!important;
+    }
+    body .mt-addons-pin-close {
+        color: #fff;
+        line-height: 35px;
+        display: inline-block;
+        overflow: visible;
+        text-indent: initial;
+        white-space: nowrap;
+        width: 25px;
+        cursor: pointer;
+    }
+    body .mt-addons-pin-close {
+        border: unset;
+    }
+    a.mt-addons-pin-close i.fas.fa-times-circle {
+        font-size: 30px;
+    }
+    body .mt-addons-niche-categories-card-title {
+        height: 140px;
+    }
+    .mt-addons-product-category-wrapper a.mt-addons-product-category:after{
+        display: none;
+    }
+    body .header--row:not(.header--transparent).header-main .header--row-inner, 
+    body .header--row:not(.header--transparent).header-bottom .header--row-inner {
+        min-height: 5px;
+    }
+    body img.mt-addons-tab-fancy-gallery-image {
+        width: 47vw;
+        height: 47vw;
+        animation: unset;
+    }
+    body .wildnest-testimonials {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .wildnest-contact-info {
+        flex-direction: column !important;
+    }
+     .menu#menu-copyright-menu {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .wildnest-counter .mt-addons-skill-counter-stats-content.percentage {
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .wildnest-counter .mt-addons-skill-counter-stats-block.statistics {
+        border-right: 0;
+        margin-bottom: 30px;
+    }
+    .wildnest-counter .mt-addons-skill-counter-suffix {
+        display: none;
+    }
+    body .modeltheme-course-info-title {
+        font-size: 22px !important;
+        line-height: 32px !important;
+    }
+    body .modeltheme-course-card-wrapper {
+        background-color: #fff !important;
+    }
+}
+/*Tablet*/
+@media only screen and (max-width: 1024px){  
+    body .header-search-modal {
+        width: 280px;
+    }
+    .schedule-form-items select.wpcf7-form-control.wpcf7-select {
+        width: 100%;
+    }
+    body .mt-addons-premium-main {
+        width: auto !important;
+    }
+    body .mt-addons-tabs nav ul {
+        width: 100%;
+    }
+   body .wildnest-icon-listgroup .mt-addons-top_content .mt-icon-listgroup-title {
+        padding: 0;
+    }
+    body .mt-addons-fancy-gallery-tabs .mt-addons-mt-addons-fancy-gallery-tabs-nav-title{
+        padding: 0px;
+    }
+    .error404 .error-404 h1{
+        font-size: 90px !important;
+        line-height: 110px !important;
+    }
+    body .tribe_events .tribe-tickets__tickets-wrapper, body .tribe_events div#rsvp-now {
+        margin-bottom: 30px;
+        width: 100% !important;
+    }
+    body .tribe_events .tribe-tickets__tickets-wrapper {
+        margin-top: 30px;
+     }
+    .tribe_events .tribe-events-event-image, .tribe_events .tribe-events-single-event-description {
+        padding-right: 0 !important;
+    }
+    .sidebar-content.sidebar-content-right-side{
+        width: 100% !important;
+    }
+    body .mt-addons-cta-banner-inner.mt-addons-cta-banner-layout--standard .mt-addons-cta-banner-content {
+        padding: 15px 15px;
+    }
+    body .mt-addons-niche-categories-card-title {
+        font-size: 16px;
+        height: 100px;
+    }
+    body .mt-addons-niche-categories-image-section {
+        width: 65px!important;
+    }
+    .wodsflow-progress-container {
+        left: 0;
+    }
+    .wildnest-service-container .elementor-widget-wrap {
+        box-shadow: rgba(149, 157,  165, 0.2) 0px 8px 24px;
+    }
+    body .tribe_events .tribe-events-event-image, body .tribe_events .tribe-events-single-event-description {
+        width: 100% !important;
+    }
+    .mt-addons-contact-form .wpcf7-form [type=submit] {
+        width: 100% !important;
+    }
+    .wildnest-contact.book-appointment { 
+        padding: 0px 25px 25px 25px;
+    }
+}
+.navigation2 .nav-menu>li > a:hover {
+    color: #606060;
+}
+@media only screen and (max-width: 1200px){
+    body:not(.category) .container.blog-posts .main-content,
+    .wildnest-shop-has-sidebar.main-content {
+        width: 100%;
+    }
+  
+}
+.col-lg-9{
+    z-index: 1;
+}
+.section-border.right {
+    width: 40px;
+    height: 1.5px;
+    display: inline-flex;
+    vertical-align: -6px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.section-border {
+    height: 5px;
+    margin: 5px 0 25px;
+    width: 100%;
+}
+.color_border {
+    background: #b18e72;
+}
+p.elementor-icon-box-title {
+    margin-bottom: 5px;
+}
+.schedule-form-items-agent label {
+    width: 100%;
+}
+.schedule-form-items-agent.send input {
+    width: 100%;
+}
+.schedule-form-items-agent.send input {
+    background: #010101;
+    color: #fff;
+}
+.schedule-form-items-agent input[type="email"], 
+.schedule-form-items-agent input[type="number"],
+.schedule-form-items-agent input[type="text"],
+.schedule-form-items-agent input[type="date"],
+.schedule-form-items-agent .wpcf7-select,
+.schedule-form-items-agent input::placeholder {
+    color: #000;
+    border-color:#000;
+}
+.schedule-form-items-agent.send input:hover {
+    background: #fff;
+    color: #010101;
+}
+.schedule-form-items-agent.dates span.wpcf7-form-control-wrap:first-child{
+    margin-right: 10px;
+}
+ .elementor-icon-box-icon{
+    margin-top: 5px;
+ }
+
+span.test {
+    -webkit-text-stroke: 2px #000; 
+    color: transparent;
+    font-size: 85px;
+}
+.woocommerce.single form .form-row label, .woocommerce-page.single form .form-row label {
+    display: none;
+}
+.woocommerce input[readonly] {
+    padding: 10px 12px;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    border-color: #15151530;
+    color: #151515;
+    font-weight: 400;
+    background: transparent;
+    transition: all 0.3s ease-in-out 0s;
+}
+.mt-addons-circle-svg-text{
+    z-index: 9;
+}
+.woocommerce form .form-row {
+    margin-bottom: 10px;
+}
+.woocommerce .wceb_picker_wrap {
+    margin-bottom: 15px;
+}
+.single-product div.product form.cart {
+    display: contents!important;
+}
+.mt-addons-tabs nav ul li.tab-active h3.mt-addons-tabs-nav-title{
+     color: #fff !important;
+}
+.mt-svg-block.wildnest-about-camp{
+    top: -300px!important;
+}
+.woocommerce-title-metas {
+    margin: 15px 0px 25px 0px!important;
+}
+.wildnest--about-members  .mt-addons-member-columns-wrapper {
+    border-radius: 6px;
+}
+.wildnest--about-members .mt-addons-member-image {
+    border-radius: 6px 6px 0px 0px;
+}
+.woocommerce ul.products li.product a img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.mt-addons-swiper-container .swiper-button-next,
+.mt-addons-swiper-container .swiper-button-prev,
+.mt-addons-premium-price-table .mt-addons-premium-price-footer a,
+.mt-addons-premium-price-table .mt-addons-premium-price-table-icon a,
+.wildnest-btn-pricing .mt-addons-premium-price-table-button{
+    border-radius: 6px !important;
+}
+.mt-addons-blog-posts-carousel-single-post-wrapper{
+    border-radius: 6px;
+}
+a.wp-block-button__link{
+    font-size: 16px!important;
+    padding: 12px 27px!important;
+    margin-right: 10px;
+}
+.mfp-wrap.mfp-gallery {
+    z-index: 99999;
+}
+.footer-bottom-inner .footer-column {
+    width: 100%;
+}
+.swiper-button-prev.nav_above_left {
+    left: 40px;
+    top: 30px;
+}
+body .swiper-button-next.nav_above_left {
+    left: 90px;
+    top: 29px;
+}

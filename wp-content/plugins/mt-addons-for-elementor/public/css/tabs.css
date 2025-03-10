@@ -1,0 +1,171 @@
+.mt-addons-tabs {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+.mt-addons-tabs nav {
+    background: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 7%);
+}
+.mt-addons-tabs nav ul li.tab-active img {
+    filter: brightness(0) invert(1);
+}
+.mt-addons-tabs nav {
+    text-align: center;
+}
+.elementor-editor-active section#section-iconbox-1 {
+    display: block;
+}
+.mt-addons-tabs nav ul {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.mt-addons-tabs nav ul li:first-child {
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+.mt-addons-tabs nav ul li.tab-active {
+    background: transparent !important;
+}
+.mt-addons-tabs nav ul li.tab-active h5.mt-addons-tabs-nav-title {
+    color: #fff !important;
+}
+.mt-addons-tabs nav ul li:nth-of-type(odd) {
+    background: #fafafa;
+}
+.mt-addons-tabs nav ul li.tab-current {
+    z-index: 100;
+}
+.mt-addons-tabs nav ul li {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0 !important;
+    text-align: center;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 0.5px solid #eaeaea;
+    background: #fff;
+}
+.mt-addons-tabs nav ul li.tab-current a {
+    background: #da5f60;
+    box-shadow: -1px 0 0 #fff;
+}
+.mt-addons-tabs nav li.tab-current a {
+    color: #74777b;
+    background: linear-gradient(90deg,#218BBF 0%,#45B6ED 100%)!important;
+}
+.mt-addons-tabs nav ul li a {
+    overflow: visible;
+    padding: 30px 0;
+    line-height: 1;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+.mt-addons-tabs nav a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5;
+}
+.mt-addons-tabs nav ul li.tab-current img.mt-addons-tabs-nav-icon {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+.mt-addons-tabs-nav-icon {
+    max-height: 50px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.mt-addons-tabs  nav ul li.tab-current .mt-addons-tabs-nav-title {
+    color: #fff;
+}
+.mt-addons-tabs .mt-addons-tabs-nav-title {
+    font-size: 18px!important;
+    font-weight: 500;
+    color: #da5f60;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.mt-addons-tab-content {
+    position: relative;
+    margin-top: 70px;
+}
+.mt-addons-tab-content section.content-current {
+    display: block;
+    text-align: left;
+}
+.mt-addons-tab-content section {
+    display: none;
+    margin: 0 auto;
+    padding: 1em;
+}
+.mt-addons-tab-content img.mt-addons-tab-content-image {
+    max-height: 350px;
+}
+.mt-addons-tab-content .mt-addons-tab-content-title {
+    font-size: 28px;
+}
+.mtfe-row .col-md-6.mtfe-second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 !important;
+}
+.mtfe-row .col-md-6.mtfe-first-section{
+    text-align: left !important;
+    margin-left: -5px;
+    padding: 0 !important;
+}
+.mt-addons-tab-content section p {
+    margin: 0;
+    padding: 0;
+    color: #8b8b8a;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 25px;
+}
+.mt-addons-tab-content a.tabs_button {
+    color: #fff!important;
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    background: #e56768;
+    display: inline-block;
+    margin-top: 40px;
+}
+.mt-addons-tab-content-button {
+    color: #fff!important;
+    padding: 15px 30px;
+    width: fit-content;
+    font-size: 14px;
+    letter-spacing: .5px;
+    display: inline-block;
+    margin-top: 40px;
+    transition: all 400ms ease 0s;
+    -webkit-transition: all 400ms ease 0s;
+}
+.mt-addons-tab-content-button:hover {
+    background-color: #222 !important;
+}
+@media only screen and (max-width: 767px) {
+    .mt-addons-tabs nav ul li {
+        min-width: 50%;
+    }
+}

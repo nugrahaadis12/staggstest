@@ -1,0 +1,180 @@
+.mt-addons-tabs-v2 nav {
+    text-align: center;
+    background: transparent;
+}
+.mt-addons-tabs-v2 nav ul {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    transition: .5s;
+}
+.mt-addons-tabs-v2 nav ul li {
+    border-bottom: 2px solid;
+}
+.craft .mt-addons-tabs-v2 nav ul li{
+    padding-bottom: 1px!important;
+}
+.craft .mt-addons-tabs-v2 nav ul li{
+    border-bottom:unset;
+}
+.craft .mt-addons-tabs-v2 nav ul li.tab-active{
+    border-bottom: 2px solid!important;
+}
+.mt-addons-tabs-v2 nav ul li {
+    width: 100%;
+}
+.mt-addons-tabs-v2 nav ul li.tab-current {
+    z-index: 100;
+}
+.mt-addons-tabs-v2 nav ul li {
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.workshops .mt-addons-tab-desc-content{
+    font-size: 70px;
+    color: #fff;
+    line-height: 80px;
+    text-align: left;
+    font-weight: 700;
+    font-style: normal;
+}
+.workshops .mt-icon-listgroup-title {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mt-addons-tabs-v2 ul li.tab-active{
+    border-bottom: 2px solid;
+}
+.mt-addons-tabs-v2 nav ul li.tab-current a {
+    background: #da5f60;
+    box-shadow: -1px 0 0 #fff;
+}
+.mt-addons-tabs-v2 nav li.tab-current a {
+    color: #74777b;
+    background: linear-gradient(90deg,#218BBF 0%,#45B6ED 100%) !important;
+}
+.mt-addons-tabs-v2 nav ul li a {
+    overflow: visible;
+    line-height: 1;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    text-align: left;
+}
+.mt-addons-tabs-v2 nav ul li:first-child {
+    padding-left: 0px;
+}
+.mt-addons-tab-content-v2 .row {
+    width: 100%;
+}
+.mt-addons-tabs-nav-icon {
+    max-height: 50px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.mt-addons-tabs-v2  nav ul li.tab-current .mt-addons-tabs-nav-title {
+    color: #fff;
+}
+.mt-addons-tabs-v2 .mt-addons-tabs-nav-title {
+    font-size: 18px!important;
+    font-weight: 500;
+    color: #cdcdcd;
+    margin-bottom: 0;
+}
+.mt-addons-tab-content-v2 {
+    position: relative;
+    margin-top: 60px;
+}
+body .mt-addons-tab-content-v2 img.mt-addons-tab-content-image {
+    max-height: 510px;
+    max-width: 121%;
+    margin-top: -181px;
+    height: 513px;
+    margin-left: -16px;
+    transition: .5s;
+}
+.mt-addons-tabs-nav-title-top {
+    text-align: left;
+    padding: 0;
+    font-size: 42px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.mt-addons-tab-content-v2 section.content-current {
+    display: block;
+    text-align: left;
+}
+.mt-addons-tab-content-v2 section {
+    display: none;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1140px;
+}
+.mt-addons-tab-content-v2 img.mt-addons-tab-content-image {
+    max-height: 275px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.mt-addons-header-tabs {
+    display: flex;
+}
+.mt-addons-tab-content-v2 section p {
+    margin: 0;
+    padding: 0;
+    color: #8b8b8a;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 25px;
+}
+.mt-addons-tab-content-v2 a.tabs_button {
+    color: #fff!important;
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    background: #e56768;
+    display: inline-block;
+    margin-top: 40px;
+}
+.mt-addons-tab-content-title {
+    margin-bottom: 30px !important;
+}
+.mt-addons-tab-content-button {
+    padding: 15px 30px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: all 400ms ease 0s;
+    -webkit-transition: all 400ms ease 0s;
+}
+.mt-addons-tab-content-button:hover {
+    background-color: #222;
+}
+.mt-addons-tabs-v2.no_underline nav ul{
+    border: 0;
+}
+.mt-addons-tabs-v2.no_underline nav ul li {
+    width: fit-content;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .mt-addons-tabs-v2 nav ul li {
+        min-width: 50%;
+    }
+}

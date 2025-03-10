@@ -1,0 +1,248 @@
+.mt-addons-premium-botton .button-winona.btn.btn-lg {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.mt-addons-premium-search select#domain_search{
+    border-radius: 0;
+    border-left: none;
+    border-color: #dfdfdf;
+    padding: 1.03rem 1rem;
+    height: auto;
+    font-size: 1.5625rem;
+    font-weight: 900;
+    color: #5b5b5b;
+    margin: 0;
+    width: 100%;
+}
+.mt-addons-premium-search.col-sm-2 {
+    font-size: 1.5625rem;
+    font-weight: 900;
+    color: #5b5b5b;
+    margin: 0;
+}
+.mt-addons-premium-search:after {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 37px;
+}
+.mt-addons-premium-search.col-sm-2 select#tld {
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    -ms-appearance: none!important;
+    -o-appearance: none!important;
+    appearance: none!important;
+}
+.mt-addons-premium-search.col-sm-2 select#tld:focus-visible{ 
+    outline: none;
+}
+.mt-addons-premium-search.col-sm-2 select#tld {
+    border-radius: 0px;
+    height: 67px;
+    width: 100%;
+    color: #000;
+    padding: 10px;
+    border: unset;
+    min-width: 70px;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+.mt-addons-premium-botton .button-winona.btn.btn-lg.btn:focus,
+.mt-addons-premium .form-control:focus {
+    box-shadow: unset!important;
+}
+.mt-addons-premium-botton,
+.mt-addons-premium-search,
+.mt-addons-premium {
+    padding: 0!important;
+}
+.row.mt-addons-premium {
+    margin-left: 0px;
+}
+@media only screen and (max-width: 767px) {
+    .row.mt-addons-premium {
+         flex-wrap: inherit!important; 
+    }
+}
+
+/*AFFILIATE TABLES CSS*/
+
+.mt-addons-premium-main {
+    margin: 0 auto;
+    text-align: center;
+}
+.mt-addons-premium-price-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0 none;
+}
+.mt-addons-premium-price-table .mt-addons-premium-price-featured{
+    height: 45px;
+    border-top: 3px solid #ddd;
+}
+
+.mt-addons-premium-price-table .mt-addons-premium-price-table-icon,
+.mt-addons-premium-price-table .mt-addons-premium-price-table-content,
+.mt-addons-premium-price-table .mt-addons-premium-price-table-head,
+.mt-addons-premium-price-table .mt-addons-premium-price-footer{
+    border: 1px solid rgba(0, 0, 0, 0.025);
+    padding: 12px 24px;
+}
+.mt-addons-premium-price-table .mt-addons-premium-price-featured{
+    border: 1px solid rgba(0, 0, 0, 0.025);
+    background-color: #FAFAFA;
+}
+
+.mt-addons-premium-price-table .mt-addons-premium-price-table-popular:hover,
+.mt-addons-premium-price-table .mt-addons-premium-price-table-icon:hover,
+.mt-addons-premium-price-table .mt-addons-premium-price-table-content:hover,
+.mt-addons-premium-price-table .mt-addons-premium-price-footer:hover {
+    background-color: #EEEEEE!important;
+}
+
+.mt-addons-premium-price-table-button:hover{
+    text-decoration: none;
+}
+.mt-addons-premium-price-table .fa-check {
+    color: #5336ca;
+}
+.mt-addons-premium-price-table .fa-times {
+    color: #D8D6E3;
+}
+.mt-addons-premium-price-table-small{
+    font-size: 12px; 
+    font-weight: 400;
+}
+
+.mt-addons-premium-price-table .mt-addons-premium-price-table-head {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #5336ca;
+    color: #FFFFFF;
+    height: 67px;
+}
+.mt-addons-premium-price-table .mt-addons-premium-price-table-icon {
+    padding: 25px 25px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.mt-addons-premium-price-table .mt-addons-premium-price-table-icon a {
+    background-color: #5336ca;
+    color: #FFFFFF;
+    padding: 12px 32px;
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 64px;
+}
+.mt-addons-premium-price-table .mt-addons-premium-price-footer {
+    color: #f43f54;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 105px;
+}
+.mt-addons-premium-price-table .mt-addons-premium-price-footer a {
+    background-color: #5336ca;
+    color: #FFFFFF;
+    padding: 12px 32px;
+    margin: 15px 0px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 64px;
+}
+.mt-addons-premium-price-table .mt-addons-premium-price-table-popular {
+    border-top: 3px solid #5336ca;
+    color: #5336ca;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 12px 48px;
+    font-weight: 700;
+    height: 45px;
+}
+.mt-addons-premium-price-table .mt-addons-premium-price-blank {
+    background-color: #fafafa;
+    border: 0 none;
+}
+.mt-addons-premium-price-table-icon.mt-addons-premium-price-featured-item svg{
+    width: 140px;
+    padding: 10px 0px 15px 0px;
+}
+.mt-addons-premium-price-table svg {
+    width: 90px;
+}
+.mt-addons-premium-price-table-help svg{
+    width:16px!important;
+    height: 16px!important;
+}
+
+.mt-addons-premium-price-tooltiptext{
+    visibility: hidden;
+    width: 270px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.mt-addons-premium-price-table-help{
+    position: relative;
+    display: inline-block;
+}
+
+.mt-addons-premium-price-tooltiptext::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 22%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.mt-addons-premium-price-table-help:hover .mt-addons-premium-price-tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mt-addons-premium-main{
+        width: 200px!important;
+    }
+    .mt-addons-premium-price-table-content{
+        font-size: 15px;
+    }
+    .mt-addons-premium-price-table svg{
+        width: 60px;
+    }
+}

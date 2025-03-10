@@ -1,0 +1,48 @@
+.mt-discount-container {
+    padding: 75px;
+    background-color: #CCD4E1;
+    position: relative;
+    overflow: hidden;
+}
+.mt-discount-content {
+    z-index: 2;
+    position: relative;
+}
+.mt-discount-content .first-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.mt-discount-content .second-text {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+}
+.mt-discount-content .third-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.discount-btn-zone {
+    display: flex;
+}
+.mt-discount-content div:last-child {
+    margin-bottom: 0;
+}
+.discount-btn {
+    transition: all 250ms ease-in;
+    font-size: 14px;
+    font-weight: 700;
+}
+.mt-discount-container.mt-discount-container-hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.mt-discount-container.mt-discount-container-hover:hover::before {
+    transform: scale(1.1);
+}

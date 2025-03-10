@@ -1,0 +1,27 @@
+.modeltheme-knowledge-search form {
+    width: fit-content;
+    position: relative;
+}
+.modeltheme-knowledge-search form button {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+.modeltheme-knowledge-search form .knowledge-search-icon {
+    position: absolute;
+    top: 19px;
+    left: 22px;
+    font-size: 16px;
+}
+.modeltheme-knowledge-search form button:focus {
+    border: none;
+}
+.modeltheme-knowledge-search form input {
+    border: 2px solid #000;
+}
+.modeltheme-knowledge-search form input {
+    padding-left: 50px;
+}

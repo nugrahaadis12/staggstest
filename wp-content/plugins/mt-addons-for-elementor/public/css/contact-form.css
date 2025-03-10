@@ -1,0 +1,34 @@
+.contact-form {
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+.wpcf7-form input, .wpcf7-form textarea{
+    outline: none;
+}
+.mt-addons-contact-form .wpcf7-form textarea{
+   width: 100%;
+}
+.mt-addons-contact-form .wpcf7-form input,
+.mt-addons-contact-form .wpcf7-form textarea{
+    display: list-item;
+}
+.mt-addons-contact-form .wpcf7-form label {
+    margin-bottom: 10px;
+    font-weight: 13px;
+    color: #000000;
+    font-weight: 600;
+}
+.mt-addons-contact-form .wpcf7-form input[type=submit] {
+    font-weight: 600;
+    color: #fff;
+    background-color: #3147FF;
+    transition: all 350ms;
+    border: 1px solid #3147FF;
+}
+.mt-addons-contact-form .wpcf7-form input[type=submit]:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+.mt-addons-contact-form .wpcf7-form input[type=submit]:focus {
+    outline: none;
+}

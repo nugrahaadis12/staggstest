@@ -1,0 +1,58 @@
+.mtfe-image-badge-bottom-wrapper {
+	display: inline-block;
+}   
+.mtfeib-block {
+    display: block !important;
+    margin-top: 13px;
+}
+.mtfe-image-badge-title {
+    margin-top: .5rem;
+}
+.mtfe-image-badge-builders {
+    font-weight: 600;
+    margin-bottom: 2px;
+    background-color: #ee2752;
+    margin-right: 4px;
+    padding: 4px 10px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    font-size: 9px;
+    line-height: 1;
+    color: #fff;
+    border-radius: .25rem;
+}
+.mtfe-image-badge-wrapper {
+    right: 0;
+    top: 5%;
+    z-index: 1;
+    position: absolute;
+}
+.mtfe-image-badge-text-top {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    padding: 5px 10px;
+}
+.mtfe-image-badge-custom {
+    background: #39B86B;
+    margin-bottom: 5px;
+    text-align: right !important;
+    position: relative !important;
+    --color-ribbon: #39B86B;
+}
+.mtfe-image-badge-text-top:before{
+	content: "";
+    z-index: 2;
+    height: 100%;
+    border-top: 13px solid var(--color-ribbon);
+    border-left: 8px solid transparent;
+    border-bottom: 13px solid var(--color-ribbon);
+    left: -7px;
+    top: 0;
+    position: absolute;
+}

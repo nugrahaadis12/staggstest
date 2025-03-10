@@ -1,0 +1,10 @@
+.staggs-wishlist-table-empty.hidden {
+    display: none;
+}
+.woocommerce table.shop_table_responsive.staggs-wishlist-table tr td.product-thumbnail {
+    text-align: center !important;
+}
+.woocommerce table.shop_table_responsive.staggs-wishlist-table tr td.product-thumbnail::before,
+.woocommerce-page table.shop_table_responsive.staggs-wishlist-table tr td.product-thumbnail::before {
+    content: unset;
+}

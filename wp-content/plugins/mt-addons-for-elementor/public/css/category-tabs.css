@@ -1,0 +1,162 @@
+.mt-addons-category-tabs nav {
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 7%);
+}
+.mt-addons-category-tabs nav ul {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+.mt-addons-category-tabs nav ul li.tab-active {
+    z-index: 100;
+    background: transparent;
+}
+.mt-addons-category-tabs nav ul li {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0 !important;
+    text-align: center;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 0.5px solid #EAEAEA;
+    padding-left: 0;
+}
+.mt-addons-category-tabs nav ul li.tab-active a {
+    box-shadow: -1px 0 0 #fff;
+}
+.mt-addons-category-tabs nav li.tab-active a {
+    color: #74777b;
+}
+.mt-addons-category-tabs nav ul li a {
+    overflow: visible;
+    padding: 40px 0;
+    line-height: 1;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.mt-addons-category-tabs nav a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5;
+}
+.mt-addons-category-tabs nav ul li.tab-active .mt-addons-title, 
+.mt-addons-category-tabs nav ul li.tab-active .mt-addons-title a:hover {
+    color: #fff !important;
+}
+.mt-addons-category-tabs nav ul li.tab-active img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+.mt-addons-category-tabs .mt-addons-title {
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #252525;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.mt-addons-category-tabs section {
+    display: none;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1308px;
+    text-align: center;
+}
+.mt-addons-category-tabs .woocommerce {
+    margin-top: 45px;
+}
+.mt-addons-category-tabs .products-wrapper {
+    background: #fff;
+    box-shadow: 0 0 25px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.mt-addons-category-tabs .woocommerce-title-metas {
+    width: 60%;
+    float: right;
+    text-align: left;
+}
+.mt-addons-category-tabs .thumbnail-and-details {
+    border-bottom: 0;
+    overflow: hidden;
+    width: 35%;
+    float: left;
+    padding-bottom: 0px;
+}
+.mt-addons-category-tabs .woocommerce-product-details__short-description,
+.mt-addons-category-tabs .woocommerce .bottom-components-list {
+    display: none !important;
+}
+.mt-addons-category-tabs .woocommerce ul.products li.product{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+.mt-addons-category-tabs img.mt-addons-icon {
+    max-height: 50px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.mt-addons-category-tabs ul.products li.product a.woocommerce-LoopProduct-link {
+    border: none;
+}
+.elementor-editor-active .mt-addons-category-tabs section {
+    display: block;
+}
+.eael-star-rating.star-rating {
+    left: 20px !important;
+}
+.mt-addons-category-tabs .woocommerce-loop-product__title {
+    margin-bottom: -5px !important;
+}
+.mt-addons-category-tabs .product {
+    margin: 0 25px 25px 0 !important;
+}
+.mt-addons-category-tabs .product:nth-child(3n)  {
+    margin-right: 0 !important;
+}
+.mt-addons-category-tabs .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 767px) {
+    .mt-addons-category-tabs nav ul li {
+        min-width: 50%;
+    }
+    .mt-addons-category-tabs .woocommerce ul.products li.product{
+        padding-bottom: 30px!important;
+    }
+    .mt-addons-category-tabs .mt-addons-title {
+        font-size: 14px !important;
+    }
+}
