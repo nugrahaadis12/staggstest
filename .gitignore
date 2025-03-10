@@ -1,0 +1,14 @@
+# Abaikan file konfigurasi penting
+wp-config.php
+
+# Abaikan file cache dan log
+*.log
+*.cache
+
+# Abaikan folder yang tidak perlu
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Abaikan file database lokal
+*.sql
