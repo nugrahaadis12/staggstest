@@ -10,6 +10,9 @@ wp-content/uploads/
 wp-content/upgrade/
 wp-content/cache/
 
-# Abaikan file database lokal
+# Abaikan file database lokal kecuali database/staggstest.sql
 *.sql
+!database/staggstest.sql
+
+# Abaikan file sistem yang tidak perlu
 .DS_Store
