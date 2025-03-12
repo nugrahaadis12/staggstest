@@ -6,7 +6,9 @@ wp-config.php
 *.cache
 
 # Abaikan folder yang tidak perlu
-
+wp-content/upgrade/
+wp-content/cache/
+!wp-content/uploads/
 
 
 
