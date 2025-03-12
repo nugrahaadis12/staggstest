@@ -1,20 +1,16 @@
 # Abaikan file konfigurasi penting
-wp-config.php
+!wp-config.php
 
 # Abaikan file cache dan log
 *.log
 *.cache
 
 # Abaikan folder yang tidak perlu
-wp-content/upgrade/
-wp-content/cache/
+!wp-content/upgrade/
+!wp-content/cache/
+
+# Jangan abaikan folder uploads agar semua file di dalamnya ikut ter-track
 !wp-content/uploads/
 
-
-
-# Abaikan file database lokal kecuali database/staggstest.sql
-*.sql
-!database/staggstest.sql
-
 # Abaikan file sistem yang tidak perlu
-.DS_Store
+!.DS_Store
