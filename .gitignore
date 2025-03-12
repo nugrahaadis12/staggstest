@@ -6,11 +6,7 @@ wp-config.php
 *.cache
 
 # Abaikan folder yang tidak perlu
-wp-content/uploads/
-wp-content/upgrade/
-wp-content/cache/
 
-!wp-content/uploads/simply-static-output/
 
 
 
