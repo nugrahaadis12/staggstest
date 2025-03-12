@@ -12,8 +12,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /staggstest/index.php [L]
 </IfModule>
 
-<FilesMatch "\.json$">
-  Header set Access-Control-Allow-Origin "*"
-</FilesMatch>
-
 # END WordPress

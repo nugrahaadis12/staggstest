@@ -11,7 +11,7 @@
     background-size: cover!important;
     transition: all 250ms ease-out;
     background-color: #FFEFEF;
-    background: url('../../assets/placeholder.png') no-repeat;
+    background: url('https://nugrahaadis12.github.io/staggstest/wp-content/plugins/mt-addons-for-elementor/assets/placeholder.png') no-repeat;
 }
 .mt-addons-category-overlay {
     opacity: 0;
