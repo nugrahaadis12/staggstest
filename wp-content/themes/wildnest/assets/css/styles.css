@@ -2145,7 +2145,7 @@ label.error {
   margin-left: 10px;
   background-repeat: no-repeat;
   background-size: 32px 64px;
-  background-image: url("../images/svg/wildnest-icon-controller.svg");
+  background-image: url("https://nugrahaadis12.github.io/staggstest/wp-content/themes/wildnest/assets/images/svg/wildnest-icon-controller.svg");
 }
 @media only screen and (min-width: 768px) {
   #cd-zoom-in, #cd-zoom-out {
@@ -5888,7 +5888,7 @@ body .wpb_content_element{
     margin: 0;
 }
 body .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon{
-    background-image: url("../images/toggle_close.png");
+    background-image: url("https://nugrahaadis12.github.io/staggstest/wp-content/themes/wildnest/assets/images/toggle_close.png");
 }
 .vc_carousel-inner img,
 .vc_carousel-inner .vc_inner > a {

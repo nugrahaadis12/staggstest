@@ -241,7 +241,7 @@ div[data-step].current {
 	background-size: 400px;
 	background-repeat: no-repeat;
 	background-position: bottom right;
-	background-image: url( '../img/bg.png' );
+	background-image: url( 'https://nugrahaadis12.github.io/staggstest/wp-content/plugins/modeltheme-framework/inc/demo-importer/assets/img/bg.png' );
 	box-shadow: 0 10px 50px rgba(17, 17, 17, 0.1)
 }
 

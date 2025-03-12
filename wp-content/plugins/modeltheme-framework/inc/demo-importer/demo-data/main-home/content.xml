@@ -27,13 +27,13 @@
 
 <channel>
 	<title>WildNest</title>
-	<link>https://wildnest.modeltheme.com</link>
+	<link>https://wildnest.modeltheme.com/</link>
 	<description>RV Resort &#38; Campground</description>
 	<pubDate>Mon, 17 Feb 2025 07:56:15 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://wildnest.modeltheme.com</wp:base_site_url>
-	<wp:base_blog_url>https://wildnest.modeltheme.com</wp:base_blog_url>
+	<wp:base_site_url>https://wildnest.modeltheme.com/</wp:base_site_url>
+	<wp:base_blog_url>https://wildnest.modeltheme.com/</wp:base_blog_url>
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[no-reply@modeltheme.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -500,7 +500,7 @@
 <image>
 	<url>https://wildnest.modeltheme.com/wp-content/uploads/2025/02/cropped-caravan-3-32x32.png</url>
 	<title>WildNest</title>
-	<link>https://wildnest.modeltheme.com</link>
+	<link>https://wildnest.modeltheme.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
@@ -12850,7 +12850,7 @@ Podcasting operational change management inside of workflows to establish a fram
 <h2 class="wp-block-heading">Who we are</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>Our website address is: https://wildnest.modeltheme.com.</p>
+<p><strong class="privacy-policy-tutorial">Suggested text: </strong>Our website address is: https://wildnest.modeltheme.com./</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Comments</h2>
