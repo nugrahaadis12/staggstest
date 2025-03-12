@@ -10,6 +10,10 @@ wp-content/uploads/
 wp-content/upgrade/
 wp-content/cache/
 
+!wp-content/uploads/simply-static-output/
+
+
+
 # Abaikan file database lokal kecuali database/staggstest.sql
 *.sql
 !database/staggstest.sql
